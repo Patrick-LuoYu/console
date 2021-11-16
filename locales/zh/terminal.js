@@ -15,26 +15,22 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 module.exports = {
-  'Launch kubectl': '启动 kubectl',
-  'Copy Successfully': '复制成功',
-  COPY: '复制',
-  Disconnect: '断开连接',
   connected: '已连接',
+  COPY: '复制',
+  'Copy Successfully': '复制成功',
+  Disconnect: '断开连接',
   disconnected: '未连接',
-  'Kubeconfig File': 'Kubeconfig 文件',
-  'Put this into': '把它加入到',
-  'KubeSphere Terminal': 'KubeSphere 终端',
   'Download File': '下载文件',
-
+  'Kubeconfig File': 'Kubeconfig 文件',
+  'KubeSphere Terminal': 'KubeSphere 终端',
+  'Launch kubectl': '启动 kubectl',
+  'Put this into': '把它加入到',
   KUBECONFIG_TIP: `
     <h2><a id="KubeConfig__0"></a>配置方法</h2>
     <p>有关配置文件参数的详细信息，请参阅<a href="https://kubernetes.io/zh/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" target="_blank">官方文档</a>。</p>
   `,
-
   VIEW_KUBE_CONFIG: 'kubeConfig 配置的相关操作包含查看和下载',
-
   KUBECTL_TIP: `
     <h2><a id="KubeCtl__0"></a>命令参考</h2>
     <p>有关 kubectl 的更多信息，请参阅<a href="https://kubernetes.io/zh/docs/reference/kubectl/overview/" target="_blank">官方文档</a>。</p>
@@ -75,5 +71,5 @@ module.exports = {
     <li>查看容器组详情。</li>
     </ul>
     <p><code>kubectl describe pods/&lt;pod-name&gt;</code></p>
-  `,
-}
+  `
+};
