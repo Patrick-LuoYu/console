@@ -15,12 +15,13 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 module.exports = {
   ADD_MEMBER_TIP: '您确定添加该成员到 <strong>{group}<strong> 吗？',
   principal: '负责人',
   CREATE_DEPARTMENT: '创建部门',
   NO_DEPARTMENT_TIP: '没有可用部门，请在右侧创建部门。',
+  WORKSPACE_ROLE: 'Workspace Role',
+  GROUP_WORKSPACE_ROLE_DESC: '企业空间角色将授予部门中的所有用户。',
   PROJECT_ROLE: '项目角色',
   ADD_PROJECT: '添加项目',
   'project roles': '项目角色',
@@ -28,10 +29,6 @@ module.exports = {
   ADD_DEVOPS_PROJECT: '添加 DevOps 工程',
   SELECT_ROLE_TIP: '请选择角色。',
   DEPARTMENT: '部门',
-  GROUP_WORKSPACE_ROLE_DESC: '企业空间角色将授予部门中的所有用户。',
-
-  DELETE_PARENT_GROUP_TIP:
-    '确定删除子部门 <strong>{group_name}</strong>？删除该部门的同时，其子部门也会被删除，且所有成员的授权也将被取消。',
-  DELETE_GROUP_TIP:
-    '确定删除子部门 <strong>{group_name}</strong>？删除该部门的同时，所有成员的授权也将被取消。',
-}
+  DELETE_GROUP_TIP: '确定删除子部门 <strong>{group_name}</strong>？删除该部门的同时，所有成员的授权也将被取消。',
+  DELETE_PARENT_GROUP_TIP: '确定删除子部门 <strong>{group_name}</strong>？删除该部门的同时，其子部门也会被删除，且所有成员的授权也将被取消。'
+};
