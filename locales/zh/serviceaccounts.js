@@ -15,7 +15,6 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 module.exports = {
   ServiceAccounts: '服务帐户',
   ServiceAccount: '服务帐户',
@@ -25,16 +24,10 @@ module.exports = {
   'Edit Service Account': '编辑服务帐户',
   CHANGE_ROLE: '修改角色',
   SECRET_DETAILS: '保密字典详情',
-  SERVICE_ACCOUNT_DESC:
-    '服务帐户（Service Account）为 Pod 中运行的进程提供了一个标识，用于访问 API Server。',
-
+  SERVICE_ACCOUNT_DESC: '服务帐户（Service Account）为 Pod 中运行的进程提供了一个标识，用于访问 API Server。',
   INVALID_YAML_FILE_FORMAT: 'YAML 文件格式错误。',
-
   SELECT_PROJECT_ROLE_DESC: '选择一个项目角色以指定权限。',
-
-  SERVICEACCOUNT_KUBECONFIG_DESC:
-    'Kubeconfig 配置方法请参照 <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" target="_black">官方文档</a> ，下载后请将服务地址修改为 Kubernetes API 的外部地址。',
-
+  SERVICEACCOUNT_KUBECONFIG_DESC: 'Kubeconfig 配置方法请参照 <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" target="_black">官方文档</a> ，下载后请将服务地址修改为 Kubernetes API 的外部地址。',
   // Service Account Detail Page
-  SECRET_VALUE: '保密字典：{value}',
-}
+  SECRET_VALUE: '保密字典：{value}'
+};
