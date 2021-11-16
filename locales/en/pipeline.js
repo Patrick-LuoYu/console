@@ -50,7 +50,7 @@ module.exports = {
   NOTICE: 'Notice',
   BRANCH_SI: 'Branch',
   BRANCH_PL: 'Branches',
-  CODE_REPOSITORY_BRANCH: 'Code Repository Branch',
+
   Branches: 'Branches',
   BRANCH_COUNT: 'Branches',
   BRANCH_EXCLUDED: 'Excluded Branches',
@@ -97,7 +97,7 @@ module.exports = {
   CREDENTIAL_PL: 'Credentials',
   CREDENTIAL: 'Credential',
   CREDENTIAL_LOW: 'credential',
-  CREDENTIALS_MANAGEMENT: 'Credential Management',
+
   credentialsId: 'credentialsId',
   critical: 'critical',
   'Current branch name must match the input value':

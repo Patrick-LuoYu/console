@@ -296,11 +296,4 @@ module.exports = {
   DISABLE: 'Disable',
   ENABLE_GATEWAY_TIP:
     'To use the gateway, please configure the gateway in the cluster or the project.',
-
-  // Network Isolation
-  INGRESS: 'Ingress',
-  INTERNAL_TRAFFIC_DIRECTION_DESC:
-    'Egress indicates the direction from the current project to other projects. Ingress indicates the direction from other projects to the current project.',
-  NETWORK_SEGMENT_EXAMPLE: 'Example: 10.0.0.0',
-  PORT_EXAMPLE: 'Example: 80',
 }
