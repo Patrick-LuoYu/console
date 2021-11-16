@@ -19,30 +19,22 @@
 module.exports = {
   'Abnormal Pods': 'Abnormal Pods',
   'APIs Average': 'APIs Average',
-  API_SERVER_MONITORING: 'API Server Monitoring',
+
   'Application Resources': 'Application Resources',
-  APPLICATION_RESOURCE_PL: 'Application Resources',
-  PHYSICAL_RESOURCE_PL: 'Physical Resources',
+
   APPLICATION_RESOURCES_USAGE: 'Application Resource Usage',
-  SCHEDULE_ATTEMPTS: 'Scheduling Attempts',
-  SCHEDULING_RATE: 'Scheduling Rate',
-  APPLICATION_RESOURCE_USAGE: 'Application Resource Usage',
+
   ATTEMPT_FREQUENCY: 'Attempt Frequency',
   ATTEMPT_RATE: 'Attempt Rate',
   CLIENT_TRAFFIC: 'Client Traffic',
-  API_REQUESTS_PER_SECOND: 'API requests per second',
-  API_REQUEST_LATENCY: 'API request latency',
+
   'Cluster Monitors': 'Cluster Monitors',
-  CLUSTER_NODE_STATUS: 'Cluster Node Status',
+
   'Cluster Resource Monitoring': 'Cluster Resource Monitoring',
-  CLUSTER_RESOURCE_USAGE: 'Cluster Resource Usage',
-  RESOURCE_USAGE: 'Resource Usage',
-  CLUSTER_STATUS: 'Cluster Status',
-  COMPONENT_STATUS: 'Component Status',
-  CONTROLLER_MANAGER: 'Controller Manager',
+
   'Cool Color': 'Cool Color',
   'Custom Monitoring': 'Custom Monitoring',
-  CUSTOM_TIME_RANGE: 'Customize Time Range',
+
   CustomMonitorDashboard: 'CustomMonitorDashboard',
   DB_FSYNC: 'DB Fsync',
   DB_SIZE: 'DB Size',
@@ -56,8 +48,7 @@ module.exports = {
   EXTERNAL_ETCD: 'External etcd',
   GRPC_STREAM_MESSAGES: 'gRPC Stream Message',
   'Historical Monitoring': 'Historical Monitoring',
-  MONITORING: 'Monitoring',
-  INODE_USAGE: 'Inode Usage',
+
   KUBERNETES_SCHEDULER: 'Kubernetes Scheduler',
   Monitoring: 'Monitoring',
   'Monitoring Center': 'Monitoring Center',

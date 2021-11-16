@@ -17,15 +17,13 @@
  */
 
 module.exports = {
-  ACTIVATE_APP: 'Activate App',
-  ACTIVATE_VERSION: 'Activate Version',
   Activated: 'Activated',
   admin: 'admin',
   'App Information': 'App Information',
   'App Instances': 'App Instances',
   'Audit Records': 'App Review',
   business: 'business',
-  CANCEL_SUBMISSION: 'Cancel Submission',
+
   creating: 'creating',
   'Delete Version': 'Delete Version',
   deleting: 'deleting',
@@ -33,13 +31,13 @@ module.exports = {
   'Develop and test guide': 'Develop and test guide',
   developer: 'developer',
   Developing: 'Developing',
-  DOWNLOAD_SUCCESSFUL: 'Downloaded successfully.',
+
   Draft: 'Draft',
   global_admin: 'global_admin',
   'in-review': 'in-review',
   'In-review': 'In-review',
   isv: 'isv',
-  NO_VERSION_INFO_DESC: 'No version information is found.',
+
   Pass: 'Pass',
   PASSED: 'Passed',
   'Pending-review': 'Pending-review',
@@ -56,8 +54,7 @@ module.exports = {
   Submit: 'Submit',
   'Submit for Review': 'Submit for Review',
   Submitted: 'Submitted',
-  SUSPEND_APP: 'Suspend App',
-  SUSPEND_VERSION: 'Suspend Version',
+
   Suspended: 'Suspended',
   technical: 'technical',
   'Test Steps': 'Test Steps',
@@ -67,24 +64,6 @@ module.exports = {
   'View in Store': 'View in Store',
   Working: 'Working',
   'Wrong version number format': 'Wrong version number format',
-
-  VERSION_DELETE_TIP:
-    'Are you sure you want to delete the version <strong>{name}</strong>?',
-  VERSION_SUBMIT_TIP:
-    'Are you sure you want to submit the version <strong>{name}</strong> for release?',
-  VERSION_CANCEL_TIP:
-    'Are you sure you want to cancel the submission of the version <strong>{name}</strong>?',
-  VERSION_RELEASE_TIP:
-    'Users can view and deploy the version <strong>{name}</strong> in the App Store after it is released. Are you sure you want to release it?',
-  VERSION_SUSPEND_TIP:
-    'The version <strong>{name}</strong > will not be displayed in the App Store after it is suspended. Are you sure you want to suspend it?',
-  VERSION_RECOVER_TIP:
-    'The version <strong>{name}</strong> will be displayed in the App Store after it is recovered. Are you sure you want to recover it?',
-
-  APP_SUSPEND_TIP:
-    'The app <strong>{name}</strong> cannot be deployed from the App Store after it is suspended. Are you sure you want to suspend it?',
-  APP_RECOVER_TIP:
-    'The app <strong>{name}</strong> and the suspended versions will be displayed again in the App Store. Are you sure you want to activate it now?',
 
   PACKAGE_FILE_DESC:
     'Package.json file, which describes the basic information of an application or version, such as the name and version number.',

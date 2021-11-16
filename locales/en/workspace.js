@@ -105,7 +105,6 @@ module.exports = {
 
   DEPARTMENT_MANAGEMENT_DESC:
     'A department in a workspace is a logical unit used for permission control. You can set a workspace role, multiple project roles, and multiple DevOps project roles in a department, and assign users to the department to control user permissions in batches.',
-  DEPARTMENT_EMPTY_DESC: 'No Department Available',
   WORKSPACE_GROUP_USER_EMPTY_DESC: 'No user available.',
   WORKSPACE_QUOTAS_DESC:
     'Workspace quotas are used to control the total resource usage of all projects and DevOps projects in a workspace.',
