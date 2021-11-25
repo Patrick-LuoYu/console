@@ -18,13 +18,22 @@
 
 module.exports = {
   // Banner
+  APPLICATION_WORKLOAD_PL: 'Application Workloads',
+
   // List
   // List > Create > Basic Information
   SELECT_PROJECT_DESC:
     'Select a project in which the resource is to be created.',
   PROJECT_NOT_SELECT_DESC: 'Please select a project.',
+  BASIC_INFORMATION: 'Basic Information',
+  NAME: 'Name',
+  FEDPROJECT_RESOURCE_TIP:
+    'To create workload resources in a multi-cluster project, go to the Workloads page in the multi-cluster project.',
 
   // List > Create > Pod Settings
+  // List > Create > Pod Settings > Add Container > Container Settings
+  IMAGE: 'Image',
+  IMAGE_VALUE: 'Image: {value}',
   // List > Create > Pod Settings > Add Container > Health Check > Readiness Check > TCP Port
   PORT_NUMBER_EMPTY: 'Please enter a port number.',
   USER: 'User',
@@ -42,8 +51,13 @@ module.exports = {
   POD_IP_POOL: 'Pod IP Pool',
   SUBPATH: 'Subpath',
 
+  // List > Create > Advanced Settings > Add Metadata
+  ANNOTATION_PL: 'Annotations',
+
   // List > Edit Information
   // List > Edit YAML
   // List > Re-create
   // List > Delete
+  // List > Stop
+  STOP: 'Stop',
 }
