@@ -26,6 +26,13 @@ module.exports = {
     'The container does not support real-time logs currently. Please try again later.',
   CONTAINER_LOGS: 'Container Logs',
 
+  // Resource Status > Container > Container Details Page
+  IMAGE_ID: 'Image ID',
+  IMAGE_PULL_POLICY: 'Image Pull Policy',
+  LIVENESS_PROBE: 'Liveness Probe',
+  READINESS_PROBE: 'Readiness Probe',
+  STARTUP_PROBE: 'Startup Probe',
+
   // Scheduling Information
   NOT_SUCCESSFUL: 'Not successful',
   CURRENT_STATUS: 'Current status',
