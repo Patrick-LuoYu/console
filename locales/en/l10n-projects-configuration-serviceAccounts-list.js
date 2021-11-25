@@ -28,6 +28,7 @@ module.exports = {
   // List > Create
   INVALID_YAML_FILE_FORMAT: 'Invalid YAML file format.',
   // List > Create > Project Role
+  PROJECT_ROLE_SI: 'Project Role',
   SELECT_PROJECT_ROLE_DESC: 'Select a project role to specify permissions.',
   // List > Edit
   // List > Edit YAML
