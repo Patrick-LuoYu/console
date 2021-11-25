@@ -26,6 +26,7 @@ module.exports = {
 
   // Network Isolation
   NETWORK_ISOLATION: 'Network Isolation',
+  ENABLE: 'Enable',
   PROJECT_NETWORK_ISOLATION: 'Project network isolation',
   NETWORK_POLICY_EMP_TITLE: 'Network Isolation Not Enabled',
   NETWORK_POLICY_EMP_DESC:
