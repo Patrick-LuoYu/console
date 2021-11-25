@@ -25,7 +25,19 @@ module.exports = {
   // Details
   // Resource Status
   // Traffic Monitoring
+  TRAFFIC_MONITORING_UNAVAILABLE_DESC:
+    'The app has not received requests for a long time. Please try again later.',
+  TRAFFIC_ENTRY: 'Traffic Entry',
+  NO_DATA: 'No Data',
+  REFRESH: 'Refresh',
+
   // Grayscale Release
   // Tracing
+  TRACING: 'Tracing',
   TRACING_NO_DATA_DESC: 'Please change the search conditions and try again.',
+  NUM_SPAN_SI: '{num} span',
+  NUM_SPAN_PL: '{num} spans',
+  NUM_ERROR_SI: '{num} error',
+  NUM_ERROR_PL: '{num} errors',
+  LAST_NUM_RECORDS: 'Last {num} records',
 }
