@@ -15,27 +15,19 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 module.exports = {
-  PLATFORM_SETTINGS: 'Configuración de la plataforma',
-  'Platform Settings': 'Configuración de la plataforma',
-  Configure: 'Configurar',
-  'Current third-party login configurations':
-    'Configuración actual de inicio de sesión de terceros',
-  'not configured': 'no configurado',
-  'Please input client id': 'Por favor introduce la ID del cliente',
-  'Please input server address':
-    'Por favor introduce la dirección del servidor',
-  'Protocol Type': 'Tipo de protocolo',
-  'Server Address': 'Dirección del servidor',
-  'Third-party Login': 'Inicio de sesión de terceros',
-  THIRD_PARTY_LOGIN_DESC:
-    'Cuando se utiliza un servicio de terceros para iniciar sesión, los usuarios deben ingresar la información requerida. Después de eso, se creará un usuario local que está asociado con el usuario para el acceso seguro en el entorno.',
-  THIRD_PARTY_LOGIN_Q:
-    '¿Qué servicios de terceros son compatibles para iniciar sesión?',
-  THIRD_PARTY_LOGIN_A: 'LDAP, AD, OAuth y Github OAuth son compatibles.',
-  OAUTH_DESC:
-    'OAuth es un estándar abierto que proporciona una forma fácil y segura para que los usuarios otorguen acceso a sus recursos.',
-  GITHUB_OAUTH_DESC:
-    'GitHub OAuth utiliza la membresía de la organización para otorgar acceso.',
-}
+  'Platform Settings': 'Platform Settings',
+  Configure: 'Configure',
+  'Current third-party login configurations': 'Current third-party login configurations',
+  'not configured': 'not configured',
+  'Please input client id': 'Please input client id',
+  'Please input server address': 'Please input server address',
+  'Protocol Type': 'Protocol Type',
+  'Server Address': 'Server Address',
+  'Third-party Login': 'Third-party Login',
+  THIRD_PARTY_LOGIN_DESC: 'When a third part service is used for login, users need to enter related information. After that, a local user will be created which is associated with the user for the secure login in the environment.',
+  THIRD_PARTY_LOGIN_Q: 'What third parties are supported for login?',
+  THIRD_PARTY_LOGIN_A: 'LDAP, AD, OAuth and Github OAuth are supported.',
+  OAUTH_DESC: 'OAuth is an open standard that provides an easy and secure way for users to grant access to their resources.',
+  GITHUB_OAUTH_DESC: 'GitHub OAuth grants access based on organization membership.'
+};
