@@ -27,5 +27,7 @@ module.exports = {
   RESOURCE_EVENT_COUNT: 'Resource Events',
   // List
   // List > Resource Event Details > Metadata
+  METADATA: 'Metadata',
+
   // List > Resource Event Details > Details
 }
