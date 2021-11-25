@@ -19,9 +19,21 @@
 module.exports = {
   // Banner
   // Project Information
+  PROJECT_NAME: 'Project name',
+
   // Default Container Quotas
+  CPU_REQUEST_LOW: 'CPU request',
+  CPU_LIMIT_LOW: 'CPU limit',
+  MEMORY_REQUEST_LOW: 'Memory request',
+  MEMORY_LIMIT_LOW: 'Memory limit',
+  CPU_REQUEST_CORE: '{value} Core',
+  CPU_LIMIT_CORE: '{value} Core',
+  MEMORY_REQUEST_MIB: '{value} Mi',
+  MEMORY_LIMIT_MIB: '{value} Mi',
+
   // Manage > Edit Information
   // Manage > Add Cluster
   // Manage > Edit Default Container Quotas
   // Manage > Delete Project
+  DELETE_PROJECT: 'Delete Project',
 }
