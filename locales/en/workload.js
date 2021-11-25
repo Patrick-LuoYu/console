@@ -19,13 +19,15 @@
 module.exports = {
   CONTAINER_IMAGE: 'Container Image',
   LABEL_TYPE: '{label} <span style="{style}">({type})</span>',
-
+  MOUNT_PATH_EMPTY: 'Please enter a mount path.',
   IMAGE_TIME_SIZE_LAYER_PL: 'Updated {time}, {size}, {layer} layers',
   IMAGE_TIME_SIZE_LAYER_SI: 'Updated {time}, {size}, {layer} layer',
+  NODE_PORT_SCAP: 'Node port',
+  NODE_PORTS_SCAP: 'Node ports',
+  HTTP_PATH_EMPTY: 'Please set a path for the HTTP check.',
+  DUPLICATE_LABELS: 'Duplicate labels cannot be added.',
 
   ADD_RULE: 'Add Rule',
-
-  MOUNT_PATH_EMPTY: 'Please enter a mount path.',
 
   GPU_SETTING_TIP: 'Set the GPU Limit to null means no limit.',
 
@@ -104,22 +106,15 @@ module.exports = {
   'Desired Replicas': 'Desired Replicas',
   DockerDaemonNotReady: 'DockerDaemonNotReady',
 
-  EDIT_APP_SETTINGS: 'Edit App Settings',
   EDIT_CONTAINER: 'Edit Container',
-  EDIT_LABELS: 'Edit Labels',
-  EDIT_YAML: 'Edit YAML',
-  YAML_FILE: 'YAML File',
+
   EmptyDir: 'EmptyDir',
   Environment: 'Environment',
 
-  ENVIRONMENT_VARIABLE: 'Environment Variable',
   'environment variables': 'environment variables',
   ErrImageNeverPull: 'ErrImageNeverPull',
   ErrImagePull: 'ErrImagePull',
-  EVERY_DAY: '0 0 * * * (every day)',
-  EVERY_HOUR: '0 * * * * (every hour)',
-  EVERY_MONTH: '0 0 1 * * (every month)',
-  EVERY_WEEK: '0 0 * * 0 (every week)',
+
   'Exec Command Check': 'Exec Command Check',
   'Every Day': 'Every Day',
   'Every Hour': 'Every Hour',
@@ -129,54 +124,42 @@ module.exports = {
 
   FailedCreate: 'FailedCreate',
   FailedDelete: 'FailedDelete',
-  FAILURE_THRESHOLD: 'Failure Threshold',
 
   'File List': 'File List',
   'for example': 'for example',
   FoundNewReplicaSet: 'FoundNewReplicaSet',
   HORIZONTAL_POD_AUTOSCALING: 'Horizontal Pod Autoscaling',
 
-  HPA_SET_TIP: 'Horizontal Pod autoscaling has been set.',
   'Host Path': 'Host Path',
-  NODE_PORTS: 'Node Ports',
-  NODE_PORT_SCAP: 'Node port',
-  NODE_PORTS_SCAP: 'Node ports',
+
   POD_SCHEDULING_METHOD: 'Pod Scheduling Method',
-  HTTP_REQUEST: 'HTTP Request',
-  HTTP_PATH_EMPTY: 'Please set a path for the HTTP check.',
-  IMAGE: 'Image',
-  IMAGE_VALUE: 'Image: {value}',
-  IMAGE_ID: 'Image ID',
+
   'Image Name': 'Image Name',
-  IMAGE_PULL_POLICY: 'Image Pull Policy',
+
   ImageInspectError: 'ImageInspectError',
   ImagePullBackOff: 'ImagePullBackOff',
   'Initial Delay': 'Initial Delay',
-  INITIAL_DELAY_S: 'Initial Delay (s)',
-  INITIAL_DELAY_TIMEOUT_VALUE:
-    '{delay}s initial delay, {timeout}s timeout period',
+
   'Instance Status': 'Instance Status',
   'Invalid image': 'Invalid image',
 
   'Invalid name': 'Invalid name. {message}',
   'Invalid pod': 'Invalid value',
-  INVALID_IMAGE: 'Invalid image.',
-  INVALID_NAME_DESC:
-    'Invalid name. The name can contain only lowercase letters, numbers, and hyphens (-), and must start and end with a lowercase letter or number. The maximum length is 63 characters.',
+
   InvalidImageName: 'InvalidImageName',
   'is running': 'is running',
   Job: 'Job',
-  JOB: 'Job',
+
   'Job Settings': 'Job Settings',
-  STRATEGY_SETTINGS: 'Strategy Settings',
+
   'Job Template': 'Job Template',
-  EMPTY_LABEL_DESC: 'Please add a label.',
+
   LABEL_EXIST_DESC: 'The label already exists. Please enter another label.',
 
   'Labels cannot be empty': 'Labels cannot be empty',
-  DUPLICATE_LABELS: 'Duplicate labels cannot be added.',
+
   layers: 'layers',
-  LIVENESS_PROBE: 'Liveness Probe',
+
   'log path relative to container mount path':
     'log path relative to container mount path',
   'm.internalLifecycle.PreStartContainer':
@@ -222,7 +205,6 @@ module.exports = {
   SCHEDULING_RESULT: 'Scheduling Result',
   NO_IMAGE_FOUND: 'No Image Found',
 
-  CHECK_INTERVAL_S: 'Check Interval (s)',
   CONTAINER_EMPTY_DESC: 'Please add at least one container.',
   'Please add at least one volume': 'Please add at least one volume',
   'Please add at least one volume or volume template':
@@ -232,7 +214,7 @@ module.exports = {
 
   MOUNT_VOLUME_OR_TEMPLATE: 'Mount Volume or Volume Template',
   'Please input a schedule.': 'Please input a schedule.',
-  PROBE_COMMAND_EMPTY: 'Please enter at least one command.',
+
   'Please input mount point': 'Please input mount point',
   'Please input port': 'Please input port',
 
@@ -276,7 +258,6 @@ module.exports = {
   Protocols: 'Protocols',
   PROVISIONER: 'Provisioner',
   'Read Write Mode': 'Read Write Mode',
-  READINESS_PROBE: 'Readiness Probe',
 
   RECREATE: 'Re-create',
   RECREATE_SUCCESS_DESC: 'Re-created successfully.',
@@ -291,7 +272,7 @@ module.exports = {
   'request memory should not be greater than limit memory':
     'request memory should not be greater than limit memory',
   'Request Type': 'Request Type',
-  RERUN: 'Rerun',
+
   'Resource Info': 'Resource Info',
   'Resource Limit': 'Resource Limit',
   RESOURCE_LIMITS: 'Resource Limits',
@@ -301,7 +282,6 @@ module.exports = {
   RESOURCE_REQUESTS: 'Resource Requests',
   'Resource requests remaining quota': 'Resource requests remaining quota',
   RESOURCE_STATUS: 'Resource Status',
-  RESTART_PL: 'Restarts',
 
   Revision: 'Revision',
   REVISION_RECORDS: 'Revision Records',
@@ -322,16 +302,14 @@ module.exports = {
   'Service Configuration': 'Service Configuration',
   'Service Labels': 'Service Labels',
   SESSION_AFFINITY: 'Session Affinity',
-  SELECTOR: 'Selector',
+
   'Set Mount Path': 'Set Mount Path',
 
   GRAYSCALE_REPLICAS_DESC: 'Pod replicas in the new version',
 
-  STARTUP_PROBE: 'Startup Probe',
   'Storage Size': 'Storage Size',
   'Strategy Type': 'Strategy Type',
 
-  SUCCESS_THRESHOLD: 'Success Threshold',
   SuccessfulCreate: 'SuccessfulCreate',
   SuccessfulDelete: 'SuccessfulDelete',
 
@@ -343,7 +321,6 @@ module.exports = {
   'Temporary Volume': 'Temporary Volume',
 
   'Timeout(s)': 'Timeout(s)',
-  TCP_PORT: 'TCP Port',
 
   'The concurrency policy setting.': 'The concurrency policy setting.',
   'The minimum of the replicas that can be set by HPA':
@@ -352,7 +329,7 @@ module.exports = {
     'The number of failed jobs allowed to be retained.',
   'The number of successful jobs allowed to be retained.':
     'The number of successful jobs allowed to be retained.',
-  TIMEOUT_PERIOD_S: 'Timeout (s)',
+
   'UI Mode': 'UI Mode',
   'Update Strategy': 'Update Strategy',
   UPDATE_STRATEGY: 'Update Strategy',
@@ -363,7 +340,6 @@ module.exports = {
   'Volume Source': 'Volume Source',
   DISK_LOG_COLLECTION_Q: 'What is disk log collection?',
   'What is Disk Log Collection?': 'What is Disk Log Collection?',
-  COLLECT_LOGS_ON_VOLUMES_Q: 'How do I collect logs on volumes?',
   'Worker Container': 'Worker Container',
   VOLUME_CAPACITY: 'Volume Capacity',
   TOTAL_CAPACITY: 'Total capacity',
@@ -405,9 +381,6 @@ module.exports = {
   DAEMONSET_DESC:
     'A DaemonSet ensures that all (or some) Nodes run a copy of a Pod. Typically, a DaemonSet is used to running a logs collection, monitoring daemon or other system management applications.',
   DAEMONSET_EMPTY_DESC: 'Please create a DaemonSet.',
-  JOB_DESC:
-    'Jobs are used to perform short-lived, one-off tasks. A Job creates one or more Pods and ensures that a specific number of Pods successfully terminate.',
-  JOB_EMPTY_DESC: 'Please create a Job.',
 
   CRONJOB_EMPTY_DESC: 'Please create a CronJob.',
   CRONJOB_NAME_DESC:
@@ -517,17 +490,6 @@ module.exports = {
 
   REVISION_ROLLBACK_SELECT: 'Please select the version to be rolled back',
   REVISION_TITLE: '{name} revision',
-  PROBE_TIME: '{delay}s delay, {timeout}s timeout',
-  INITIAL_DELAY_DESC:
-    'Delay time before the probe is initiated after container startup. The value must be an integer and the minimum value is 0.',
-  TIMEOUT_PERIOD_DESC:
-    'Timeout period after which the probe times out and is considered failed. The value must be an integer and the minimum value is 1.',
-  CHECK_INTERVAL_DESC:
-    'Interval between check attempts. The value must be an integer and the minimum value is 1.',
-  SUCCESS_THRESHOLD_DESC:
-    'Minimum number of consecutive successes for the probe to be considered successful after having failed. The minimum value is 1 and the value must be 1 for liveness and startup probes.',
-  FAILURE_THRESHOLD_DESC:
-    'Minimum number of consecutive failures for the probe to be considered failed after having succeeded. The minimum value is 1.',
 
   CONFIGURE_AUTOSCALING_DESC:
     'Set the system to automatically adjust the number of Pod replicas based on target CPU usage and target memory usage.',
@@ -605,8 +567,6 @@ module.exports = {
   WORKLOAD_EMPTY_DESC: 'Please create a workload.',
 
   COMPARE_WITH: 'Compared with the previous record {version}',
-  REVISION_RECORDS_DESC:
-    'A revision record is generated after the workload is created or modified, which can be used to roll back the workload settings. A maximum of 10 revision records can be retained.',
 
   POD_SCALE_DESC: 'The number of Pod instances that can be scaled',
   REPLICAS_AVAILABLE: 'Available',
@@ -626,10 +586,9 @@ module.exports = {
   NODE_IP: '{node} ({ip})',
 
   // Jobs
-  JOB_PL: 'Jobs',
+
   JOBS: 'Jobs',
   NUMBER_OF_JOBS: 'Number of Jobs',
-  JOB_LOW: 'Job',
 
   // CronJobs
   ADD_VOLUME: 'Add Volume',
