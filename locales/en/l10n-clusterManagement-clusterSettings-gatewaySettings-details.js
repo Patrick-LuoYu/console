@@ -22,6 +22,7 @@ module.exports = {
   // More > Delete
   // Monitoring
   REQUEST_COUNT: 'Requests',
+  NETWORK_TRAFFIC: 'Network Traffic',
 
   // Configuration Options
   // Gateway Logs
