@@ -24,6 +24,9 @@ module.exports = {
 
   // Overview > Cluster Node Status
   CLUSTER_NODE_STATUS: 'Cluster Node Status',
+  ALL_NODES: 'All nodes',
+  ONLINE_NODES: 'Online nodes',
+  NODE_ONLINE_STATUS: 'Node Online Status',
   // Overview > Component Status
   COMPONENT_STATUS: 'Component Status',
   CONTROLLER_MANAGER: 'Controller Manager',
@@ -34,6 +37,7 @@ module.exports = {
   CLUSTER_RESOURCE_USAGE: 'Cluster Resource Usage',
   POD_COUNT: 'Pods',
   COUNT: 'Count',
+  PODS: 'Pods',
 
   // Overview > etcd Monitoring
   SERVICE_STATUS: 'Service Status',
@@ -44,6 +48,7 @@ module.exports = {
   ETCD_PROPOSAL: 'Raft <span>Proposal</span>',
   ETCD_DB_SIZE: 'DB <span>Size</span>',
   ETCD_CLIENT_TRAFFIC: 'Client <span>Traffic</span>',
+  TITLE_UNIT: '{title} ({unit})',
 
   // Overview > Service Component Monitoring
   SERVICE_COMPONENT_MONITORING: 'Service Component Monitoring',
@@ -120,4 +125,5 @@ module.exports = {
   SORT_BY_NODE_LOAD1: 'Sort by average CPU load',
   SORT_BY_NAMESPACE_MEMORY_USAGE_WO_CACHE: 'Sort by memory usage',
   POD_USAGE: 'Pod Usage',
+  EXPORT: 'Export',
 }
