@@ -22,6 +22,7 @@ module.exports = {
   TARGET_APP_SETTINGS: 'Target App Settings',
   TARGET_APP_VERSION: 'Target App Version',
   CURRENT_APP_VERSION: 'Current App Version',
+  EDIT_APP_SETTINGS: 'Edit App Settings',
 
   // Details
   // Resource Status
