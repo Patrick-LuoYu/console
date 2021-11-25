@@ -29,6 +29,17 @@ module.exports = {
   STOP_REAL_TIME_LOG: 'Disable real-time logs',
 
   // Run Records
+  RUN_RECORDS: 'Run Records',
+
+  // Run Records > Run Record Details > Details
+  // Run Records > Run Record Details > Task Status
+  // Run Records > Run Record Details > Commits
+  AUTHOR: 'Author',
+
+  // Run Records > Run Record Details > Artifacts
   // Run Records > Run > Set Parameters
   // Branches
+
+  // Pull Requests
+  PULL_REQUEST_PL: 'Pull Requests',
 }
