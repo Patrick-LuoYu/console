@@ -24,6 +24,11 @@ module.exports = {
   // Overview > Resource Status > Physical Resources
   // Pods
   // Gateway
+  GATEWAY: 'Gateway',
+  GATEWAY_NOT_ENABLED: 'Gateway Not Enabled',
+  ENABLE_GATEWAY_TIP:
+    'To use the gateway, please configure the gateway in the cluster or the project.',
+
   // Quotas > Default Container Quotas
   QUOTA_PL: 'Quotas',
 
