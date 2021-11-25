@@ -26,12 +26,7 @@ module.exports = {
   'Add nesting steps': 'Add nesting steps',
   'Add Parallel Stage': 'Add Parallel Stage',
   'Add Step': 'Add Step',
-  ALL_BRANCHES: 'Include all branches',
-  CHOICE_PARAM_OPTION_DESC:
-    'Enter an option in each line. The first line is used as the default option.',
-  CODE_REPOSITORY_ADDRESS_DESC: 'Use a repository that contains a Jenkinsfile.',
-  CODE_REPOSITORY_ADDRESS_EMPTY_TIP:
-    'Please enter the address of a code repository.',
+
   archiveArtifacts: 'archiveArtifacts',
   'Are you sure to close this pipeline Editor ?':
     'Are you sure to close this pipeline Editor ?',
@@ -59,7 +54,7 @@ module.exports = {
   BRANCH_SETTINGS: 'Branch Settings',
   BREAK: 'Break',
   BUILD_SETTINGS: 'Build Settings',
-  BUILD_TRIGGER: 'Build Trigger',
+
   '@somebody to help review': '@somebody to help review',
   'Send messages by email': 'Send messages by email',
   'Send messages in the build': 'Send messages in the build',
@@ -70,7 +65,7 @@ module.exports = {
     'Chinese is not allowed in the pipeline configuration',
   'Clean when aborted': 'Clean when aborted',
   'Clean Workspace': 'Clean Workspace',
-  CLONE_DEPTH: 'Clone Depth',
+
   CODE_CHECK: 'Code Check',
   'Code Quality Check': 'Code Quality Check',
   CODE_REPOSITORY: 'Code Repository',
@@ -103,7 +98,7 @@ module.exports = {
   'Current branch name must match the input value':
     'Current branch name must match the input value',
   BUILD_RECORD_RETENTION_PERIOD_DAYS: 'Build Record Retention Period (days)',
-  BRANCH_RETENTION_PERIOD_DAYS: 'Branch Retention Period (days)',
+
   'defaultValue -1 means not to discard':
     'defaultValue -1 means not to discard',
   'Delete all resources of the deployment file':
@@ -123,8 +118,7 @@ module.exports = {
   'Discover pull requests from forks': 'Discover pull requests from forks',
   'Discover pull requests from origin': 'Discover pull requests from origin',
   DISPLAY_ALL: 'Display All',
-  ENABLE_TAG_BRANCH_DISCOVERY: 'Enable tag discovery',
-  DISABLE_TAG_BRANCH_DISCOVERY: 'Disable tag discovery',
+
   'Docker Container Registry Credentials':
     'Docker Container Registry Credentials',
   'Docker Registry URL': 'Docker Registry URL',
@@ -144,7 +138,7 @@ module.exports = {
   enableConfigSubstitution: 'enableConfigSubstitution',
   'Enter an expression': 'Enter an expression',
   'Environment name': 'Environment name',
-  EXCLUDE_PR_BRANCHES: 'Exclude branches filed as PRs',
+
   'Executes the code inside the block with a determined time out limit.':
     'Executes the code inside the block with a determined time out limit.',
   expression: 'expression',
@@ -152,8 +146,7 @@ module.exports = {
   'For accessing GitHub': 'For accessing GitHub',
   USERS_WITH_PERMISSION: 'Users with the admin or write permission',
   'get token': 'get token',
-  CLONE_SETTINGS: 'Clone Settings',
-  SCAN_PERIODICALLY: 'Scan periodically',
+
   NO_CONCURRENT_BUILD_DESC:
     'Set the the pipeline to run only one build task at a time.',
   info: 'info',
@@ -186,7 +179,7 @@ module.exports = {
     'Load the sonarqube configuration provided by Jenkins into the Pipeline.',
   mail: 'mail',
   major: 'major',
-  MAXIMUM_BRANCHES: 'Maximum Branches',
+
   MAXIMUM_BUILD_RECORDS: 'Maximum Build Records',
   minor: 'minor',
   "Missing one or more required properties: 'name'":
@@ -208,7 +201,7 @@ module.exports = {
     'Build records that exceed the retention period are deleted. The default value is 7.',
   MAXIMUM_BUILD_RECORDS_DESC:
     'When the number of build records exceeds the maximum number allowed, the earliest build record is deleted. The default value is 10.',
-  ONLY_PR_BRANCHES: 'Include only branches filed as PRs',
+
   BUILD_PARAMETERS: 'Build Parameters',
   SET_PARAMETERS: 'Set Parameters',
   PASSPHRASE: 'Passphrase',
@@ -219,10 +212,10 @@ module.exports = {
   PIPELINE: 'Pipeline',
   PIPELINE_PL: 'Pipelines',
   PIPELINE_LOW: 'pipeline',
-  CLONE_TIMEOUT_PERIOD: 'Clone Timeout Period (min)',
+
   NO_PIPELINE_CONFIG_FILE_TIP: 'No pipeline configuration file is found.',
   'Pipeline Configuration': 'Pipeline Configuration',
-  PIPELINE_EVENT_TRIGGER: 'Trigger through pipeline events',
+
   INITIALIZING_PIPELINE: 'Pipeline Initializing',
   INITIALIZING_PIPELINE_DESC:
     'Please wait until the pipeline initialization is complete.',
@@ -241,13 +234,13 @@ module.exports = {
   'Pull code by Git': 'Pull code by Git',
   'Pull code by SVN': 'Pull code by SVN',
   PULL_STRATEGY: 'Pull Strategy',
-  WEBHOOK_PUSH_URL: 'Webhook Push URL',
+
   Queue: 'Queue',
   QUEUED: 'Queued',
   ABORTED: 'Aborted',
   UNSTABLE: 'Unstable',
   Recipient: 'Recipient',
-  REGEX: 'Regular Expression',
+
   'Registry Credentials': 'Registry Credentials',
   remote: 'remote',
   REMOTE_REPOSITORY_URL: 'Remote Repository URL',
@@ -259,16 +252,16 @@ module.exports = {
   RUN_ID: 'Run ID',
   'Run Pipeline': 'Run Pipeline',
   'Save Artifact': 'Save Artifact',
-  SCAN_INTERVAL: 'Scan Interval',
+
   LOGS_OBTAINED_SUCCESSFULLY: 'The logs were obtained successfully.',
   'Repo Scanned Successfully': 'Repo Scanned Successfully',
-  SCAN_TRIGGER: 'Scan Trigger',
+
   REPOSITORY_SCAN_LOGS: 'Repository Scan Logs',
   SCAN_REPOSITORY: 'Scan Repository',
   VIEW_SCAN_LOGS: 'View Scan Logs',
   BUILD_PERIODICALLY: 'Build periodically',
   SCM: 'SCM',
-  SCRIPT_PATH: 'Script Path',
+
   WEBHOOK_PUSH: 'Webhook Push',
   secretName: 'secretName',
   secretNamespace: 'secretNamespace',
@@ -291,7 +284,6 @@ module.exports = {
     "Sorry, you don't have the permission to do this.",
   'Specify a container to add nested tasks to execute inside the container':
     'Specify a container to add nested tasks to execute inside the container',
-  SCRIPT_PATH_DESC: 'Set the path of the Jenkinsfile in the code repository.',
   'Start the follow-up task after the inspection':
     'Start the follow-up task after the inspection',
   'Started By': 'Started By',
@@ -340,9 +332,7 @@ module.exports = {
   waitForQualityGate: 'waitForQualityGate',
   HEALTH: 'Health',
   Webhook: 'Webhook',
-  WHEN_CREATE_PIPELINE: 'Trigger on Pipeline Creation',
-  WHEN_DELETE_PIPELINE: 'Trigger on Pipeline Deletion',
-  ENABLE_SHALLOW_CLONE: 'Enable shallow clone',
+
   withCredentials: 'withCredentials',
   withSonarQubeEnv: 'withSonarQubeEnv',
   'Wrong Token': 'Wrong Token',
@@ -370,13 +360,9 @@ module.exports = {
     You need to provide an authorization token in the form of a string so that
     only the person with the authorization token can trigger the remote build.`,
   DELETE_OUTDATED_BUILD_RECORDS_TIP: `Set the system to automatically delete outdated build records including console output, archived artifacts, and metadata to save disk space.`,
-  DELETE_OUTDATED_BRANCHES_TIP:
-    'Set the system to automatically delete outdated branches to save disk space.',
+
   BUILD_PERIODICALLY_TIP: 'Set the pipeline to periodically run build tasks.',
-  BRANCH_RETENTION_PERIOD_DAYS_DESC:
-    'Branches that exceed the retention period are deleted. The default value is 7.',
-  MAXIMUM_BRANCHES_DESC:
-    'When the number of branches exceeds the maximum number allowed, the earliest branch is deleted. The default value is 5.',
+
   CRON_TIP: `This field follows the cron syntax (slightly different).
     Specifically, each line contains 5 fields separated by tabs or spaces.
     minutes: the first few minutes of an hour (0-59)
@@ -410,8 +396,7 @@ module.exports = {
     'The current Jenkinsfile is not a standard declarative Jenkinsfile and graphical display is unavailable.',
   PIPELINE_SCHEDULE_DESC:
     'Enter a CRON expression to set a schedule. <a href="//jenkins.io/doc/book/pipeline/syntax/#cron-syntax" target="_blank">Learn More</a>',
-  WEBHOOK_PUSH_DESC:
-    'Push a message to this URL to trigger a scan of the repository. ',
+
   WEBHOOK_DESC: 'Configure webhook notifications by setting a webhook server.',
   TIME_TRIGGER_DESC: 'Scan the code repository periodically.',
 
@@ -440,12 +425,6 @@ module.exports = {
   Controller (rolling updates are not supported, and use Deployment if you want to use rolling updates)
   </li>`,
 
-  OPTIONS_PR_PARAMS_1: 'Pull the code with the PR merged',
-  OPTIONS_PR_PARAMS_2: 'Pull the code at the point of the PR',
-  OPTIONS_PR_PARAMS_3: 'Create two pipelines respectively',
-
-  SELECT_CREDENTIAL_DESC:
-    'Select a credential used to access a code repository.',
   PIPELINE_PREPARE_DESC: 'Preparing the environment...',
   PARAMS_DESC: `The following parameters are generated based on the pipeline settings or
      the parameters section of the Jenkinsfile, which are entered according to operational requirements.`,
@@ -463,9 +442,7 @@ module.exports = {
   BUG_PL: 'Bugs',
   VULNERABILITY: 'Vulnerability',
   SECURITY_HOTSPOT: 'Security Hotspot',
-  FILTER_BY_REGEX: 'Filter by Regex',
-  FILTER_BY_REGEX_DESC:
-    'Use a regular expression to filter branches, PRs, and tags',
+
   waitForQualityGate_desc:
     "Code quality check standards are derived from SonarQube's Quality Gate. If you need to customize the standards, go to SonarQube settings.",
   PIPELINE_CREATE_DESC:
@@ -519,10 +496,6 @@ module.exports = {
   PIPELINES_FOOTER_SEE_MORE: 'Go to the branch details page to see more.',
   PIPELINE_CRON_DESC: 'The pipeline will be run at {nextTime} next time.',
   JENKINS_LINS_ERROR: 'has syntax error at line {line}.',
-  WHEN_DELETE_PIPELINE_DESC:
-    'When a pipeline is deleted, the tasks in the specified pipeline are automatically triggered.',
-  WHEN_CREATE_PIPELINE_DESC:
-    'When a new pipeline is created, the tasks in the specified pipeline are automatically triggered.',
   STARTED_BY_NAME: 'Started By: {name}',
   CREDENTIAL_NAME_EXIST_DESC:
     'The credential name already exists. Please enter another name.',
@@ -555,16 +528,7 @@ module.exports = {
   BATCH_RUN_UNSUPPORTED_DESC: 'Multi-branch pipelines cannot run in a batch.',
   SYNC_STATUS: 'Sync Status',
 
-  // Pipeline List Page
-  PULL_REQUEST_PL: 'Pull Requests',
-  PULL_REQUEST_COUNT: 'Pull Requests',
-  HEALTHY: 'Healthy',
-
   // Pipeline Creation Page
   DEVOPS_PROJECT_DESC:
     'DevOps projects are used to group resources and control the resource management permissions of different users.',
-  PIPELINE_CREATE_DEVOPS_PROJECT_DESC:
-    'Select the DevOps project to which the pipeline belongs.',
-  CODE_REPOSITORY_OPTIONAL: 'Code Repository (optional)',
-  OPTIONS: 'Options',
 }
