@@ -49,7 +49,7 @@ module.exports = {
   IMAGE_EMPTY: 'Please set an image.',
   ENTER_POSITIVE_INTEGER_DESC: 'Please enter a positive integer.',
   TOTAL_REPLICAS_EMPTY_DESC:
-    'Please enter the total number of Pod replicas in all clusters.',
+    'Please enter the total number of pod replicas in all clusters.',
   CONTAINER_NAME: 'Container Name',
   CONTAINER_TYPE: 'Container Type',
   USE_DEFAULT_PORTS: 'Use Default Ports',
@@ -115,13 +115,15 @@ module.exports = {
     'GID to run the entrypoint of the container process. The default value is the container runtime default GID.',
   SELINUX_CONTEXT: 'SELinux Context',
   CAPABILITIES_BETA: 'Capabilities (beta)',
+  DROP: 'Drop',
+  ACCESS_CONTROL: 'Access Control',
 
   // List > Create > Pod Settings > Add Containers > Synchronize Host Timezone
   SYNC_HOST_TIMEZONE_DESC:
     'Synchronize the time zone of the container with that of the host.',
   SYNC_HOST_TIMEZONE: 'Synchronize Host Timezone',
 
-  // List > Create > Pod Settings > Update strategy
+  // List > Create > Pod Settings > Update Strategy
   ROLLING_UPDATE_RECOMMENDED: 'Rolling Update (recommended)',
   SIMULTANEOUS_UPDATE: 'Simultaneous Update',
   ROLLINGUPDATE_DESC:
@@ -156,6 +158,8 @@ module.exports = {
   SCHEDULE_AWAY_FROM_TARGET: 'Schedule away from target',
   MATCH_IF_POSSIBLE: 'Match if possible',
   MUST_MATCH: 'Must match',
+  TARGET: 'Target',
+  STRATEGY: 'Strategy',
 
   // List > Create > Pod Settings > Add Metadata
   ADD_METADATA: 'Add Metadata',
@@ -204,6 +208,9 @@ module.exports = {
     'Assign Pod replicas to specific nodes. You can use labels to select nodes or manually specify a node.',
   ADD_NODE_SELECTOR: 'Add Node Selector',
   ADD_METADATA_DESC: 'Add metadata to the resource.',
+  KEY: 'Key',
+  VALUE: 'Value',
+  ADVANCED_SETTINGS: 'Advanced Settings',
 
   // List > Create > Cluster Differences
   CLUSTER_DIFF: 'Cluster Differences',
