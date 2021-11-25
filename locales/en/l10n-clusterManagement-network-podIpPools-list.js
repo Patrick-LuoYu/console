@@ -50,6 +50,8 @@ module.exports = {
   IPPOOL_ASSIGN_WORKSPACE_DESC: 'Assign the Pod IP pool to a workspace.',
   IPPOOL_ASSIGN_WORKSPACE_ALLOCATED_WARNING:
     'The Pod IP pool is in use and cannot be assigned to another specific workspace.',
+  ASSIGN_WORKSPACE: 'Assign Workspace',
+  SELECT_WORKSPACE_DESC: 'Select a workspace.',
 
   // List > Delete
 }
