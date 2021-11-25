@@ -19,6 +19,8 @@
 module.exports = {
   // Head
   // Platform Information
+  LAST_UPDATE_TIME: 'Last update time',
+
   // Platform Resource
   // Recent Access
 }
