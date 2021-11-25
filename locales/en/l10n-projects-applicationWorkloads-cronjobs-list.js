@@ -46,6 +46,7 @@ module.exports = {
   SKIP_OLD_JOB: 'Skip old Job',
 
   // List > Create > Strategy Settings
+  STRATEGY_SETTINGS: 'Strategy Settings',
   MAXIMUM_RETRIES: 'Maximum Retries',
   MAXIMUM_RETRIES_DESC:
     'Maximum number of retries before the Job is marked as failed. The default value is 6.',
