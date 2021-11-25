@@ -15,49 +15,25 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 module.exports = {
-  APP_ID: 'ID de la aplicación',
-  'App Readme': 'LEEME (README) de la aplicación',
-  APP_STORE: 'Tienda de aplicaciones',
-  'App Store Settings': 'Configuración de la tienda de aplicaciones',
-  Categories: 'Categorías',
-  CHANGE_LOG: 'Cambiar registro',
-  'Config files': 'Ficheros de configuración',
-  Contact: 'Contacto',
-  Developer: 'Desarrollador',
-  DEVELOPER_VALUE: 'Desarrollador: {value}',
-  MAINTAINER_VALUE: 'Mantenedor: {value}',
-  MAINTAINERS_VALUE: 'Mantenedores: {value}, etc.',
-  SOURCE_CODE_ADDRESS: 'Fuente',
-  LATEST_VALUE: 'Latest: {value}',
-  'Find an app': 'Encuentra la aplicación',
-  'Install and Deploy': 'Instalar y desplegar',
-  KEYWORDS: 'Palabras clave',
-  Latest: 'Último',
-  RELEASE_DATE: 'Fecha de Publicación',
-  RELEASE_TIME_SCAP: 'Release time',
-  Screenshots: 'Capturas de pantalla',
-  VERSION_NUMBER: 'Número de versión',
+  'App Readme': 'App Readme',
+  'App Store Settings': 'App Store Settings',
+  Categories: 'Categories',
+  CHANGE_LOG: 'Change Log',
+  'Config files': 'Config files',
+  Contact: 'Contact',
+  Developer: 'Developer',
+  DEVELOPER_VALUE: 'Developer: {value}',
+  MAINTAINERS_VALUE: 'Maintainers: {value}, etc',
+  SOURCE_CODE_ADDRESS: 'Source',
+  'Find an app': 'Find an app',
+  'Install and Deploy': 'Install and Deploy',
+  Latest: 'Latest',
+  RELEASE_DATE: 'Release Date',
+  Screenshots: 'Screenshots',
   VERSION_LIST_DES: 'Only display the last 10 versions',
-  TOTAL_CATE_COUNT: 'Total Apps: {total}',
-  HOME_APP_STORE_DESC:
-    'La App Store oficial de KubeSphere proporciona características de despliegue y administración que permiten a los usuarios desplegar aplicaciones rápidamente con un solo click en base a plantillas de aplicaciones.',
-
-  AGREE: 'De acuerdo',
-  APP_DEPLOY_AGREEMENT: 'Acuerdo de implementación de la aplicación',
-  APP_DEPLOY_AGREEMENT_DESC_1:
-    'You must abide by the open-source agreement of the application.',
-  APP_DEPLOY_AGREEMENT_DESC_2:
-    'Any consequences arising from your deployment of the application shall be borne by you. For support services, please contact the developer.',
-  DO_NOT_REMIND_AGAIN: 'No recordar de nuevo',
-  APP_DEPLOYMENT_AGREEMENT: 'Acuerdo de implementación de aplicaciones',
-  APP_DEPLOY_AGREEMENT_1:
-    '1. You must abide by the open-source agreement of the application.',
-  APP_DEPLOY_AGREEMENT_2:
-    '2. Any consequences arising from your deployment of the application shall be borne by you. For support services, please contact <a href="https://kubesphere.cloud/en/" target="_blank">kubesphere.cloud</a>.',
-  APP_DEPLOY_AGREEMENT_CHECK:
-    'I have read <b>App Deployment Agreement</b> and agree to deploy the app.',
-  CHECK_APP_DEPLOY_AGREEMENT_TIP:
-    'Lea y acepte las instrucciones de implementación de la aplicación.',
-}
+  HOME_APP_STORE_DESC: 'The official App Store of KubeSphere provides deployment and management features that allow users to quickly deploy apps with one click based on app templates.',
+  APP_DEPLOYMENT_AGREEMENT: 'App Deployment Agreement',
+  APP_DEPLOY_AGREEMENT_CHECK: 'I have read <b>App Deployment Agreement</b> and agree to deploy the app.',
+  CHECK_APP_DEPLOY_AGREEMENT_TIP: 'Please read and agree to <b>App Deployment Agreement</b>.'
+};
