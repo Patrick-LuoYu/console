@@ -21,8 +21,20 @@ module.exports = {
   // Release Modes
   // Release Modes > Create > Basic Information
   // Release Modes > Create > New Version Settings
-  // Release Modes > Create > Strategy Settings
+  REPLICA: 'Replica',
+  REPLICA_PL: 'Replicas',
+
+  // Release Modes > Blue-Green Deployment > Create > Strategy Settings
+  // Release Modes > Canary Release > Create > Strategy Settings
+  KEY_EQ_VALUE: 'Key=Value',
+
+  // Release Modes > Traffic Mirroring > Create > Strategy Settings
   // Release Jobs
+  TCP_INBOUND_TRAFFIC: 'TCP Inbound Traffic',
+  TCP_OUTBOUND_TRAFFIC: 'TCP Outbound Traffic',
+  NO_DATA_SCAP: 'No data',
+  REPLICA_COUNT_LOW: 'replicas',
+
   // Release Jobs > Job Status
   // Release Jobs > Job Status > Edit
   EDIT_GRAYSCALE_RELEASE_JOB: 'Edit Grayscale Release Job',
