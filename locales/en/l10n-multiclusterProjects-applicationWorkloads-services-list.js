@@ -36,6 +36,7 @@ module.exports = {
   // List > Create > Stateful Service > Pod Settings
   // List > Create > Stateful Service > Volume Settings
   // List > Create > Stateful Service > Advanced Settings
+  EMPTY_LABEL_DESC: 'Please add a label.',
   SPECIFY_NODE: 'Specify Node',
   SPECIFY_NODE_DESC:
     'Specify a node that needs to be associated with the service.',
