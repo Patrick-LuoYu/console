@@ -27,6 +27,10 @@ module.exports = {
   // More > Edit YAML
   // More > Re-Create
   // More > Delete
+  // Resource Status > Clusters
+  MULTI_CLUSTER_RESOURCE_TIP:
+    'The current resource is deployed across multiple clusters. You can click a cluster to view the resource settings in the cluster.',
+
   // Resource Status > Replica Status
   // Resource Status > Ports
   // Resource Status > Pods
