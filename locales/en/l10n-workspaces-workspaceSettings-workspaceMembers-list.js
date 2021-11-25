@@ -27,6 +27,11 @@ module.exports = {
 
   // List
   WORKSPACE_MEMBER_EMPTY_DESC: 'Please invite a user to the workspace.',
+  ROLE: 'Role',
+  REMOVE_MEMBER: 'Remove Member',
+  REMOVE_MULTIPLE_MEMBERS: 'Remove Multiple Members',
+  REMOVE_MULTIPLE_MEMBERS_TIP:
+    'Enter the usernames <strong>{resource}</strong> to confirm that you understand the risks of this operation.',
 
   // List > Invite
   INVITE_WORKSPACE_MEMBER_DESC: 'Invite users to the workspace.',
