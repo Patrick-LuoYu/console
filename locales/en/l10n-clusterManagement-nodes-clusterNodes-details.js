@@ -18,10 +18,37 @@
 
 module.exports = {
   // Details
+  ARCHITECTURE: 'Architecture',
+  OS_VERSION: 'OS Version',
+  OS_TYPE: 'OS Type',
+  LINUX: 'Linux',
+  KERNEL_VERSION: 'Kernel Version',
+  CONTAINER_RUNTIME: 'Container Runtime',
+  KUBELET_VERSION: 'kubelet Version',
+  KUBE_PROXY_VERSION: 'kube-proxy Version',
+  IP_ADDRESS: 'IP Address',
+  SCHEDULABLE: 'Schedulable',
+
   // More > Edit Labels
+  EDIT_LABELS: 'Edit Labels',
+
   // More > Edit Taints
+  TAINTS: 'Taints',
+  EDIT_TAINTS: 'Edit Taints',
+  TAINTS_DESC:
+    'Add taints to nodes so that Pods are not scheduled to the nodes or not scheduled to the nodes if possible. After you add taints to nodes, you can set tolerations on a Pod to allow the Pod to be scheduled to nodes with certain taints.',
+  ADD_TAINT: 'Add Taint',
+  COMMON_TAINTS: 'Common Taints',
+  NOSCHEDULE: 'Prevent scheduling',
+  PREFER_NOSCHEDULE: 'Prevent scheduling if possible',
+  NOEXECUTE: 'Prevent scheduling and evict existing Pods',
+  TAINTS_TIPS:
+    '<b>Prevent scheduling</b><br />Prevents all Pods from being scheduled to the node.<br /><br /><b>Prevent scheduling if possible</b><br />Prevents all Pods from being scheduled to the node if possible.<br /><br /><b>Prevent scheduling and evict existing Pods</b><br />Prevents all Pods from being scheduled to the node and evict all existing Pods on the node.',
+
   // Running Status > Resource Usage
   RESOURCE_USAGE: 'Resource Usage',
+  MAXIMUM_PODS: 'Maximum Pods',
+  MAXIMUM_PODS_SCAP: 'Maximum pods',
 
   // Running Status > Allocated resources
   MEMORY_REQUEST_SCAP: 'Memory request',
@@ -29,7 +56,29 @@ module.exports = {
   CPU_REQUEST_SCAP: 'CPU request',
   CPU_LIMIT_SCAP: 'CPU limit',
 
+  // Running Status > Allocated Resources
+  ALLOCATED_RESOURCES: 'Allocated Resources',
+
   // Running Status > Health Status
+  NODE_NETWORKUNAVAILABLE: 'Network Availability',
+  NODE_NETWORKUNAVAILABLE_DESC:
+    'Check if the network configuration on the node is available.',
+  NODE_MEMORYPRESSURE: 'Memory Pressure',
+  NODE_MEMORYPRESSURE_DESC:
+    'If the memory usage pressure on the node is too high, the scheduling fails.',
+  NODE_DISKPRESSURE: 'Disk Pressure',
+  NODE_DISKPRESSURE_DESC:
+    'If pressure exists on the disk size–that is, if the disk capacity is low.',
+  NODE_PIDPRESSURE: 'PID Pressure',
+  NODE_PIDPRESSURE_DESC:
+    'If pressure exists on the processes—that is, if there are too many processes on the node.',
+  NODE_READY: 'Node Readiness',
+  NODE_READY_DESC: 'Whether the node is ready to accept new Pods.',
+
+  // Running Status > Taints
+  NO_TAINTS_TIPS: 'No taint is found.',
+  POLICY: 'Policy',
+
   // Pods
   // Metadata
   // Monitoring
