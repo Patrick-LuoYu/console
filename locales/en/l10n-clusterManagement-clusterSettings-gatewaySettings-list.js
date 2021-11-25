@@ -22,12 +22,16 @@ module.exports = {
   GATEWAY_ADDRESS_SCAP: 'Gateway address',
 
   // Cluster Gateway > Enable Gateway
+  ENABLE_GATEWAY: 'Enable Gateway',
   GATEWAY_TRACING_TIP:
-    'If Routes cannot be accessed after <b>Tracing</b> is enabled, please add the annotation <b>nginx.ingress.kubernetes.io/service-upstream: true </b> to the route.',
+    'If Routes cannot be accessed after <b>Tracing</b> is enabled, please add the annotation <b>nginx.ingress.kubernetes.io/service-upstream: true </b> to the Route.',
 
   // Cluster Gateway > Manage
   VIEW_DETAILS: 'View Details',
+  DISABLE: 'Disable',
 
   // Cluster Gateway > Manage > Delete
   // Project Gateway
+  REPLICA_COUNT: 'Replicas',
+  NODE_PORTS: 'Node Ports',
 }
