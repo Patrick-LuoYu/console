@@ -21,14 +21,34 @@ module.exports = {
   EDIT_QUOTAS: 'Edit Quotas',
   QUOTA: 'Quota',
   NUMBER_OF_VOLUMES: 'Number of volumes',
+  PROJECT_QUOTAS_NOT_SET: 'Project Quotas Not Set',
+  PROJECT_QUOTAS_DESC:
+    'Project quotas specify the number of available CPU and memory resources and the maximum number of application resources such as Pods, Deployments, and Services allowed in the project.',
+  DEFAULT_CONTAINER_QUOTAS_NOT_SET: 'Default Container Quotas Not Set',
+  DEFAULT_CONTAINER_QUOTAS_DESC:
+    'Default container quotas specify the default CPU request, CPU limit, memory request, and memory limit of containers created in the project.',
+  PROJECT_RESOURCE_QUOTAS: 'Project Resource Quotas',
+  SELECT_RESOURCE_TIP: 'Select a resource or enter a resource name',
+  NUMBER_OF_ROUTES: 'Number of Routes',
+  NUMBER_OF_SECRETS: 'Number of Secrets',
+  NUMBER_OF_CONFIGMAPS: 'Number of ConfigMaps',
+  NUMBER_OF_DAEMONSETS: 'Number of DaemonSets',
+  NUMBER_OF_STATEFULSETS: 'Number of StatefulSets',
+  NUMBER_OF_DEPLOYMENTS: 'Number of Deployments',
 
   // Resource Status
   // Resource Status > Application Resources
   // Resource Status > Physical Resources
   PHYSICAL_RESOURCE_PL: 'Physical Resources',
+  CPU_USAGE_TIME: 'CPU Usage ({time})',
+  MEMORY_USAGE_TIME: 'Memory Usage ({time})',
 
   // Tips
+  HOW_TO_INVITE_USERS: 'How do I invite users to the current project?',
+  HOW_TO_SET_PROJECT_GATEWAY: 'How do I set the project gateway?',
+
   // Top 5 for Resource Usage
+  TOP_5_FOR_RSC_USAGE: 'Top 5 for Resource Usage',
   SORT_BY_WORKLOAD_CPU_USAGE: 'Sort by CPU usage',
   SORT_BY_WORKLOAD_MEMORY_USAGE_WO_CACHE: 'Sort by memory usage',
   SORT_BY_WORKLOAD_NET_BYTES_TRANSMITTED: 'Sort by outbound traffic',
