@@ -20,6 +20,9 @@ module.exports = {
   // Details
   // More > Edit Labels
   // More > Edit Taints
+  // Running Status
+  LATEST_UPDATE_VALUE: 'Latest update: {value}',
+
   // Running Status > Resource Usage
   // Running Status > Allocated resources
   // Running Status > Health Status
