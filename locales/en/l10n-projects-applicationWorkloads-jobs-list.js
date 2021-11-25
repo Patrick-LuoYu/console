@@ -18,7 +18,13 @@
 
 module.exports = {
   // Banner
+  JOB_PL: 'Jobs',
+  JOB_DESC:
+    'Jobs are used to perform short-lived, one-off tasks. A Job creates one or more Pods and ensures that a specific number of Pods successfully terminate.',
+
   // List
+  JOB_EMPTY_DESC: 'Please create a Job.',
+
   // List > Create > Basic Information
   // List > Create > Strategy Settings
   // List > Create > Pod Settings
@@ -26,5 +32,9 @@ module.exports = {
   // List > Create > Advanced Settings
   // List > Edit Information
   // List > Rerun
+  RERUN: 'Rerun',
+
   // List > Delete
+  JOB: 'Job',
+  JOB_LOW: 'Job',
 }
