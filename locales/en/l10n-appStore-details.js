@@ -35,6 +35,10 @@ module.exports = {
 
   // Install > Basic Information
   LOCATION: 'Location',
+  CLUSTER_NAME_DESC:
+    'The name can contain only lowercase letters, numbers, and hyphens (-), must start with a lowercase letter, and must end with a lowercase letter or number. The maximum length is 53 characters.',
+  FEDPROJECT_CANNOT_DEPLOY_APP_TIP:
+    'The app cannot be deployed in a multi-cluster project.',
 
   // Install > App Settings
   HELM_APP_SCHEMA_FORM_TIP:
