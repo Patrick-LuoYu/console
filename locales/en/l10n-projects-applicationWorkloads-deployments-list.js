@@ -19,12 +19,20 @@
 module.exports = {
   // Banner
   // List
+  HPA_SET_TIP: 'Horizontal Pod autoscaling has been set.',
+
   // List > Create > Basic Information
   // List > Create > Pod Settings
+  /// List > Create > Pod Settings > Add Container > Container Settings
+  INVALID_IMAGE: 'Invalid image.',
+  INVALID_NAME_DESC:
+    'Invalid name. The name can contain only lowercase letters, numbers, and hyphens (-), and must start and end with a lowercase letter or number. The maximum length is 63 characters.',
+
   // List > Create > Volume Settings
   AVAILABLE: 'Available',
   IN_USER: 'In use',
   ACCESS_MODE_SCAP: 'Access mode',
+
   // List > Create
   // List > Create > Volume Settings > Mount Volume
   CONTAINER_LOG_PATH: 'Container log path',
