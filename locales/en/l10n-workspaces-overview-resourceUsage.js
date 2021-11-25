@@ -20,10 +20,14 @@ module.exports = {
   // Banner
   // Description
   WORKSPACE_OVERVIEW_DESC: 'View the resource status of the workspace.',
+  // Statistics
+  ROLE_PL: 'Roles',
 
   // Physical Resources
   PHYSICAL_RESOURCES: 'Physical Resources',
   CRONJOB: 'CronJob',
+  CLUSTER_VALUE: 'Cluster: {value}',
+
   // Physical Resources > Select Time Range
   // Physical Resources > Customize Time Range
   // Application Resources
