@@ -19,6 +19,8 @@
 module.exports = {
   // More > Roll Back
   // More > Edit Service
+  SELECTOR: 'Selector',
+
   // More > Edit Settings > Update Strategy
   // More > Edit Settings > Containers
   // More > Edit Settings > Volumes > Add Volume Template
