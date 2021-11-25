@@ -30,6 +30,7 @@ module.exports = {
 
   // Details
   APP_ID: 'App ID',
+  CATEGORY: 'Category',
 
   // Verisons
   NO_VERSION_INFO_DESC: 'No version information is found.',
