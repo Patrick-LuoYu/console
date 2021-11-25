@@ -47,6 +47,8 @@ module.exports = {
   EMAIL_EXISTS:
     'The email address already exists. Please enter another email address.',
   USERNAME_INVALID: 'Invalid username. {message}',
+  USERNAME: 'Username',
+  PASSWORD: 'Password',
 
   // List > Edit
   EDIT_USER: 'Edit User',
