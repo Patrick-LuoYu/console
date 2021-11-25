@@ -64,6 +64,7 @@ module.exports = {
     'Total consumption is the sum of resource usage per sampling point in the current billing cycle.',
   MAXIMUM_USAGE: 'Maximum Usage',
   MINIMUM_USAGE: 'Minimum Usage',
+  RESOURCE_TYPE: 'Resource Type',
 
   // Current Consumption
   CURRRENT_RESOURCE_CONSUMPTION: 'Current Consumption',
