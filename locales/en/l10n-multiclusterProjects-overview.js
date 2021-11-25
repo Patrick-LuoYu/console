@@ -18,6 +18,7 @@
 
 module.exports = {
   // Banner
+  MULTI_CLUSTER_PROJECT_SCAP: 'Multi-cluster project',
   // Edit Quotas
   // Resource Status
   // Tips
