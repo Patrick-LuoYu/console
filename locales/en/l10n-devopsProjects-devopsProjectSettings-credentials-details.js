@@ -23,4 +23,5 @@ module.exports = {
   // Delete
   // Details > Credential
   // Events
+  RECORD: 'Record',
 }
