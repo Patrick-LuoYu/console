@@ -26,6 +26,7 @@ module.exports = {
   // Egress Traffic
   EGRESS_TRAFFIC: 'Egress Traffic',
   DESTINATION: 'Destination',
+  LABEL: 'Label',
 
   // Ingress Traffic
   INGRESS_TRAFFIC: 'Ingress Traffic',
