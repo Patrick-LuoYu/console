@@ -21,5 +21,8 @@ module.exports = {
   // List
   // List > Create > Basic Information
   // List > Create > Service Settings
+  // List > Create > Service Settings > Cluster Differences
+  NAME_VALUE: 'Name: {value}',
+
   // List > Create > Route Settings
 }
