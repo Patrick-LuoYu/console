@@ -17,7 +17,7 @@
  */
 module.exports = {
   // Head
-  APP_STORE: 'App Store',
+  APP_STORE: 'test',
   // Discover
   DISCOVER: 'Discover',
   NEW_APPS: 'New Apps',
