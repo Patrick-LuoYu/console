@@ -17,37 +17,37 @@
  */
 module.exports = {
   // Banner
-  DEPARTMENT_PL: 'Department Management',
-  DEPARTMENT_MANAGEMENT_DESC: 'A department in a workspace is a logical unit used for permission control. You can set a workspace role, multiple project roles, and multiple DevOps project roles in a department, and assign users to the department to control user permissions in batches.',
+  DEPARTMENT_PL: '部门管理',
+  DEPARTMENT_MANAGEMENT_DESC: '企业空间中的部门是用来管理权限的逻辑单元。您可以在部门中设置企业空间角色、多个项目角色以及多个 DevOps 项目角色，还可以将用户分配到部门中以批量管理用户权限。',
   // List
   // List > Not Assigned
-  NOT_ASSIGNED_TCAP: 'Not Assigned',
-  ADD_MEMBER_TIP_SI: 'Are you sure you want to assign the user to the department <strong>{group}</strong>?',
-  ADD_MEMBER_TIP_PL: 'Are you sure you want to assign the users to the department <strong>{group}</strong>?',
+  NOT_ASSIGNED_TCAP: '未分配',
+  ADD_MEMBER_TIP_SI: '您确定添加成员到部门 <strong>{group}<strong> 吗？',
+  ADD_MEMBER_TIP_PL: '您确定添加成员到部门 <strong>{group}<strong> 吗？',
   // List > Assigned
-  ASSIGNED: 'Assigned',
-  DEPARTMENT: 'Department',
+  ASSIGNED: '已分配',
+  DEPARTMENT: '部门',
   // List > Set Departments
-  SET_DEPARTMENTS: 'Set Departments',
-  DEPARTMENT_EMPTY_DESC: 'No Department Available',
-  NO_DEPARTMENT_TIP: 'No department available. Please create a department on the right.',
-  CREATE_DEPARTMENT: 'Create Department',
-  DELETE_GROUP_TIP: 'Are you sure you want to delete the department <strong>{group_name}</strong>? The associated roles will be unbound from the users.',
-  DELETE_PARENT_GROUP_TIP: 'Are you sure you want to delete the department <strong>{group_name}</strong>? Its subdepartments will also be deleted and the associated roles will be unbound from the users.',
-  PROJECT_VALUE: 'Project: {value}',
-  PROJECT_ROLE_VALUE: 'Project role: {value}',
-  DEVOPS_VALUE: 'DevOps project: {value}',
-  DEVOPS_PROJECT_ROLES_VALUE: 'DevOps project role: {value}',
+  SET_DEPARTMENTS: '设置部门',
+  DEPARTMENT_EMPTY_DESC: '没有可用部门',
+  NO_DEPARTMENT_TIP: '没有可用部门，请在右侧创建部门。',
+  CREATE_DEPARTMENT: '创建部门',
+  DELETE_GROUP_TIP: '确定删除子部门 <strong>{group_name}</strong>？删除该部门的同时，所有成员的授权也将被取消。',
+  DELETE_PARENT_GROUP_TIP: '确定删除子部门 <strong>{group_name}</strong>？删除该部门的同时，其子部门也会被删除，且所有成员的授权也将被取消。',
+  PROJECT_VALUE: '项目：{value}',
+  PROJECT_ROLE_VALUE: '项目角色：{value}',
+  DEVOPS_VALUE: 'DevOps 项目：{value}',
+  DEVOPS_PROJECT_ROLES_VALUE: 'DevOps 项目角色：{value}',
   // List > Set Departments > Workspace Role
-  WORKSPACE_ROLE: 'Workspace Role',
-  GROUP_WORKSPACE_ROLE_DESC: 'The workspace role will be assigned to all members in the department.',
-  MEMBER_CLUSTER_UPGRADE_TIP: 'Member clusters with versions earlier than {version} do not support this function. Please upgrade the member clusters to {version} or later.',
+  WORKSPACE_ROLE: '企业空间角色',
+  GROUP_WORKSPACE_ROLE_DESC: '企业空间角色将授予部门中的所有用户。',
+  MEMBER_CLUSTER_UPGRADE_TIP: '低于 {version} 版本的成员集群不支持此功能, 请将成员集群升级到 {version} 或以上版本。',
   // List > Set Departments > Project Role
-  PROJECT_ROLE: 'Project Role',
-  SELECT_ROLE_TIP: 'Please select a role.',
-  ADD_PROJECT: 'Add Project',
-  CLUSTER_UPGRADE_REQUIRED: 'The current KubeSphere version does not support this feature. Please upgrade KubeSphere to {version} or later.',
+  PROJECT_ROLE: '项目角色',
+  SELECT_ROLE_TIP: '请选择角色。',
+  ADD_PROJECT: '添加项目',
+  CLUSTER_UPGRADE_REQUIRED: '当前 KubeSphere 版本不支持此功能，请将 KubeSphere 升级到 {version} 或以上版本。',
   // List > Set Departments > DevOps Project Role
-  DEVOPS_PROJECT_ROLE: 'DevOps Project Role',
-  ADD_DEVOPS_PROJECT: 'Add DevOps Project'
+  DEVOPS_PROJECT_ROLE: 'DevOps 项目角色',
+  ADD_DEVOPS_PROJECT: '添加 DevOps 项目'
 };
