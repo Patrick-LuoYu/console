@@ -26,9 +26,9 @@ module.exports = {
   // Details
   // Resource Status
   // Revision Records
-  REVISION_RECORDS_DESC: 'A revision record is generated after the workload is created or modified, which can be used to roll back the workload settings. A maximum of 10 revision records can be retained.',
+  REVISION_RECORDS_DESC: '系统在工作负载创建或修改后将生成修改记录，可用于回退工作负载设置。最多可保留 10 条修改记录。',
   // Metadata
   // Monitoring
   // Environment Variables
-  ENVIRONMENT_VARIABLE: 'Environment Variable'
+  ENVIRONMENT_VARIABLE: '环境变量'
 };
