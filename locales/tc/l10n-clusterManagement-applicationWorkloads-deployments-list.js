@@ -17,49 +17,49 @@
  */
 module.exports = {
   // Banner
-  APPLICATION_WORKLOAD_PL: '应用负载',
-  WORKLOAD_PL: '工作负载',
+  APPLICATION_WORKLOAD_PL: '應用負載',
+  WORKLOAD_PL: '工作負載',
   // List
   DEPLOYMENTS: '部署',
-  UPDATE_TIME_TCAP: '更新时间',
-  ALL_PROJECTS: '全部项目',
+  UPDATE_TIME_TCAP: '更新時間',
+  ALL_PROJECTS: '全部項目',
   // List > Create > Basic Information
-  SELECT_PROJECT_DESC: '选择将要创建资源的项目。',
-  PROJECT_NOT_SELECT_DESC: '请选择一个项目。',
-  BASIC_INFORMATION: '基本信息',
-  NAME: '名称',
-  FEDPROJECT_RESOURCE_TIP: '无法在集群管理内创建多集群项目的资源, 请到多集群项目页面内进行操作。',
-  FINISHED: '已设置',
-  NOT_SET: '未设置',
+  SELECT_PROJECT_DESC: '選擇一個項目。',
+  PROJECT_NOT_SELECT_DESC: '請選擇一個項目。',
+  BASIC_INFORMATION: '基本資訊',
+  NAME: '名稱',
+  FEDPROJECT_RESOURCE_TIP: '無法在集群管理内創建多集群項目的資源, 請到多集群項目頁面内進行操作.',
+  FINISHED: '已設置',
+  NOT_SET: '未設置',
   CURRENT: '当前',
-  PROJECT: '项目',
+  PROJECT: '項目',
   // List > Create > Pod Settings
   PREVIOUS: '上一步',
-  NOTE: '备注',
+  NOTE: '請注意',
   // List > Create > Pod Settings > Add Container > Container Settings
-  IMAGE: '镜像',
-  IMAGE_VALUE: '镜像：{value}',
+  IMAGE: '鏡像',
+  IMAGE_VALUE: '鏡像：{value}',
   // List > Create > Pod Settings > Add Container > Health Check > Readiness Check > TCP Port
   PORT_NUMBER_EMPTY: '请输入端口号。',
-  USER: '用户',
+  USER: '用戶',
   // List > Create > Volume Settings
-  VOLUME_NAME_EXIST: '存储卷名称已存在。',
-  SELECT_TYPE: '选择{type}',
-  SPECIFY_SUBPATH: '指定子路径',
-  SPECIFY_SUBPATH_TIP: '指定需要挂载到容器的存储卷子路径。',
+  VOLUME_NAME_EXIST: '儲存卷名稱已使用',
+  SELECT_TYPE: '選擇{type}',
+  SPECIFY_SUBPATH: '點擊添加子路徑',
+  SPECIFY_SUBPATH_TIP: '僅適用於儲存卷掛載，不適用於主機路徑映射',
   // List > Create > Advanced Settings
   NETWORK_SEGMENT_SCAP: '网段',
-  AVAILABLE_ADDRESSES: '可用地址数量',
-  POD_IP_POOL: '容器组 IP 池',
-  SUBPATH: '子路径',
+  AVAILABLE_ADDRESSES: '可用數量',
+  POD_IP_POOL: '容器組 IP 地址範圍',
+  SUBPATH: '子路徑',
   // List > Create > Advanced Settings > Add Metadata
   ANNOTATION_PL: '注解',
-  CREATE_SUCCESSFUL: '创建成功。',
+  CREATE_SUCCESSFUL: '創建成功',
   // List > Edit Information
   // List > Edit YAML
   // List > Re-create
   // List > Delete
-  WORKLOAD_LOW: '工作负载',
+  WORKLOAD_LOW: '工作負載',
   // List > Stop
   STOP: '停止',
   STOP_TITLE_SI: '停止{type}',
