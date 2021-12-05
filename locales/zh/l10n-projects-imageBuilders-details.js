@@ -17,36 +17,36 @@
  */
 module.exports = {
   // Details
-  COPIED_SUCCESSFUL: 'Copied successfully.',
-  BUILDER_IMAGE: 'Builder Image',
-  PULL_POLICY: 'Pull Policy',
-  SOURCE_URL: 'Source URL',
-  REMOTE_TRIGGER: 'Remote Trigger',
+  COPIED_SUCCESSFUL: '复制成功',
+  BUILDER_IMAGE: '构建器镜像',
+  PULL_POLICY: '拉取策略',
+  SOURCE_URL: '源 URL',
+  REMOTE_TRIGGER: '远程触发器',
   // Run
-  NEW_TAG_DESC: 'enter tag of the new image',
+  NEW_TAG_DESC: '输入重新构建镜像的标签',
   // More > Edit Information
   // More > Edit YAML
   // More > Delete
-  IMAGE_BUILDER: 'Image Builder',
-  IMAGE_BUILDER_LOW: 'image builder',
+  IMAGE_BUILDER: '镜像构建器',
+  IMAGE_BUILDER_LOW: '镜像构建器',
   // Run Records
-  JOB_RECORDS: 'Job Records',
-  LAST_BUILD_ENVIRONMENT: 'Last Build Environment',
-  BUILDER_IMAGE_SCAP: 'Builder image',
-  FILE_SIZE: 'File size: {size}',
-  DOWNLOAD_ARTIFACT: 'Download Artifact',
-  ARTIFACT_FILE: 'Artifact File',
-  LOG_MODULE_NOT_INSTALLED: 'The logging module is not installed.',
-  LOADING_DOTS: 'Loading...',
-  IMAGE_NAME_SCAP: 'Image name',
-  IMAGE_SIZE_SCAP: 'Image size',
-  IMAGE_NAME_BUILDING: 'Image: {name}/Building',
-  IMAGE_NAME_FAILED: 'Image: {name}/Failed',
-  IMAGE_NAME_SUCCESSFUL: 'Image: {name}/Successful',
-  LAST_MESSAGE_SCAP: 'Last message',
-  START_TIME_SCAP: 'Start time',
+  JOB_RECORDS: '任务记录',
+  LAST_BUILD_ENVIRONMENT: '最后构建环境',
+  BUILDER_IMAGE_SCAP: '构建器镜像',
+  FILE_SIZE: '文件大小：{size}',
+  DOWNLOAD_ARTIFACT: '下载制品',
+  ARTIFACT_FILE: '制品文件',
+  LOG_MODULE_NOT_INSTALLED: '日志模块未安装。',
+  LOADING_DOTS: '加载中...',
+  IMAGE_NAME_SCAP: '镜像名称',
+  IMAGE_SIZE_SCAP: '镜像大小',
+  IMAGE_NAME_BUILDING: '镜像：{name}/构建中',
+  IMAGE_NAME_FAILED: '镜像：{name}/失败',
+  IMAGE_NAME_SUCCESSFUL: '镜像：{name}/成功',
+  LAST_MESSAGE_SCAP: '最后消息',
+  START_TIME_SCAP: '开始时间',
   // Resource Status
   // Image Artifacts
-  IMAGE_ARTIFACTS: 'Image Artifacts',
-  RELEASE_TIME_SCAP: 'Release time'
+  IMAGE_ARTIFACTS: '镜像制品',
+  RELEASE_TIME_SCAP: '发布时间'
 };
