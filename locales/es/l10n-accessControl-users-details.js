@@ -23,7 +23,7 @@ module.exports = {
   // More > Delete
   // Details
   // Login History
-  TIME: 'Time',
+  TIME: 'Hora',
   SOURCE_IP_ADDRESS: 'Source IP Address',
   LOGIN_HISTORY: 'Login History',
   NO_LOGIN_HISTORY: 'No login history is found.',
