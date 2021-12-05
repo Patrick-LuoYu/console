@@ -17,7 +17,7 @@
  */
 module.exports = {
   // More
-  MORE: '更多操作',
+  MORE: 'More',
   // More > View YAML
-  VIEW_YAML: '查看 YAML'
+  VIEW_YAML: 'View YAML'
 };
