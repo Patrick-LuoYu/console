@@ -19,27 +19,27 @@ module.exports = {
   // Details
   // More > Update Gateway
   // More > Delete
-  GATEWAY_LOW: 'gateway',
+  GATEWAY_LOW: '网关',
   // Monitoring
-  REQUEST_COUNT: 'Requests',
-  NETWORK_TRAFFIC: 'Network Traffic',
-  CONNECTION_COUNT: 'Connections',
-  FAILED_REQUEST_COUNT: 'Failed Requests',
-  AVERAGE_LATENCY: 'Average Latency',
-  P_FIFTY_LATENCY: 'P50 Latency',
-  P_NINETY_FIVE_LATENCY: 'P95 Latency',
-  P_NINETY_NINE_LATENCY: 'P99 Latency',
-  FOUR_XX_REQUEST_COUNT: '4XX Requests',
-  FIVE_XX_REQUEST_COUNT: '5XX Requests',
-  TOTAL_REQUESTS: 'Total Requests',
-  SUCCESSFUL_REQUESTS: 'Successful Requests',
+  REQUEST_COUNT: '请求数量',
+  NETWORK_TRAFFIC: '网络流量',
+  CONNECTION_COUNT: '连接数量',
+  FAILED_REQUEST_COUNT: '失败请求数量',
+  AVERAGE_LATENCY: '平均延迟',
+  P_FIFTY_LATENCY: 'P50 延迟',
+  P_NINETY_FIVE_LATENCY: 'P95 延迟',
+  P_NINETY_NINE_LATENCY: 'P99 延迟',
+  FOUR_XX_REQUEST_COUNT: '4XX 请求数量',
+  FIVE_XX_REQUEST_COUNT: '5XX 请求数量',
+  TOTAL_REQUESTS: '总请求数量',
+  SUCCESSFUL_REQUESTS: '成功请求',
   // Configuration Options
-  CONFIGURATION_OPTIONS: 'Configuration Options',
+  CONFIGURATION_OPTIONS: '配置选项',
   // Gateway Logs
-  GATEWAY_LOGS: 'Gateway Logs',
-  LOGGING_DISABLED: 'Logging Disabled',
-  REFRESH_INTERVAL_VALUE: 'Refresh interval: {value}s',
-  EXPORT_LOGS: 'Export Logs',
+  GATEWAY_LOGS: '网关日志',
+  LOGGING_DISABLED: '日志组件未开启',
+  REFRESH_INTERVAL_VALUE: '刷新间隔：{value}s',
+  EXPORT_LOGS: '导出日志',
   // Resource Status > Replica Status
-  GATEWAYS_REPLICA_DESC: 'Deployment is used to describe the desired target state of the application. It is mainly used to describe the stateless application. The number and state of replicas are maintained by the controller behind it to ensure that the state is consistent with the defined desired state. You can increase the number of replicas to meet higher loads; roll back the deployed version to eliminate erroneous changes to the program; create an autoscaler to flexibly respond to the load in different scenarios.'
+  GATEWAYS_REPLICA_DESC: '部署（Deployment）用来描述期望应用达到的目标状态，主要用来描述无状态应用，副本的数量和状态由其背后的控制器来维护，确保状态与定义的期望状态一致。您可以增加副本数量来满足更高负载；回滚部署的版本来消除程序的错误修改；创建自动伸缩器来弹性应对不同场景下的负载。'
 };
