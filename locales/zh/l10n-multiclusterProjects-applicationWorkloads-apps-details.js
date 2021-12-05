@@ -21,18 +21,18 @@ module.exports = {
   // More > Delete
   // Details
   // Resource Status
-  APPLICATION_GOVERNANCE_SCAP: 'Application governance',
-  NO_SERVICE_FOUND: 'No Service Found',
+  APPLICATION_GOVERNANCE_SCAP: '应用治理',
+  NO_SERVICE_FOUND: '未发现服务',
   // External Access
-  GATEWAY_IP_ADDRESS: 'Gateway IP address',
-  GATEWAY_ACCESS_MODE: 'Gateway access mode',
-  NODE_PORTS_SCAP: 'Node ports',
-  LOAD_BALANCER_SCAP: 'Load balancer',
-  LOAD_BALANCERS_SCAP: 'Load balancers',
+  GATEWAY_IP_ADDRESS: '网关 IP 地址',
+  GATEWAY_ACCESS_MODE: '网关访问模式',
+  NODE_PORTS_SCAP: '节点端口',
+  LOAD_BALANCER_SCAP: '负载均衡器',
+  LOAD_BALANCERS_SCAP: '负载均衡器',
   // Traffic Management
-  TRAFFIC_MANAGEMENT: 'Traffic Management',
+  TRAFFIC_MANAGEMENT: '流量管理',
   // Tracing
-  APPLICATION_GOVERNANCE_ENABLED: 'Application governance enabled',
-  APPLICATION_GOVERNANCE_DISABLED: 'Application governance disabled',
-  TRACING_UNAVAILABLE: 'Tracing Unavailable'
+  APPLICATION_GOVERNANCE_ENABLED: '应用治理已开启',
+  APPLICATION_GOVERNANCE_DISABLED: '应用治理已关闭',
+  TRACING_UNAVAILABLE: '暂时无法使用链路追踪'
 };
