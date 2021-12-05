@@ -15,78 +15,25 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 module.exports = {
-  CREATE_DEVOPS_PROJECT: 'Crear Proyecto DevOps',
-  DELETE_MULTIPLE_DEVOPS_PROJECTS: 'Delete Multiple DevOps Projects',
-  DELETE_DEVOPS_PROJECT: 'Eliminar Proyecto DevOps',
-  DELETE_DEVOPS_PROJECT_TIP:
-    'Enter the DevOps project name <strong>{resource}</strong> to confirm that you understand the risks of this operation.',
-  DELETE_DEVOPS_PROJECT_TIP_PL:
-    'Enter the DevOps project names <strong>{resource}</strong> to confirm that you understand the risks of this operation.',
   'DevOps Basic Info': 'Información básica de DevOps',
   DEVOPS_PROJECT_CREDENTIAL_PL: 'Credenciales de Proyecto DevOps',
   DEVOPS_CREDENTIAL: 'DevOps Credential',
-  DEVOPS_CREDENTIAL_PL: 'Credenciales de DevOps',
-  CREDENTIAL_EMPTY_DESC: 'Please create a DevOps project credential.',
-  PIPELINE_CREDENTIAL_EMPTY_TIP: 'Please select a credential.',
   DEVOPS_CREDENTIAL_LOW: 'DevOps credential',
   'DevOps Member': 'Miembro de DevOps',
   'DevOps Members': 'Miembros de DevOps',
   DEVOPS_NAME: 'Nombre',
-  DEVOPS_PROJECT: 'Proyecto DevOps',
-  DEVOPS_PROJECT_SCAP: 'DevOps project',
-  DEVOPS_PROJECT_MEMBER_EMPTY_DESC:
-    'Please invite a member of the current workspace to the DevOps project.',
+  DEVOPS_PROJECT_MEMBER: 'DevOps Project Member',
   'DevOps Project Manager': 'Gestor de Proyecto DevOps',
   'DevOps Role': 'Rol de DevOps',
   'DevOps Roles': 'Roles de DevOps',
-  MANAGER: 'Gestor',
   DEVOPS_PROJECT_MANAGEMENT: 'Gestión de proyectos',
-  DEVOPS_PROJECT_SETTINGS: 'Gestión de proyectos',
   MANAGE_DEVOPS_PROJECT: 'Manage DevOps Project',
-  DEVOPS_PROJECT_MEMBER_PL: 'Miembros del proyecto',
-  DEVOPS_PROJECT_MEMBER_SCAP: 'DevOps project member',
-  DEVOPS_PROJECT_MEMBER_PL_SCAP: 'DevOps project members',
-  DEVOPS_PROJECT_ROLE_PL: 'Roles del proyecto',
-  DEVOPS_PROJECT_ROLE_PL_SCAP: 'DevOps project roles',
   DEVOPS_BASEINFO_DESC: 'Introduce la información básica del proyecto DevOps',
-  DEVOPS_DESCRIPTION:
-    'DevOps es un namespace separado que define un conjunto de pipelines. Los usuarios pueden agrupar sus pipelines ellos mismos (por ejemplo, por tipo de proyecto y tipo de organización).',
-  DEVOPS_PROJECT_CREATE_DESC:
-    'DevOps es un namespace separado que define un conjunto de pipelines. Los usuarios pueden agrupar sus pipelines ellos mismos (por ejemplo, por tipo de proyecto y tipo de organización).',
-  DEVOPS_PROJECT_EMPTY_DESC: 'Please create a DevOps project.',
-  PIPELINE_EMPTY_DESC: 'Please create a pipeline.',
-  DEVOPS_ADMIN_DESC:
-    'Puedes especificar un miembro del proyecto como administrador',
   NO_RELATE_DEVOPS_TITLE: 'No hay ningún proyecto DevOps asociado a ti',
-  NO_RELATE_DEVOPS_DESC:
-    'Puedes crear un proyecto o ponerte en contacto con el gestor del proyecto para que te invite al proyecto DevOps y comenzar tu trabajo.',
-  DEVOPS_CREDENTIALS_DESC:
-    'La credencial es un objeto que contiene datos confidenciales, como por ejemplo un nombre de usuario y contraseña, una clave SSH o un token. Se utiliza para proporcionar autenticación en el proceso de descarga de código, push / pull de imágenes, ejecución de scripts SSH, etc., cuando se está ejecutando una pipeline.',
-  DEVOPS_PROJECT_ROLES_DESC:
-    'Los roles de proyecto definen los permisos que los usuarios tienen en el proyecto DevOps actual.',
-  DEVOPS_PROJECT_MEM_DESC:
-    'Gestionar y asignar roles a los miembros del proyecto.',
-  DELETE_DEVOPS_TIP:
-    '¿Estás seguro de eliminar el proyecto DevOps <strong>{resource}</strong>? Después de la eliminación, no podrás recuperarlo y los recursos del proyecto DevOps también serán destruidos.',
-  DEVOPS_TIP_GITOPS_Q: '¿Cómo comenzar con DevOps?',
-  DEVOPS_PROJECT_ROLE_EMPTY_DESC: 'Please create a DevOps project role.',
-  DEVOPS_TIP_GITOPS_A:
-    'Puedes comenzar a usar DevOps creando una pipeline asociada con el repositorio de código e implementando pasos con Kubernetes.',
-  DEVOPS_TIP_TYPE_Q:
-    '¿Qué repositorios de código son compatibles con Pipeline?',
-  DEVOPS_TIP_TYPE_A:
-    'Pipeline admite repositorios de código Git, GitHub, Gitlab, SVN y Bitbucket.',
-  NO_DEVOPS_INSTALL: 'DevOps no instalado',
-
+  NO_RELATE_DEVOPS_DESC: 'Puedes crear un proyecto o ponerte en contacto con el gestor del proyecto para que te invite al proyecto DevOps y comenzar tu trabajo.',
+  DEVOPS_PROJECT_CREDENTIALS_DESC: 'Credentials are objects that contain sensitive data, such as usernames and passwords, SSH keys, and tokens, to provide authentication for pulling code, pushing or pulling images, executing SSH scripts, and so on when a pipeline is running.',
+  DELETE_DEVOPS_TIP: '¿Estás seguro de eliminar el proyecto DevOps <strong>{resource}</strong>? Después de la eliminación, no podrás recuperarlo y los recursos del proyecto DevOps también serán destruidos.',
   // Credentials Creation Page
-  CONTENT: 'Content',
-  INVALID_ID_TIP:
-    'The ID can contain only lowercase letters, numbers, and hyphens (-), and must start and end with a lowercase letter or number. The maximum length is 63 characters.',
-
-  // CRDs > Details
-  PROJECT_DEVOPS_PROJECT: 'Project/DevOps Project',
-  KUBERNETES_DEPLOY_DEPRECATED_TIP:
-    'This step will be deprecated in subsequent versions, and it is recommended to consider other alternatives.',
-}
+  INVALID_ID_TIP: 'The ID can contain only lowercase letters, numbers, and hyphens (-), and must start and end with a lowercase letter or number. The maximum length is 63 characters.'
+};
