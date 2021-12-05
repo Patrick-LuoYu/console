@@ -21,37 +21,37 @@ module.exports = {
   CLUSTER: '集群',
   // Resource Status > Containers
   CONTAINER_PL: '容器',
-  PROBE_PL: '探针',
+  PROBE_PL: '探針',
   // Resource Status > Containers > Container Logs
-  CONTAINER_LOGS_NOT_SUPPORTED: '容器在当前不支持实时日志，请稍后重试。',
-  CONTAINER_LOGS: '容器日志',
+  CONTAINER_LOGS_NOT_SUPPORTED: '容器在目前狀態下不支持實時紀錄，請稍後再試',
+  CONTAINER_LOGS: '容器紀錄',
   // Resource Status > Details > Container Details > Details
   COMMAND: '命令',
-  IMAGE_ID: '镜像 ID',
-  IMAGE_PULL_POLICY: '镜像拉取策略',
-  CONTAINER_DETAILS_PAGE_SCAP: '容器详情页。',
+  IMAGE_ID: '鏡像 ID',
+  IMAGE_PULL_POLICY: '鏡像拉取策略',
+  CONTAINER_DETAILS_PAGE_SCAP: '容器詳情頁。',
   // Resource Status > Details > Container Details > Terminal
-  LOADING: '加载中...',
-  RESOURCE_LIMITS: '资源限制',
-  RESOURCE_REQUESTS: '资源预留',
-  TERMINAL: '终端',
+  LOADING: '載入中',
+  RESOURCE_LIMITS: '資源限制',
+  RESOURCE_REQUESTS: '資源預留',
+  TERMINAL: '終端',
   // Resource Status > Details > Container Details > Resource Status
-  RESTART_PL: '重启次数',
+  RESTART_PL: '重啟次數',
   RESTART: '重启次数',
-  STORAGE_DEVICES: '存储设备',
-  LIVENESS_PROBE: '存活探针',
-  READINESS_PROBE: '就绪探针',
-  STARTUP_PROBE: '启动探针',
+  STORAGE_DEVICES: '儲存設備',
+  LIVENESS_PROBE: '存活探針',
+  READINESS_PROBE: '就緒探針',
+  STARTUP_PROBE: '啟動探針',
   // Resource Status > Details > Container Details > Monitoring
   // Resource Status > Details > Container Details > Environment Variables
   // Resource Status > Details > Container Details > Container Logs
-  NO_RESOURCE: '未发现{resource}。',
-  LOG_DATA_LOW: '日志信息',
+  NO_RESOURCE: '暫時沒有 {resource}。',
+  LOG_DATA_LOW: '紀錄數據',
   // Resource Status > Volumes
-  TYPE_CONFIGMAP: '存储卷类型：配置字典',
-  TYPE_SECRET: '存储卷类型：保密字典',
+  TYPE_CONFIGMAP: 'Volume type: ConfigMap',
+  TYPE_SECRET: 'Volume type: Secret',
   TYPE_EMPTYDIR: '存储卷类型：EmptyDir',
-  TYPE_HOSTPATH: '存储卷类型：HostPath',
+  TYPE_HOSTPATH: 'Volume type: HostPath',
   // Scheduling Information
   REASON_VALUE: '原因：{value}',
   MESSAGE_VALUE: '消息：{value}',
