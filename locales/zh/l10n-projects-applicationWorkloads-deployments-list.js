@@ -18,43 +18,43 @@
 module.exports = {
   // Banner
   // List
-  HPA_SET_TIP: 'Horizontal pod autoscaling has been set.',
-  WORKLOAD_EMPTY_DESC: 'Please create a workload.',
+  HPA_SET_TIP: '已设置容器组水平自动扩缩策略。',
+  WORKLOAD_EMPTY_DESC: '请创建一个工作负载。',
   // List > Create > Basic Information
   // List > Create > Pod Settings
   // List > Create > Pod Settings > Add Container > Container Settings
-  INVALID_IMAGE: 'Invalid image.',
-  INVALID_NAME_DESC: 'Invalid name. The name can contain only lowercase letters, numbers, and hyphens (-), and must start and end with a lowercase letter or number. The maximum length is 63 characters.',
-  NO_IMAGE_FOUND: 'No Image Found',
-  CONTAINER_EMPTY_DESC: 'Please add at least one container.',
+  INVALID_IMAGE: '镜像无效。',
+  INVALID_NAME_DESC: '名称无效。名称只能包含小写字母、数字和连字符（-），必须以小写字母或数字开头和结尾，最长 63 个字符。',
+  NO_IMAGE_FOUND: '没有找到镜像',
+  CONTAINER_EMPTY_DESC: '请至少添加一个容器。',
   // List > Create > Pod Settings > Port Settings
-  WORKLOAD_PORT_NAME_DESC: 'The port name can contain only lowercase letters, numbers and hyphens (-), and must start and end with a lowercase letter or number. The maximum length is 15 characters.',
+  WORKLOAD_PORT_NAME_DESC: '端口名称只能包含小写字母、数字及分隔符（-），且必须以小写字母或数字开头及结尾，最长 15 个字符。',
   // List > Create > Pod Settings > Update Strategy > Rolling Update Settings
-  MAX_EXTRA_PODS_DESC: 'Maximum number or percentage of extra pods allowed during the update process.',
-  MAX_EXTRA_PODS: 'Maximum Extra Pods',
+  MAX_EXTRA_PODS_DESC: '更新过程中允许的多余容器组副本的最大数量或百分比。',
+  MAX_EXTRA_PODS: '最大多余容器组数量',
   // List > Create > Volume Settings
-  AVAILABLE: 'Available',
-  IN_USER: 'In use',
-  ACCESS_MODE_SCAP: 'Access mode',
-  VOLUME_OR_TEMPLATE_EMPTY: 'You have enabled Collect Logs on Volumes. Please mount at least one volume or volume template and specify the directory of the logs.',
-  VOLUME_EMPTY: 'You have enabled Collect Logs on Volumes. Please mount at least one volume and specify the directory of the logs.',
-  PROJECT_COLLECT_SAVED_DISABLED_DESC: 'To enable this function, you need to enable Collect Logs on Volumes in Project Settings.',
-  COLLECT_LOGS_ON_VOLUMES_DESC: 'Allow the system to collect container logs saved on volumes. To use this function, you need to mount a volume in read and write mode to a container and set the container to export logs to the volume.',
+  AVAILABLE: '可用',
+  IN_USER: '使用中',
+  ACCESS_MODE_SCAP: '访问模式',
+  VOLUME_OR_TEMPLATE_EMPTY: '您已开启收集存储卷上的日志，请至少挂载一个存储卷或存储卷模板并指定日志所在的目录。',
+  VOLUME_EMPTY: '您已开启收集存储卷上的日志，请至少挂载一个存储卷并指定日志所在的目录。',
+  PROJECT_COLLECT_SAVED_DISABLED_DESC: '如需开启此功能，您需要在项目设置中开启收集存储卷上的日志。',
+  COLLECT_LOGS_ON_VOLUMES_DESC: '允许系统收集保存在存储卷上的容器日志。如需使用此功能，请为容器挂载读写模式的存储卷并设置容器将日志导出到存储卷。',
   // List > Create
   // List > Create > Volume Settings > Mount Volume
-  CONTAINER_LOG_PATH: 'Container log path',
+  CONTAINER_LOG_PATH: '容器日志路径',
   // List > Create > Volume Settings > Mount Volume > Temporary Volume (Question Mark)
-  CONTAINER_LOG_PATH_TIP: 'Container log path relative to the volume mount path. Globbing patterns are supported. You can used commas (,) to separate multiple paths.<br /><br /><b>Example</b><br />When the volume mount path is /data, log/*.log indicates that the container log files are all .log files in the /data/log directory.',
+  CONTAINER_LOG_PATH_TIP: '容器日志的路径，相对于存储卷的挂载路径，支持通配符，可使用半角逗号（,）分隔多个路径。例如，当存储卷挂载路径为 /data 时，log/*.log 表示日志文件为 /data/log 目录下所有 .log 格式的文件。',
   // List > Create > Advanced Settings
   // List > Edit Information
   // List > Edit YAML
   // List > Re-create
-  RECREATE_CONFIRM_DESC: 'Are you sure you want to re-create the {type} {resource}? The pod replicas will be updated according to the update strategy and the service will be interrupted.',
+  RECREATE_CONFIRM_DESC: '您确定重新创建{type} {resource} 吗？容器组副本将会根据更新策略更新，同时相关业务将会中断。',
   // List > Delete
-  NO_WORKLOAD_RELATED_RESOURCE_DESC: 'No resource related to the workload is found.',
-  SELECT_ALL: 'Select All',
-  DELETE_WORKLOAD_DESC_SI: 'You are about to delete the workload {resource}.<br/>Do you want to also delete the resource related to the workload?',
-  DELETE_WORKLOAD_DESC_PL: 'You are about to delete the workloads {resource}.<br/>Do you want to also delete the resources related to the workloads?',
-  DELETE_WORKLOAD: 'Delete Workload',
-  DELETE_MULTIPLE_WORKLOADS: 'Delete Multiple Workloads'
+  NO_WORKLOAD_RELATED_RESOURCE_DESC: '当前工作负载没有关联的资源。',
+  SELECT_ALL: '选择全部',
+  DELETE_WORKLOAD_DESC_SI: '您即将删除工作负载 {resource}。<br/>请确认是否同时删除以下与工作负载关联的资源。',
+  DELETE_WORKLOAD_DESC_PL: '您即将删除工作负载 {resource}。<br/>请确认是否同时删除以下与工作负载关联的资源。',
+  DELETE_WORKLOAD: '删除工作负载',
+  DELETE_MULTIPLE_WORKLOADS: '批量删除工作负载'
 };
