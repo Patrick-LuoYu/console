@@ -18,8 +18,8 @@
 module.exports = {
   // Banner
   APPS: '应用',
-  APP_STORE_MANAGEMENT: '应用商店管理',
-  APP_STORE_DESC: '管理应用商店中的应用。您可以查看应用的信息并上架或下架应用。',
+  APP_STORE_MANAGEMENT: '應用商店管理',
+  APP_STORE_DESC: '對已上架、已下架的應用進行管理',
   // List
-  APP_CATEGORY: '应用分类'
+  APP_CATEGORY: '應用分類'
 };
