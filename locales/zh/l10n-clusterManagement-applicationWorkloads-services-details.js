@@ -17,11 +17,11 @@
  */
 module.exports = {
   // Details
-  CUSTOM_SERVICE: '自定义服务',
+  CUSTOM_SERVICE: 'Custom Service',
   VIRTUAL_IP: 'VirtualIP',
   // Resource Status
-  CONTAINER_PORT_SCAP: '容器端口',
-  SERVICE_PORT_SCAP: '服务端口',
-  NO_AVAILABLE_RESOURCE_VALUE: '未发现可用{resource}',
-  NO_RESOURCE_FOUND: '未发现资源'
+  CONTAINER_PORT_SCAP: 'Container port',
+  SERVICE_PORT_SCAP: 'Service port',
+  NO_AVAILABLE_RESOURCE_VALUE: 'No Available {resource}',
+  NO_RESOURCE_FOUND: 'No Resource Found'
 };
