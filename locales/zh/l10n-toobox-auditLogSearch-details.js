@@ -23,10 +23,10 @@ module.exports = {
   STOP_REAL_TIME_AUDIT_LOG: 'View real-time audit logs',
   TIME_S: '{num}s',
   // Time Topology > Histogram
-  AUDIT_LOG_COUNT: 'Audit Logs',
+  AUDIT_LOG_COUNT: '审计日志数量',
   // List
-  RESOURCE_NAME_AND_TYPE: 'Resource Type & Name',
-  VERB: 'Verb',
-  STATUS_CODE: 'Status Code',
-  SUBRESOURCE: 'Subresource'
+  RESOURCE_NAME_AND_TYPE: '资源类型与名称',
+  VERB: '操作行为',
+  STATUS_CODE: '状态码',
+  SUBRESOURCE: '子资源'
 };
