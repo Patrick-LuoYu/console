@@ -18,7 +18,7 @@
 module.exports = {
   // Banner
   // List
-  CRONJOB_EMPTY_DESC: 'Please create a cronjob.',
+  CRONJOB_EMPTY_DESC: 'CronJobs manages Jobs on a time-based schedule and can be used to perform periodic or recurring tasks.',
   // List > Create > Basic Information
   EVERY_DAY: '0 0 * * * (every day)',
   EVERY_HOUR: '0 * * * * (every hour)',
@@ -31,6 +31,6 @@ module.exports = {
   // List > Edit Information
   // List > Edit YAML
   // List > Start/Pause
-  PAUSE: 'Pause',
-  START: 'Start'
+  PAUSE: 'Pausa',
+  START: 'Inicio'
 };
