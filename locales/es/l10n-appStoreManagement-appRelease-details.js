@@ -32,9 +32,9 @@ module.exports = {
   NO_UPDATE_LOG_DESC: 'No update log is found.',
   // Reject
   REJECT: 'Reject',
-  REJECT_REASON_DESC: 'Enter reasons for rejection of the app review.',
-  REJECT_REASON_TIP: 'Please enter at least one reason for rejection.',
-  REJECT_SUCCESSFUL: 'Rejected successfully.',
+  REJECT_REASON_DESC: 'Complete los motivos de rechazo de la revisión, por favor.',
+  REJECT_REASON_TIP: 'Introduce un motivo de rechazo, por favor',
+  REJECT_SUCCESSFUL: 'Rechazado Satisfactoriamente',
   // Release
   RELEASE: 'Release',
   RELEASE_SUCCESSFUL: 'Released successfully.'
