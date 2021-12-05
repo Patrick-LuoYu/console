@@ -16,6 +16,6 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  principal: 'principal',
-  'project roles': 'project roles'
+  principal: '负责人',
+  'project roles': '项目角色'
 };
