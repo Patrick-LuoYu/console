@@ -16,21 +16,21 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  ADD_ANNOTATION: 'Add Annotation',
-  ADD_PATH_TCAP: 'Add Path',
-  'Add Path': 'Add Path',
+  ADD_ANNOTATION: '添加注解',
+  ADD_PATH_TCAP: '添加路径',
+  'Add Path': '添加 Path',
   'Auto Generate': 'Auto Generate',
-  VISIT: 'Visit',
-  'Create Route': 'Create Route',
-  EDIT_RULES: 'Edit Rules',
-  PATH_SI: 'Path',
-  Route: 'Route',
-  ROUTE_ANNOTATION_DESC: 'You can set route behavior by adding annotations to the route. See <a href="https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/" target="_blank">Annotations</a> for the detailed list of available annotations.',
-  RULE_SETTING_MODE_AUTO: 'The system will automatically generate a domain name in the &ltService name&gt.&ltProject name&gt.&ltGateway IP address&gt.nip.io format, and the domain name will be resolved by nip.io into the gateway IP address. This mode supports only HTTP.',
-  RULE_SETTING_MODE_SPECIFY: 'Customize a domain name and use the local hosts file or a DNS server to resolve the domain name into the gateway IP address.',
-  GATEWAY_SERVICE_MESH_STATUS_ON: 'On',
-  GATEWAY_SERVICE_MESH_STATUS_OFF: 'Off',
-  INGRESS_CONTROLLER_NODEPORT_DESC: 'If the gateway is enabled, the system will automatically assign port numbers of http and https. Application routes can access services through the reverse proxy.',
-  INGRESS_CONTROLLER_LOADBALANCER_DESC: 'To use QingCloud LoadBalancer as a service gateway, please deploy the QingCloud Cloud Controller Manager plugin first.',
-  UNABLE_CREATE_ROUTE_TIP: 'The available gateway address is not found in the current project so the application route cannot be created.'
+  VISIT: '访问',
+  'Create Route': '创建应用路由',
+  EDIT_RULES: '编辑规则',
+  PATH_SI: '路径',
+  Route: '应用路由',
+  ROUTE_ANNOTATION_DESC: '可以通过给应用路由添加注解来设置应用路由的行为。详细的可供配置的注解列表，参见 <a href="https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/" target="_blank">Annotations</a>。',
+  RULE_SETTING_MODE_AUTO: '系统将自动按照 &lt服务名称&gt.&lt项目名称&gt.&lt网关地址&gt.nip.io 格式生成域名，该域名将由 nip.io 自动解析为网关 IP 地址。此模式仅支持 HTTP 协议。',
+  RULE_SETTING_MODE_SPECIFY: '指定自定义域名并通过本地 hosts 文件或 DNS 服务器将域名解析为网关 IP 地址。',
+  GATEWAY_SERVICE_MESH_STATUS_ON: '已开启',
+  GATEWAY_SERVICE_MESH_STATUS_OFF: '未开启',
+  INGRESS_CONTROLLER_NODEPORT_DESC: '开启网关后，系统会自动分配 http 及 https 相应的端口号；应用路由可以通过反向代理的方式对服务进行访问。',
+  INGRESS_CONTROLLER_LOADBALANCER_DESC: '如需使用 QingCloud LoadBalancer 作为服务网关，需要部署 QingCloud Cloud Controller Manager 插件。',
+  UNABLE_CREATE_ROUTE_TIP: '当前项目中未发现可用的网关地址，无法创建应用路由。'
 };
