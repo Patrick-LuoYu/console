@@ -17,15 +17,15 @@
  */
 module.exports = {
   // Details
-  NETWORK: 'Network',
-  STARTING_IP_ADDRESS: 'Starting IP Address',
-  ENDING_IP_ADDRESS: 'Ending IP Address',
-  MASK: 'Mask',
+  NETWORK: '网络',
+  STARTING_IP_ADDRESS: '起始 IP 地址',
+  ENDING_IP_ADDRESS: '结束 IP 地址',
+  MASK: '掩码',
   // More > View YAML
   // More > Assign Workspace
   // More > Delete
   // Workspaces
-  WORKSPACES: 'Workspaces',
-  MANAGER: 'Manager',
-  IPPOOL_WORKSPACE_EMPTY_TIP: 'No workspace is using this pod IP pool.'
+  WORKSPACES: '企业空间',
+  MANAGER: '管理员',
+  IPPOOL_WORKSPACE_EMPTY_TIP: '未发现企业空间使用此 IP 池'
 };
