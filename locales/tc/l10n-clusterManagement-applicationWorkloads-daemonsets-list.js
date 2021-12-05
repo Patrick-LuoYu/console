@@ -18,36 +18,36 @@
 module.exports = {
   // Banner
   // List
-  DAEMONSETS: '守护进程集',
-  DAEMONSET_EMPTY_DESC: '请创建一个守护进程集。',
+  DAEMONSETS: '守護進程集',
+  DAEMONSET_EMPTY_DESC: 'Please create a DaemonSet.',
   // List > Create > Basic Information
   // List > Create > Pod Settings
   // List > Create > Pod Settings > Add Container > Update Strategy > Rolling Update Settings
-  MIN_READY_SECONDS: '容器组就绪最短运行时长（s）',
-  MAX_UNAVAILABLE_PODS: '最大不可用容器组数量',
-  ROLLING_UPDATE_SETTINGS: '滚动更新设置',
-  MAX_UNAVAILABLE_PODS_DESC: '更新过程中允许的不可用容器组副本的最大数量或百分比。',
-  MIN_READY_SECONDS_DESC: '容器组副本被视为就绪所需要的最短稳定运行时长。',
-  MIN_READY_SECONDS_EMPTY: '请设置容器组副本被视为就绪所需要的最短稳定运行时长。',
-  MAX_UNAVAILABLE_EMPTY: '请设置更新过程中允许的不可用容器组副本的最大数量或百分比。',
+  MIN_READY_SECONDS: '最小就緒時間 (MinReadySeconds)',
+  MAX_UNAVAILABLE_PODS: '容器組最大不可用數量',
+  ROLLING_UPDATE_SETTINGS: '更新時容器組數量',
+  MAX_UNAVAILABLE_PODS_DESC: '升級過程中「允許存在的不可用的容器組」所占總容器組數的最大百分比或數量',
+  MIN_READY_SECONDS_DESC: '指定守護進程集中容器組啟動可用所需的最小的秒數',
+  MIN_READY_SECONDS_EMPTY: 'Please set the minimum stable running time required for the Pod to be considered ready.',
+  MAX_UNAVAILABLE_EMPTY: 'Please set the maximum number of unavailable Pod replicas allowed during the update process.',
   // List > Create > Pod Settings > Add Container > Health Check > Liveness Check > HTTP Request
-  FAILURE_THRESHOLD: '失败阈值',
-  HTTP_REQUEST: 'HTTP 请求',
-  INITIAL_DELAY_S: '初始延迟（s）',
-  INITIAL_DELAY_TIMEOUT_VALUE: '{delay}s 初始延迟, {timeout}s 超时时间',
-  PROBE_TIME: '初始延时: {delay}s 超时时间:{timeout}s',
-  TIMEOUT_PERIOD_S: '超时时间（s）',
-  CHECK_INTERVAL_S: '检查间隔（s）',
-  SUCCESS_THRESHOLD: '成功阈值',
-  INITIAL_DELAY_DESC: '容器启动后探针启动前的延迟时间。',
-  TIMEOUT_PERIOD_DESC: '探针超时时间。探针超时后，检查将被视为失败。取值必须为整数，最小值为 0。',
-  CHECK_INTERVAL_DESC: '执行检查的时间间隔。取值必须为整数，最小值为 1。',
-  SUCCESS_THRESHOLD_DESC: '检查失败后再次被视为成功所需的最小连续成功次数。最小值为 1。对于存活探针和启动探针，此参数值必须为 1。',
-  FAILURE_THRESHOLD_DESC: '检查成功后再次被视为失败所需的最小连续失败次数。最小值为 1。',
+  FAILURE_THRESHOLD: '不健康臨界值',
+  HTTP_REQUEST: 'HTTP 請求檢查',
+  INITIAL_DELAY_S: '初始延遲（s）',
+  INITIAL_DELAY_TIMEOUT_VALUE: '{delay}s 初始延遲, {timeout}s 超時時間',
+  PROBE_TIME: '初始延時: {delay}s 超時時間:{timeout}s',
+  TIMEOUT_PERIOD_S: '超時時間（s）',
+  CHECK_INTERVAL_S: '執行探測頻率(秒)',
+  SUCCESS_THRESHOLD: '健康臨界值',
+  INITIAL_DELAY_DESC: '在檢查其運行狀況之前，容器啟動後需要等待多長時間。',
+  TIMEOUT_PERIOD_DESC: '等待探針完成多長時間。如果超過時間，則認為探測失敗。預設為1秒。最小值為1。',
+  CHECK_INTERVAL_DESC: '執行探測的頻率（以秒為單位）。預設為10秒。最小值為1。',
+  SUCCESS_THRESHOLD_DESC: '探測失敗後，連續最小成功探測為成功。預設值為1。最小值為1。存活探針和啟動探針内必須為1。',
+  FAILURE_THRESHOLD_DESC: '探針進入失敗狀態時需要連續探測失敗的最小次數。',
   // List > Create > Pod Settings > Add Container > Health Check > Liveness Check > Command
-  PROBE_COMMAND_EMPTY: '请输入至少一条命令。',
+  PROBE_COMMAND_EMPTY: '請輸入命令',
   // List > Create > Pod Settings > Add Container > Health Check > Liveness Check > TCP Port
-  TCP_PORT: 'TCP 端口',
+  TCP_PORT: 'TCP 端口檢查',
   // List > Create > Volume Settings
-  MOUNT_PATH_IN_USE: '挂载路径已被使用，请输入其他挂载路径。'
+  MOUNT_PATH_IN_USE: '掛載路徑已使用'
 };
