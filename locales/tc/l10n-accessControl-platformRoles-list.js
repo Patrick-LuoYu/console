@@ -20,31 +20,31 @@ module.exports = {
   PLATFORM_ROLE_PL: '平台角色',
   // List
   PLATFORM_ROLE_EMPTY_DESC: '请创建一个平台角色。',
-  ROLE_USERS_MANAGER: '管理 KubeSphere 平台上的所有用户。',
-  ROLE_WORKSPACES_MANAGER: '管理 KubeSphere 平台上的所有企业空间。',
-  ROLE_PLATFORM_ADMIN: '管理 KubeSphere 平台上的所有资源。',
-  ROLE_PLATFORM_REGULAR: '被邀请加入企业空间之前无法访问任何资源。',
-  CREATION_TIME_TCAP: '创建时间',
+  ROLE_USERS_MANAGER: '平台用戶管理員，管理平台所有用戶。',
+  ROLE_WORKSPACES_MANAGER: '平台企業空間管理員，管理平台所有企業空間。',
+  ROLE_PLATFORM_ADMIN: '平台管理員，可以管理平台内的所有資源。',
+  ROLE_PLATFORM_REGULAR: '平台普通用戶，在被邀請加入企業空間或集群之前沒有任何資源操作權限。',
+  CREATION_TIME_TCAP: '創建時間',
   // List > Create
-  CREATE_PLATFORM_ROLE: '创建平台角色',
+  CREATE_PLATFORM_ROLE: '創建帳戶角色',
   // List > Create > Edit Permissions > Cluster Management
   CLUSTERS_MANAGEMENT: '集群管理',
   CLUSTERS_VIEW: '集群查看',
-  CLUSTERS_VIEW_DESC: '查看 KubeSphere 平台的所有集群及集群中的所有资源。',
-  CLUSTERS_MANAGEMENT_DESC: '创建集群、删除集群和管理集群中的所有资源。',
+  CLUSTERS_VIEW_DESC: '查看平台中所有的集群及集群下所有的資源',
+  CLUSTERS_MANAGEMENT_DESC: '創建刪除集群，管理所有集群下的資源',
   // List > Create > Edit Permissions > Access Control
-  USERS_MANAGEMENT: '用户管理',
-  USERS_VIEW: '用户查看',
-  WORKSPACES_MANAGEMENT_DESC: '创建、编辑和删除企业空间。',
-  USERS_MANAGEMENT_DESC: '创建、编辑和删除用户。',
-  ROLES_MANAGEMENT_DESC: '创建、编辑和删除角色。',
-  WORKSPACES_VIEW_DESC: '查看用户被授权的企业空间。',
-  ROLES_VIEW_DESC: '查看 KubeSphere 平台的所有角色。',
-  USERS_VIEW_DESC: '查看 KubeSphere 平台的所有用户。',
+  USERS_MANAGEMENT: '帳戶管理',
+  USERS_VIEW: '帳戶查看',
+  WORKSPACES_MANAGEMENT_DESC: '支持企業空間的管理，包括添加/刪除/編輯企業空間，查看平台的所有企業空間。',
+  USERS_MANAGEMENT_DESC: '支持帳戶的管理，包括添加/刪除/更新帳戶資訊',
+  ROLES_MANAGEMENT_DESC: '支持帳戶角色的管理，包括添加/刪除/更新帳戶角色',
+  WORKSPACES_VIEW_DESC: '可以查看用戶目前授權的企業空間',
+  ROLES_VIEW_DESC: '可以查看目前平台有哪些角色',
+  USERS_VIEW_DESC: '可以查看目前平台有哪些用戶',
   // List > Create > Edit Permissions > App Management
-  APP_TEMPLATES_VIEW_DESC: '查看 KubeSphere 平台的应用商店。',
-  APP_TEMPLATES_MANAGEMENT_DESC: '管理 KubeSphere 平台的应用商店。',
+  APP_TEMPLATES_VIEW_DESC: '查看平台級别的應用商店',
+  APP_TEMPLATES_MANAGEMENT_DESC: '管理平台級别的應用商店，對雲原生應用的上架、下架以及審核等應用全生命週期的統一管理。',
   // List > Create > Edit Permissions > Platform Settings
-  PLATFORM_SETTINGS_MANAGEMENT: '平台设置管理',
-  PLATFORM_SETTINGS_MANAGEMENT_DESC: '查看和编辑 KubeSphere平台的设置。'
+  PLATFORM_SETTINGS_MANAGEMENT: '平台設置管理',
+  PLATFORM_SETTINGS_MANAGEMENT_DESC: '管理平台設置，如自定義平台資訊，logo，配置紀錄收集，郵件通知等。'
 };
