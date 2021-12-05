@@ -16,9 +16,9 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  'Pod IP Pool': 'Pod IP Pool',
-  'Pod IP Pools': 'Pod IP Pools',
-  'Used IP': 'Used IP',
-  NETWORK_RESOURCE_PL: 'Network Resources',
-  'Set to be globally available': 'Set to be globally available'
+  'Pod IP Pool': '容器组 IP 池',
+  'Pod IP Pools': '容器组 IP 池',
+  'Used IP': '已用 IP',
+  NETWORK_RESOURCE_PL: '网络资源',
+  'Set to be globally available': '设为全局可用'
 };
