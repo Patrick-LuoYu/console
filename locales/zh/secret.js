@@ -16,15 +16,15 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  ACCOUNT_PASSWORD_SECRET_TCAP: 'Account Password Secret',
-  EDIT_SECRET: 'Edit Secret',
-  IMAGE_REGISTRY_SECRET_TCAP: 'Image Registry Secret',
-  'Please input the registry address': 'Please input the registry address',
-  Secret: 'Secret',
-  secrets: 'secrets',
-  Secrets: 'Secrets',
-  Unverified: 'Unverified',
+  ACCOUNT_PASSWORD_SECRET_TCAP: '帐户密码保密字典',
+  EDIT_SECRET: '编辑保密字典',
+  IMAGE_REGISTRY_SECRET_TCAP: '镜像仓库保密字典',
+  'Please input the registry address': '请输入镜像仓库地址。',
+  Secret: '保密字典',
+  secrets: '保密字典',
+  Secrets: '保密字典',
+  Unverified: '镜像仓库保密字典验证失败。',
   // Secret Type Drop-down List
-  SECRET_VALUE_LABEL: '{value} ({label})',
-  CREATE_SECRET: 'create a secret.'
+  SECRET_VALUE_LABEL: '{value}（{label}）',
+  CREATE_SECRET: '创建保密字典。'
 };
