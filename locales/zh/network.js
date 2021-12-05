@@ -17,9 +17,9 @@
  */
 module.exports = {
   // Network Policies Page
-  Ingress: 'Ingress',
-  'Network Policy': 'Network Policy',
-  NETWORK_POLICY_DESC: 'The network policy configuration allows network isolation within the same cluster, which means firewalls can be set up between certain instances (pods).',
-  CIDR_DESC: 'Based on the traffic direction',
-  ALLOWLIST_ENTRY: 'Allowlist Entry'
+  Ingress: '入口',
+  'Network Policy': '网络策略',
+  NETWORK_POLICY_DESC: '通过配置网络策略，允许在同个集群内实现网络的隔离，即可以在某些实例（容器组）之间架起防火墙。',
+  CIDR_DESC: '将根据流量的方向',
+  ALLOWLIST_ENTRY: '白名单条目'
 };
