@@ -23,7 +23,7 @@ module.exports = {
   // More >Delete
   // Details
   // Permissions
-  PERMISSION_PL: 'Permissions',
+  PERMISSION_PL: '权限',
   // Authorized Users
-  AUTHORIZED_USER_PL: 'Authorized Users'
+  AUTHORIZED_USER_PL: '授权用户'
 };
