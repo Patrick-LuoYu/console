@@ -17,12 +17,12 @@
  */
 module.exports = {
   // Log in page
-  INPUT_USERNAME_OR_EMAIL_TIP: 'Please enter your username or email.',
-  LOG_IN: 'Log In',
-  LOG_IN_WITH_TITLE: 'Log in with {title}',
-  LOG_OUT: 'Log Out',
-  ABOUT: 'About',
-  USERNAME_OR_EMAIL: 'Username or Email',
-  WELCOME: 'Welcome',
-  INTERNAL_SERVER_ERROR_TIP: 'An unepected error occurred. Please refresh your page.'
+  INPUT_USERNAME_OR_EMAIL_TIP: '请输入用户名或邮箱。',
+  LOG_IN: '登录',
+  LOG_IN_WITH_TITLE: '通过 {title} 登录',
+  LOG_OUT: '登出',
+  ABOUT: '关于',
+  USERNAME_OR_EMAIL: '用户名或邮箱',
+  WELCOME: '欢迎登录',
+  INTERNAL_SERVER_ERROR_TIP: '对不起，服务器开小差了'
 };
