@@ -6625,5 +6625,4 @@ module.exports = {
             DETAILS_COLON: '详情：',
             MONITORING_TARGETS_SCAP: '监控目标',
             ALERTING_RULE_SCAP: '告警规则',
-            THRESHOLD_DURATION: '告警持续时间',
-        }
+            THRESHOLD_DURATION: '告警持续时间',}
