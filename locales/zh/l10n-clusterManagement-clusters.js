@@ -17,30 +17,30 @@
  */
 module.exports = {
   // Banner
-  NO_CLUSTER_TIP: 'Please add at least one cluster.',
+  NO_CLUSTER_TIP: '请添加至少 1 个集群',
   // Add Cluster > Basic Information
-  IMPORT_CLUSTER_DESC: 'Import an existing Kubernetes cluster.',
-  ADD_CLUSTER: 'Add Cluster',
-  TAG: 'Tag',
-  CLUSTER_TAG_DESC: 'Select a tag to identify the purpose of the cluster.',
-  CLUSTER_PROVIDER_DESC: 'Select the provider of the cluster infrastructure.',
+  IMPORT_CLUSTER_DESC: '导入已有的 Kubernetes 集群',
+  ADD_CLUSTER: '添加集群',
+  TAG: '标签',
+  CLUSTER_TAG_DESC: '选择标签来标识集群的用途。',
+  CLUSTER_PROVIDER_DESC: '选择提供集群基础设施的服务商。',
   // Add Cluster > Cluster Settings
-  CLUSTER_SETTINGS_DESC: 'Define cluster configuration information',
-  CLUSTER_CONNECT_METHOD_DESC: 'Directly connect to the cluster or use an agent.',
-  CONNTECT_DIRECT: 'Direct connection',
-  CONNTECT_PROXY: 'Agent connection',
-  INPUT_KUBECONFIG: 'Please fill in the kubeconfig of the target cluster',
-  CLUSTER_DIRECT_IMPORT_TIP: 'The multi-cluster control plane of KubeSphere connects to the member cluster through the kubeconfig provided. For this method, the host cluster must be able to directly access the member cluster through the server address in the kubeconfig.</br></br>This method generally applies to the scenarios like the following:</br>1. The host cluster and the member cluster are in the same internal network.</br>2. The network of both the host cluster and the member cluster is connected through VPN or other technologies (e.g. Tunneling).</br>3. The server address in the kubeconfig can be accessed through public network.',
-  CLUSTER_AGENT_IMPORT_TIP: 'The KubeSphere control plane connects to the member cluster through a proxy. The control plane runs a public proxy service, which is connected to a client component created by the member cluster. Thus, a reserve proxy is created. For this method, the control plane and the member cluster do not need to be in the same network. The apiserver address of the member cluster does not need to be exposed. However, network performance may be affected.</br></br>This method generally applies to the scenarios like the following:</br>1. The host cluster and the member cluster are not in the same network.<br/>2. The network of both the host cluster and the member cluster cannot be connected through VPN or other technologies (e.g. Tunneling).<br/>3. Network performance deficiencies within clusters can be accepted.',
-  CLUSTER_AGENT_TITLE: 'Please add the member cluster based on the agent provided in the cluster.',
-  CLUSTER_AGENT_DESC: 'A corresponding agent needs to be set in the cluster.',
-  HOW_TO_GET_KUBECONFIG: 'How do I get kubeconfig?',
+  CLUSTER_SETTINGS_DESC: '定义集群配置信息',
+  CLUSTER_CONNECT_METHOD_DESC: '可以直接连接集群或者使用代理',
+  CONNTECT_DIRECT: '直接连接 Kubernetes 集群',
+  CONNTECT_PROXY: '集群连接代理',
+  INPUT_KUBECONFIG: '请填写目标集群的 KubeConfig',
+  CLUSTER_DIRECT_IMPORT_TIP: 'KubeSphere 多集群控制平面通过提供的 kubeconfig 来直接连接导入集群，此种方式要求当前集群能够通过 kubeconfig 中的 server 地址直接访问待导入集群。 </br></br>通常适用于:</br>1. 当前集群和待导入集群在同一内网网络中</br>2. 当前集群和待导入集群已通过 VPN 或隧道等其它技术连通所在网络</br>3. kubeconfig 的 server 地址可以通过公网访问',
+  CLUSTER_AGENT_IMPORT_TIP: 'KubeSphere 控制平面通过代理方式连接待导入集群，控制平面启动一个公开的代理服务，待导入集群创建相应的客户端组件连接代理服务，与控制平面之间建立一个反向代理。此种方式不需要待导入集群和控制平面在同一网络，也不要求待导入集群暴露集群的 apiserver 地址，但会有一定的网络性能损耗。</br></br>通常适用于:</br>1. 当前集群和待导入集群不在同一网络中<br/>2. 当前集群和待导入集群无法通过 VPN 或隧道等其它技术连通所在网络<br/>3. 对集群间网络性能损耗能容忍',
+  CLUSTER_AGENT_TITLE: '请根据集群中提供的代理连接设置加入集群',
+  CLUSTER_AGENT_DESC: '需要在集群中设置下相应的代理 Agent',
+  HOW_TO_GET_KUBECONFIG: '如何获取 KubeConfig?',
   // List
-  HOST_CLUSTER_TCAP: 'Host Cluster',
-  HOST_CLUSTER_PL_TCAP: 'Host Clusters',
-  NODE_COUNT: 'Nodes',
-  ENV_PRODUCTION: 'Production',
-  ENV_DEVELOPMENT: 'Development',
-  ENV_TESTING: 'Testing',
-  ENV_DEMO: 'Demo'
+  HOST_CLUSTER_TCAP: '主集群',
+  HOST_CLUSTER_PL_TCAP: '主集群',
+  NODE_COUNT: '节点数量',
+  ENV_PRODUCTION: '生产环境',
+  ENV_DEVELOPMENT: '开发环境',
+  ENV_TESTING: '测试环境',
+  ENV_DEMO: '演示环境'
 };
