@@ -16,17 +16,17 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  CLUSTER_GATEWAY_LOW: 'cluster gateway',
-  'Gateway Not Set': 'Gateway Not Set',
-  'Set Gateway': 'Set Gateway',
-  EDIT_GATEWAY: 'Edit Gateway',
-  'Update Gateway': 'Update Gateway',
-  'Gateway Config': 'Gateway Config',
-  'Add Gateway Config': 'Add Gateway Config',
-  USE_DEFAULT_ANNOTATIONS: 'Use Default Annotations',
-  GATEWAY_IP: 'Access address',
-  UPDATED_GATEWAY_DESC: 'Please operate during the low peak period of the business. The upgrade process may cause a short business interruption. ',
-  UPDATED_GATEWAY_TITLE: 'Confirm to upgrade the gateway?',
-  'Request Count': 'Request Count',
-  PROJECT_GATEWAY_EMPTY_DESC: 'The cluster management page does not support the setting of the project gateway. If you need to set it, you need to go to the corresponding project to set it.'
+  CLUSTER_GATEWAY_LOW: '集群网关',
+  'Gateway Not Set': '网关未设置',
+  'Set Gateway': '设置网关',
+  EDIT_GATEWAY: '编辑网关',
+  'Update Gateway': '更新网关',
+  'Gateway Config': '网关配置',
+  'Add Gateway Config': '添加网关配置',
+  USE_DEFAULT_ANNOTATIONS: '使用默认注解',
+  GATEWAY_IP: '访问地址',
+  UPDATED_GATEWAY_DESC: '请在业务低峰期操作，升级过程可能会造成业务短暂中断。',
+  UPDATED_GATEWAY_TITLE: '升级网关确认?',
+  'Request Count': '请求量',
+  PROJECT_GATEWAY_EMPTY_DESC: '集群管理页面不支持项目网关的设置，如需设置需要转到对应项目下进行设置。'
 };
