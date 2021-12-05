@@ -17,145 +17,140 @@
  */
 module.exports = {
   // Edit Information
-  CODE_REPOSITORY: 'Code Repository',
+  CODE_REPOSITORY: '代码仓库',
   // Details
-  TASK_STATUS: 'Task Status',
-  NOT_RUNNING: 'Not running',
-  QUEUED: 'Queued',
-  ABORTED: 'Aborted',
-  UNSTABLE: 'Unstable',
-  SKIPPED: 'Skipped',
-  NOT_BUILT: 'Not built',
-  SYNC_STATUS: 'Sync Status',
-  DEVOPS_PROJECT: 'DevOps Project',
+  TASK_STATUS: '任务状态',
+  NOT_RUNNING: '未运行',
+  QUEUED: '队列中',
+  ABORTED: '已取消',
+  UNSTABLE: '未稳定',
+  SKIPPED: '已跳过',
+  NOT_BUILT: '未构建',
+  SYNC_STATUS: '同步状态',
+  DEVOPS_PROJECT: 'DevOps 项目',
   // More > Edit Settings
   // More > Scan Repository
-  SCAN_REPO_SUCCESSFUL: 'Repository scan was triggered successfully.',
+  SCAN_REPO_SUCCESSFUL: '仓库扫描触发成功。',
   // More > View Scan Logs
-  VIEW_SCAN_LOGS: 'View Scan Logs',
-  STARTED_BY_NAME: 'Started By: {name}',
-  REPOSITORY_SCAN_LOGS: 'Repository Scan Logs',
-  RESCAN: 'Rescan',
-  LOGS_OBTAINED_SUCCESSFULLY: 'The logs were obtained successfully.',
+  VIEW_SCAN_LOGS: '查看扫描日志',
+  STARTED_BY_NAME: '启动者：{name}',
+  REPOSITORY_SCAN_LOGS: '仓库扫描日志',
+  RESCAN: '重新扫描',
+  LOGS_OBTAINED_SUCCESSFULLY: '日志获取成功。',
   // Health Status
-  HEALTH_STATUS_SCAP: 'Health status',
+  HEALTH_STATUS_SCAP: '健康状态',
   // Task Status
-  PIPELINE_QUEUED_TITLE: 'About to Complete Initialization',
-  INITIALIZING_PIPELINE: 'Pipeline Initializing',
-  PIPELINE_PREPARE_DESC: 'Preparing the environment...',
-  INITIALIZING_PIPELINE_DESC: 'Please wait until the pipeline initialization is complete.',
-  TASK_FAILED_NOT_OPERATIONAL: 'The stage has failed and is not operational.',
-  NO_PIPELINE_CONFIG_FILE_TIP: 'No pipeline configuration file is found.',
+  PIPELINE_QUEUED_TITLE: '即将完成初始化',
+  INITIALIZING_PIPELINE: '流水线初始化中',
+  PIPELINE_PREPARE_DESC: '环境准备中...',
+  INITIALIZING_PIPELINE_DESC: '请等待流水线初始化完成。',
+  TASK_FAILED_NOT_OPERATIONAL: '此阶段已失败且无法操作。',
+  NO_PIPELINE_CONFIG_FILE_TIP: '未发现流水线配置文件。',
   // Task Status > Edit Pipeline
-  EDIT_PIPELINE: 'Edit Pipeline',
-  AGENT_TYPE_DESC: `The agent section specifies
-    where the entire Pipeline or a particular stage will be executed in the Jenkins environment,
-    depending on where the Agent part is placed.
-    This part must be defined at the top level within the pipeline block,
-    but the stage level usage is optional. `,
-  CREATE_PIPELINE_DESC: 'Build, test and deploy with Pipelines',
-  CI: 'Continuous Integration (CI)',
-  CI_DESC: 'Continuous integration (CI) is the process of automatically detecting, pulling, building, and (in most cases) unit testing after source code changes.',
-  CICD: 'Continuous Integration & Delivery (CI/CD)',
-  CICD_DESC: 'Continuous deployment (CD) refers to the idea of automatically providing the release version in the continuous delivery pipeline to end users. According to the user\'s installation method, automatic deployment in the cloud environment, app upgrades (such as apps on mobile phones), website updates, or only the list of available versions.',
-  CUSTOM_PIPELIEN: 'Custom Pipeline',
-  CUSTOM_PIPELIEN_DESC: 'You can select the tasks you need to customize the contents of the pipeline.',
-  CC: 'CC',
-  CREDENTIAL_NAME: 'Credential Name',
-  REMOTE_REPOSITORY_URL: 'Remote Repository URL',
-  SCM: 'SCM',
-  INPUT_MESSAGE_DESC: 'This message will be displayed in the pipeline running state.',
-  KUBERNETES_DEPLOY_DESC: `Deploy resources on a Kubernetes cluster.
-    In a continuous integration or continuous deployment environment,
-    only those resources that need to be updated regularly should be placed in the deployment step.
-    Therefore, this step is mostly used to process the deployment of such resources.`,
+  EDIT_PIPELINE: '编辑流水线',
+  AGENT_TYPE_DESC: `Agent 部分指定整个流水线或特定阶段将在 Jenkins 环境中执行的位置，
+      具体取决于该 agent 部分的放置位置。该部分必须在流水线块内的顶层定义，但 stage 级使用是可选的。`,
+  CREATE_PIPELINE_DESC: '使用流水线进行构建，测试和部署',
+  CI: '持续集成 (CI)',
+  CI_DESC: '持续集成（CI）是在源代码变更后自动检测、拉取、构建和（在大多数情况下）进行单元测试的过程。',
+  CICD: '持续集成&交付 (CI/CD)',
+  CICD_DESC: '持续部署（CD）是指能够自动提供持续交付管道中发布版本给最终用户使用的想法。根据用户的安装方式，在云环境中自动部署、app 升级（如手机上的应用程序）、更新网站或只更新可用版本列表。',
+  CUSTOM_PIPELIEN: '自定义流水线',
+  CUSTOM_PIPELIEN_DESC: '您可以选择您需要的任务自定义流水线的工作内容',
+  CC: '抄送',
+  CREDENTIAL_NAME: '凭证名称',
+  REMOTE_REPOSITORY_URL: '远程仓库地址',
+  SCM: '代码仓库',
+  INPUT_MESSAGE_DESC: '流水线运行状态中将会展示此消息',
+  KUBERNETES_DEPLOY_DESC: `在 kubernetes 集群中进行部署，在持续集成/持续部署的环境当中，
+      只有那些需要定期更新的资源才应该放到部署步骤当中，所以此步骤大多数时间都在处理部署这类资源.`,
   KUBERNETES_DEPLOY_DESC_MORE: `<br />
-  <label>This step has the following main features:</label>
-  <li>Distribution without kubectl</li>
-  <li>Variable substitution in Jenkinsfile, Dynamic deployment is possible. </li>
-  <li>Support for pulling docker images from private image repositories</li>
-  <label> Currently this step supports the following resources:</label>
-  <br />
-  <li>Configuration </li>
-  <li>Key</li>
-  <li>Deploy</li>
-  <li>Dave Process Set</li>
-  <li>App Routing</li>
-  <li>Namespace</li>
-  <li>Task</li>
-  <li>Service</li>
-  <li>Replica Set</li>
-  <li>
-  Replication
-  Controller (rolling updates are not supported, and use deployment if you want to use rolling updates)
-  </li>`,
-  STAGE: 'Stage',
-  KUBERNETES_DEPLOY_DEPRECATED_TIP: 'This step will be deprecated in subsequent versions, and it is recommended that you consider other alternatives.',
+      <label>该步骤主要有以下特点:</label>
+      <li>无需 kubectl 的情况下实现部署</li>
+      <li>Jenkinsfile 中的变量替换，可以进行动态部署。</li>
+      <li>支持从私有镜像仓库拉取 Docker 镜像</li>
+      <label>目前该步骤支持以下资源:</label>
+      <br />
+      <li>配置</li>
+      <li>密钥</li>
+      <li>部署</li>
+      <li>守护进程集</li>
+      <li>应用路由</li>
+      <li>名称空间</li>
+      <li>任务</li>
+      <li>服务</li>
+      <li>Replica Set</li>
+      <li>
+        Replication
+        Controller (不支持滚动更新，如果要使用滚动更新请使用部署)
+      </li>`,
+  STAGE: '阶段',
+  KUBERNETES_DEPLOY_DEPRECATED_TIP: '该步骤会在后续版本中弃用，建议考虑其他替代方案。',
   // Task Status > Edit Jenkinsfile
-  EDIT_JENKINSFILE: 'Edit Jenkinsfile',
-  CLOSE_JENKINSFILE_EDITOR_TIP: 'Are you sure to close the Jenkinsfile editor?',
+  EDIT_JENKINSFILE: '编辑 Jenkinsfile',
+  CLOSE_JENKINSFILE_EDITOR_TIP: '确定关闭 Jenkinsfile 编辑器？',
   // Task Status > View Logs
-  PIPELINE_RUN_LOGS: 'Pipeline Run Logs',
-  VIEW_LOGS: 'View Logs',
-  DURATION_VALUE: 'Duration: {value}',
-  DOWNLOAD_LOGS: 'Download Logs',
+  PIPELINE_RUN_LOGS: '流水线运行日志',
+  VIEW_LOGS: '查看日志',
+  DURATION_VALUE: '持续时间：{value}',
+  DOWNLOAD_LOGS: '下载日志',
   // Task Status > View Logs > View Logs
-  START_REAL_TIME_LOG: 'Enable real-time logs',
-  STOP_REAL_TIME_LOG: 'Disable real-time logs',
+  START_REAL_TIME_LOG: '开启实时日志',
+  STOP_REAL_TIME_LOG: '停止实时日志',
   // Run Records
-  RUN_RECORDS: 'Run Records',
-  RUN: 'Run',
-  ACTIVITY_EMPTY_TIP: 'The pipeline has not been run.',
-  COMMIT: 'Commit',
-  DURATION: 'Duration',
-  LAST_MESSAGE: 'Last Message',
-  RUN_ID: 'Run ID',
-  STOP_PIPELINE_SUCCESSFUL: 'The pipeline was stopped successfully.',
-  INVALID_JENKINSFILE_TIP: 'The current Jenkinsfile is not a standard declarative Jenkinsfile and graphical display is unavailable.',
-  PAUSED: 'Paused',
+  RUN_RECORDS: '运行记录',
+  RUN: '运行',
+  ACTIVITY_EMPTY_TIP: '流水线尚未运行。',
+  COMMIT: '提交',
+  DURATION: '持续时间',
+  LAST_MESSAGE: '最后消息',
+  RUN_ID: '运行 ID',
+  STOP_PIPELINE_SUCCESSFUL: '流水线停止成功。',
+  INVALID_JENKINSFILE_TIP: '当前 Jenkinsfile 不是标准的声明式 Jenkinsfile，图形化显示不可用。',
+  PAUSED: '已暂停',
   // Run Records > Run
-  SET_PARAMETERS: 'Set Parameters',
+  SET_PARAMETERS: '设置参数',
   PARAMS_DESC: `The following parameters are generated based on the pipeline settings or
      the parameters section of the Jenkinsfile, which are entered according to operational requirements.`,
-  PIPELINE_RUN_START_SI: 'Starts to run the pipeline...',
-  PIPELINE_RUN_START_PL: 'Starts to run the pipelines...',
+  PIPELINE_RUN_START_SI: '开始运行流水线...',
+  PIPELINE_RUN_START_PL: '开始运行流水线...',
   // Run Records > Run Record Details > Details
   // Run Records > Run Record Details > Task Status
-  BREAK: 'Break',
-  PROCEED: 'Proceed',
-  WAITING_FOR_INPUT: 'Waiting for input...',
-  CANCELLED_IN_REVIEW: 'Cancelled in review',
-  STEPS_COMPLETE_TOTAL: 'Steps: {complete}/{total}',
+  BREAK: '终止',
+  PROCEED: '继续',
+  WAITING_FOR_INPUT: '等待输入',
+  CANCELLED_IN_REVIEW: '已在审核中取消',
+  STEPS_COMPLETE_TOTAL: '步骤：{complete}/{total}',
   // Run Records > Run Record Details > Commits
-  COMMIT_PL: 'Commits',
-  AUTHOR: 'Author',
-  NO_COMMIT_FOUND: 'No Commit Found.',
+  COMMIT_PL: '提交',
+  AUTHOR: '作者',
+  NO_COMMIT_FOUND: '未发现提交记录',
   // Run Records > Run Record Details > Artifacts
-  ARTIFACT_PL: 'Artifacts',
-  NO_ARTIFACT_FOUND_TIP: 'No artifact is found.',
-  SIZE: 'Size',
+  ARTIFACT_PL: '制品',
+  NO_ARTIFACT_FOUND_TIP: '未发现制品。',
+  SIZE: '大小',
   // Run Records > Run > Set Parameters
   // Branches
-  BRANCH_SI: 'Branch',
-  BRANCH_PL: 'Branches',
-  SCAN_REPOSITORY: 'Scan Repository',
-  PIPELINE: 'Pipeline',
+  BRANCH_SI: '分支',
+  BRANCH_PL: '分支',
+  SCAN_REPOSITORY: '扫描仓库',
+  PIPELINE: '流水线',
   // Branches > Code Check
-  CODE_CHECK: 'Code Check',
-  BUG_PL: 'Bugs',
-  VULNERABILITY_PL: 'Vulnerabilities',
-  CODE_SMELL_PL: 'Code Smells',
-  CODE_LINE_COUNT: 'Code Lines',
-  COVERAGE: 'Coverage',
-  TEST_RESULTS: 'Results',
-  ISSUE_PL: 'Issues',
-  CRITICAL: 'Critical',
-  MAJOR: 'Major',
-  MINOR: 'Minor',
-  DISPLAY_ALL: 'Display All',
-  DISPLAY_ONLY_LAST_TEN: 'Only the last 10 issues are displayed.',
-  LINE_VALUE: 'Line: {value}',
-  PASSED: 'Passed',
+  CODE_CHECK: '代码检查',
+  BUG_PL: '代码错误',
+  VULNERABILITY_PL: '代码漏洞',
+  CODE_SMELL_PL: '代码异味',
+  CODE_LINE_COUNT: '行数',
+  COVERAGE: '覆盖率',
+  TEST_RESULTS: '检查结果',
+  ISSUE_PL: '问题',
+  CRITICAL: '严重',
+  MAJOR: '重要',
+  MINOR: '轻微',
+  DISPLAY_ALL: '展示全部',
+  DISPLAY_ONLY_LAST_TEN: '仅显示最近 10 条问题。',
+  LINE_VALUE: '行：{value}',
+  PASSED: '已通过',
   // Pull Requests
-  PULL_REQUEST_PL: 'Pull Requests'
+  PULL_REQUEST_PL: '拉取请求'
 };
