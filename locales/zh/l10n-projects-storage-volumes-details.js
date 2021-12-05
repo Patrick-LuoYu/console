@@ -18,19 +18,19 @@
 module.exports = {
   // More > Edit YAML
   // More > Clone
-  CLONE_VOLUME: 'Clone Volume',
-  CLONE: 'Clone',
+  CLONE_VOLUME: '存储卷克隆',
+  CLONE: '克隆',
   // More > Create Snapshot
-  CREATE_SNAPSHOT: 'Create Snapshot',
-  VOLUME_SNAPSHOT_CLASS: 'Volume Snapshot Class',
-  SNAPSHOT_EMPTY_TIP: 'Please select a volume snapshot class.',
+  CREATE_SNAPSHOT: '创建快照',
+  VOLUME_SNAPSHOT_CLASS: '快照类型',
+  SNAPSHOT_EMPTY_TIP: '请选择一个快照类型。',
   // More > Expand
-  EXPAND_VOLUME: 'Expand Volume',
-  EXPAND: 'Expand',
+  EXPAND_VOLUME: '扩容存储卷',
+  EXPAND: '扩容',
   // Details
-  PROVISIONER: 'Provisioner',
+  PROVISIONER: '供应者',
   // Resource Status
-  AVAILABLE_CAPACITY: 'Available capacity',
-  POD_IP_ADDRESS_SCAP: 'Pod IP address',
-  TOTAL_CAPACITY: 'Total capacity'
+  AVAILABLE_CAPACITY: '剩余容量',
+  POD_IP_ADDRESS_SCAP: '容器组 IP 地址',
+  TOTAL_CAPACITY: '总容量'
 };
