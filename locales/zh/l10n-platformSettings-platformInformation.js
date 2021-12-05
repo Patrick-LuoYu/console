@@ -17,11 +17,11 @@
  */
 module.exports = {
   // Banner
-  PLATFORM_INFO_DESC: 'Overview of the platform information. You can view and customize the platform information.',
+  PLATFORM_INFO_DESC: '平台的信息概览，您可以查看和定制化平台信息。',
   // Basic Information
-  HOW_TO_MODIFY_PLATFORM_INFO: 'How do I customize platform information?',
-  PLATFORM_INFORMATION: 'Platform Information',
-  PLATFORM_DESCRIPTION: 'Platform description',
-  PLATFORM_TITLE: 'Platform title',
-  PLATFORM_ADDRESS: 'Platform address'
+  HOW_TO_MODIFY_PLATFORM_INFO: '如何定制化平台信息?',
+  PLATFORM_INFORMATION: '平台信息',
+  PLATFORM_DESCRIPTION: '平台描述',
+  PLATFORM_TITLE: '平台标题',
+  PLATFORM_ADDRESS: '平台地址'
 };
