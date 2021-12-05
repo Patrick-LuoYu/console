@@ -18,31 +18,31 @@
 module.exports = {
   // Banner
   // List
-  STATEFULSET_EMPTY_DESC: 'Please create a statefulset.',
+  STATEFULSET_EMPTY_DESC: '请创建一个有状态副本集。',
   // List > Edit Information
   // List > Edit YAML
   // List > Delete
   // List > Create
   // List > Create > Basic Information
   // List > Create > Pod Settings
-  POD_SETTINGS: 'Pod Settings',
-  POD_REPLICAS: 'Pod Replicas',
-  ONDELETE: 'Update on Deletion',
-  ONDELETE_DESC: 'Updates pod replicas only when they are manually deleted.',
-  PARTITION_ORDINAL: 'Ordinal for Dividing Pod Replicas',
-  PARTITION_ORDINAL_DESC: 'Set an ordinal to divide the pod replicas into two groups. When the statefulset is updated, only pod replicas with an ordinal greater than or equal to the value of this parameter are updated.',
+  POD_SETTINGS: '容器组设置',
+  POD_REPLICAS: '容器组副本数量',
+  ONDELETE: '删除容器组时更新',
+  ONDELETE_DESC: '需要手动删除容器组副本才能对其进行更新。',
+  PARTITION_ORDINAL: '容器组副本分组序号',
+  PARTITION_ORDINAL_DESC: '设置一个分组序号以将容器组副本分成两组。更新有状态副本集时，只有序号大于或等于分组序号的容器组副本会被更新。',
   // List > Create > Volume Settings > Volume Templates
-  ADD_VOLUME_TEMPLATE_DESC: 'Add a volume template to mount a volume with the same lifecycle as the pod.',
-  STATEFULSETS_ADD_VOLUME_TEMPLATE_DESC: 'Please add a volume template',
-  VOLUME_CAPACITY_TCAP: 'Volume Capacity',
-  MOUNT_PATH: 'Mount path',
-  MOUNT_VOLUME_OR_TEMPLATE: 'Mount Volume or Volume Template',
-  VOLUME_TEMPLATES: 'Volume Templates',
+  ADD_VOLUME_TEMPLATE_DESC: '添加存储卷模板以挂载与容器组具有相同生命周期的存储卷。',
+  STATEFULSETS_ADD_VOLUME_TEMPLATE_DESC: '请添加一个存储卷模板',
+  VOLUME_CAPACITY_TCAP: '存储卷容量',
+  MOUNT_PATH: '挂载路径',
+  MOUNT_VOLUME_OR_TEMPLATE: '挂载存储卷或存储卷模板',
+  VOLUME_TEMPLATES: '存储卷模板',
   // List > Create > Advanced Settings
   // List > Create > Cluster Differences
-  SERVICE_PORT: 'Service Port',
-  SERVICE_PORT_VALUE: 'Service Port: {value}',
+  SERVICE_PORT: '服务端口',
+  SERVICE_PORT_VALUE: '服务端口：{value}',
   // List > Create > Cluster Differences (Displayed after you add a volume template)
-  VOLUME_TEMPLATE_SETTINGS: 'Volume Template Settings',
-  CLUSTER_VOLUME_DIFF_DESC: 'Use different storage settings in different clusters.'
+  VOLUME_TEMPLATE_SETTINGS: '存储卷模板设置',
+  CLUSTER_VOLUME_DIFF_DESC: '在不同的集群中使用不同的存储设置。'
 };
