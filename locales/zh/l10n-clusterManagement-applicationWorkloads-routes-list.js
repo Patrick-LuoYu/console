@@ -17,43 +17,43 @@
  */
 module.exports = {
   // Banner
-  ROUTE_DESC: 'A route provides a way to aggregate services. You can expose the internal services outside the cluster through an externally accessible IP address.',
-  PREREQUESTS_FOR_USE_ROUTE_Q: 'What are the prerequisites for using routes?',
-  PREREQUESTS_FOR_USE_ROUTE_A: 'To use routes, you need to contact the project administrator to set the gateway for the project.',
-  ACCESS_TYPES_OF_ROUTE_Q: 'What are the external access modes of routes?',
-  ACCESS_TYPES_OF_ROUTE_A: 'KubeSphere routes support the NodePort and LoadBalancer external access modes.',
-  ROUTE_PL: 'Routes',
+  ROUTE_DESC: '应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。',
+  PREREQUESTS_FOR_USE_ROUTE_Q: '使用应用路由的前提条件？',
+  PREREQUESTS_FOR_USE_ROUTE_A: '使用应用路由需要由项目管理员对当前项目设置网关。',
+  ACCESS_TYPES_OF_ROUTE_Q: '应用路由支持哪些的访问模式？',
+  ACCESS_TYPES_OF_ROUTE_A: 'KubeSphere 应用路由支持 NodePort 访问模式以及 LoadBalancer 访问模式。',
+  ROUTE_PL: '应用路由',
   // List
-  GATEWAY_ADDRESS_TCAP: 'Gateway Address',
-  ROUTE_EMPTY_DESC: 'Please create a route.',
+  GATEWAY_ADDRESS_TCAP: '网关地址',
+  ROUTE_EMPTY_DESC: '请创建一个应用路由。',
   // List > Create > Basic Information
   // List > Create > Routing Rules
-  ADD_ROUTING_RULE_DESC: 'Add a routing rule to map domain name paths to services.',
-  ADD_ROUTING_RULE: 'Add Routing Rule',
-  ROUTING_RULE_EMPTY_DESC: 'Please add at least one routing rule.',
-  PATH_EMPTY_DESC: 'Please add at least one path.',
-  AUTO_GENERATE_TCAP: 'Auto Generate',
-  DOMAIN_NAME_TCAP: 'Domain Name',
-  DOMAIN_NAME_EMPTY_DESC: 'Please enter a domain name.',
-  INVALID_DOMAIN_DESC: 'Invalid domain name.',
-  INVALID_PATH_DESC: 'Invalid path.',
-  MODE_TCAP: 'Mode',
-  PATH_PL: 'Paths',
-  PATH_SERVICE_TIP: 'Service',
-  SET_ROUTING_RULES: 'Set Routing Rules',
-  SPECIFY_DOMAIN_TCAP: 'Specify Domain',
-  NO_GATEWAY_DESC: 'To use Auto Generate, please contact the project administrator to set the gateway access mode in Gateway Settings of the project.',
-  PATH: 'Path',
-  PROTOCOL: 'Protocol',
-  PORT: 'Port',
-  PORT_VALUE: 'Port: {value}',
+  ADD_ROUTING_RULE_DESC: '添加一个路由规则将域名路径映射至服务。',
+  ADD_ROUTING_RULE: '添加路由规则',
+  ROUTING_RULE_EMPTY_DESC: '请添加至少一个路由规则。',
+  PATH_EMPTY_DESC: '请添加至少一个路径。',
+  AUTO_GENERATE_TCAP: '自动生成',
+  DOMAIN_NAME_TCAP: '域名',
+  DOMAIN_NAME_EMPTY_DESC: '请输入一个域名。',
+  INVALID_DOMAIN_DESC: '域名格式错误。',
+  INVALID_PATH_DESC: '路径不正确。',
+  MODE_TCAP: '模式',
+  PATH_PL: '路径',
+  PATH_SERVICE_TIP: '服务',
+  SET_ROUTING_RULES: '设置路由规则',
+  SPECIFY_DOMAIN_TCAP: '指定域名',
+  NO_GATEWAY_DESC: '如需使用自动生成模式，请联系项目管理员在此项目的高级设置中设置网关访问模式。',
+  PATH: '路径',
+  PROTOCOL: '协议',
+  PORT: '端口',
+  PORT_VALUE: '端口：{value}',
   // List > Create > Advanced Settings
   // List > Edit Information
   // List > Edit YAML
   // List > Edit Routing Rules
-  EDIT_ROUTING_RULES: 'Edit Routing Rules',
+  EDIT_ROUTING_RULES: '编辑路由规则',
   // List > Edit Annotations
-  EDIT_ANNOTATIONS: 'Edit Annotations',
+  EDIT_ANNOTATIONS: '编辑注解',
   // List > Delete
-  ROUTE_LOW: 'route'
+  ROUTE_LOW: '应用路由'
 };
