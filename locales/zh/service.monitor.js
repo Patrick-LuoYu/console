@@ -16,6 +16,6 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  'Target Service': 'Target Service',
-  'View Monitor': 'View Monitor'
+  'Target Service': '目标服务',
+  'View Monitor': '查看监控'
 };
