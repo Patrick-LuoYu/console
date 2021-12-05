@@ -16,24 +16,24 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  'DevOps Basic Info': 'DevOps Basic Information',
-  DEVOPS_PROJECT_CREDENTIAL_PL: 'DevOps Project Credentials',
-  DEVOPS_CREDENTIAL: 'DevOps Credential',
-  DEVOPS_CREDENTIAL_LOW: 'DevOps credential',
-  'DevOps Member': 'DevOps Member',
-  'DevOps Members': 'DevOps Members',
-  DEVOPS_NAME: 'Name',
+  'DevOps Basic Info': '基本信息',
+  DEVOPS_PROJECT_CREDENTIAL_PL: 'DevOps 项目凭证',
+  DEVOPS_CREDENTIAL: ' DevOps 凭证',
+  DEVOPS_CREDENTIAL_LOW: 'DevOps 凭证',
+  'DevOps Member': '项目成员',
+  'DevOps Members': '项目成员',
+  DEVOPS_NAME: 'DevOps 项目名称',
   DEVOPS_PROJECT_MEMBER: 'DevOps Project Member',
-  'DevOps Project Manager': 'DevOps Project Manager',
-  'DevOps Role': 'DevOps Role',
-  'DevOps Roles': 'DevOps Roles',
-  DEVOPS_PROJECT_MANAGEMENT: 'Project Management',
-  MANAGE_DEVOPS_PROJECT: 'Manage DevOps Project',
-  DEVOPS_BASEINFO_DESC: 'Please input the basic information of the DevOps project',
-  NO_RELATE_DEVOPS_TITLE: 'No DevOps project associated with you',
-  NO_RELATE_DEVOPS_DESC: 'You can create or contact the project manager to invite you to the DevOps project to start your work.',
-  DEVOPS_PROJECT_CREDENTIALS_DESC: 'Credentials are objects that contain sensitive data, such as usernames and passwords, SSH keys, and tokens, to provide authentication for pulling code, pushing or pulling images, executing SSH scripts, and so on when a pipeline is running.',
-  DELETE_DEVOPS_TIP: 'Enter the DevOps project name <strong>{resource}</strong> to confirm that you understand the risks of this operation.',
+  'DevOps Project Manager': 'DevOps 项目管理员',
+  'DevOps Role': '成员角色',
+  'DevOps Roles': '成员角色',
+  DEVOPS_PROJECT_MANAGEMENT: '项目管理',
+  MANAGE_DEVOPS_PROJECT: '管理 DevOps 项目',
+  DEVOPS_BASEINFO_DESC: '请输入 DevOps 项目的基本信息',
+  NO_RELATE_DEVOPS_TITLE: '未发现与您相关联的 DevOps 项目',
+  NO_RELATE_DEVOPS_DESC: '您可以创建或者联系项目管理员将您邀请到 DevOps 项目中开始您的工作',
+  DEVOPS_PROJECT_CREDENTIALS_DESC: '凭证是包含了一些敏感数据的对象，如用户名密码、SSH 密钥和令牌等，用于在流水线运行时, 为拉取代码、推送或拉取镜像、SSH 执行脚本等过程提供认证。',
+  DELETE_DEVOPS_TIP: '请输入 DevOps 项目名称 <strong>{resource}</strong> 以确认您了解此操作的风险。',
   // Credentials Creation Page
-  INVALID_ID_TIP: 'The ID can contain only lowercase letters, numbers, and hyphens (-), and must start and end with a lowercase letter or number. The maximum length is 63 characters.'
+  INVALID_ID_TIP: 'ID 只能包含小写字母、数字和连字符（-），必须以小写字母或数字开头和结尾，最长 63 个字符。'
 };
