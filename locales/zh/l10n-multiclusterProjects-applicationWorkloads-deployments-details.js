@@ -32,5 +32,5 @@ module.exports = {
   // Metadata
   // Monitoring
   // Events
-  REASON: 'Reason'
+  REASON: '原因'
 };
