@@ -16,15 +16,15 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  'App README': 'App README',
-  'Configuration Files': 'Configuration Files',
-  INSTALLED_SUCCESSFULLY: 'Installed successfully.',
-  CONFIG_FILES: 'Configuration Files',
-  'Deploy Successfully': 'Deploy Successfully',
-  'Edit by YAML': 'Edit by YAML',
-  NO_CHART_FILE_FOUND: 'No chart file is found.',
+  'App README': '应用介绍',
+  'Configuration Files': '配置文件',
+  INSTALLED_SUCCESSFULLY: '安装成功。',
+  CONFIG_FILES: '配置文件',
+  'Deploy Successfully': '部署成功',
+  'Edit by YAML': '编辑 YAML',
+  NO_CHART_FILE_FOUND: '未发现配置文件。',
   'Update Successfully': 'Update Successfully',
-  APP_TEMPLATE_DESCRIPTION_TITLE: 'Deploy packaged applications',
-  APP_TEMPLATE_DESCRIPTION_ARTICLE: 'KubeSphere visualizes app templates and provides deployment and management function, allowing users to quickly deploy applications with one click based on app templates.',
-  TOTAL_APP_REPOS: 'Total {num} app repositories'
+  APP_TEMPLATE_DESCRIPTION_TITLE: '应用一键部署',
+  APP_TEMPLATE_DESCRIPTION_ARTICLE: '通过可视化的方式在 KubeSphere 中展示并提供部署及管理功能，用户可以基于应用模板快速地一键部署应用',
+  TOTAL_APP_REPOS: '共计 {num} 个应用仓库'
 };
