@@ -17,14 +17,14 @@
  */
 module.exports = {
   // Head
-  APP_STORE: 'App Store',
+  APP_STORE: 'Tienda de aplicaciones',
   // Discover
   DISCOVER: 'Discover',
   NEW_APPS: 'New Apps',
   // App Categories
   // List
-  MAINTAINER_VALUE: 'Maintainer: {value}',
+  MAINTAINER_VALUE: 'Mantenedor: {value}',
   LATEST_VALUE: 'Latest: {value}',
   TOTAL_CATE_COUNT: 'Total Apps: {total}',
-  SEARCH_BY_NAME: 'Search by name'
+  SEARCH_BY_NAME: 'Introduce un nombre para buscar'
 };
