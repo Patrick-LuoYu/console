@@ -18,10 +18,10 @@
 module.exports = {
   // Banner
   APP_RELEASE: 'App Release',
-  APP_RELEASE_DESC: 'Manages apps to be released to the App Store. You can view app details and approve or reject app releases.',
+  APP_RELEASE_DESC: 'KubeSphere supports reviewing the contents of applications to be released. You can view the contents and approve or reject to publish the applications.',
   // Unreleased
   UNRELEASED: 'Unreleased',
-  APP_REVIEW_EMPTY_DESC: 'Please create an app template in a workspace and submit the app template for release.',
+  APP_REVIEW_EMPTY_DESC: 'No unreleased app is found.',
   APP_STATUS_SUBMITTED: 'Submitted',
   APP_STATUS_PASSED: 'Released',
   APP_STATUS_SUSPENDED: 'Suspended',
