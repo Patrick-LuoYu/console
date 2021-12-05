@@ -17,51 +17,51 @@
  */
 module.exports = {
   // Banner
-  APPLICATION_WORKLOAD_PL: 'Application Workloads',
-  WORKLOAD_PL: 'Workloads',
+  APPLICATION_WORKLOAD_PL: '应用负载',
+  WORKLOAD_PL: '工作负载',
   // List
-  DEPLOYMENTS: 'Deployments',
-  UPDATE_TIME_TCAP: 'Update Time',
-  ALL_PROJECTS: 'All projects',
+  DEPLOYMENTS: '部署',
+  UPDATE_TIME_TCAP: '更新时间',
+  ALL_PROJECTS: '全部项目',
   // List > Create > Basic Information
-  SELECT_PROJECT_DESC: 'Select a project in which the resource is to be created.',
-  PROJECT_NOT_SELECT_DESC: 'Please select a project.',
-  BASIC_INFORMATION: 'Basic Information',
-  NAME: 'Name',
-  FEDPROJECT_RESOURCE_TIP: 'To create workload resources in a multi-cluster project, go to the Workloads page in the multi-cluster project.',
-  FINISHED: 'Finished',
-  NOT_SET: 'Not set',
-  CURRENT: 'Current',
-  PROJECT: 'Project',
+  SELECT_PROJECT_DESC: '选择将要创建资源的项目。',
+  PROJECT_NOT_SELECT_DESC: '请选择一个项目。',
+  BASIC_INFORMATION: '基本信息',
+  NAME: '名称',
+  FEDPROJECT_RESOURCE_TIP: '无法在集群管理内创建多集群项目的资源, 请到多集群项目页面内进行操作。',
+  FINISHED: '已设置',
+  NOT_SET: '未设置',
+  CURRENT: '当前',
+  PROJECT: '项目',
   // List > Create > Pod Settings
-  PREVIOUS: 'Previous',
-  NOTE: 'Note',
+  PREVIOUS: '上一步',
+  NOTE: '备注',
   // List > Create > Pod Settings > Add Container > Container Settings
-  IMAGE: 'Image',
-  IMAGE_VALUE: 'Image: {value}',
+  IMAGE: '镜像',
+  IMAGE_VALUE: '镜像：{value}',
   // List > Create > Pod Settings > Add Container > Health Check > Readiness Check > TCP Port
-  PORT_NUMBER_EMPTY: 'Please enter a port number.',
-  USER: 'User',
+  PORT_NUMBER_EMPTY: '请输入端口号。',
+  USER: '用户',
   // List > Create > Volume Settings
-  VOLUME_NAME_EXIST: 'The volume name already exists.',
-  SELECT_TYPE: 'Select {type}',
-  SPECIFY_SUBPATH: 'Specify Subpath',
-  SPECIFY_SUBPATH_TIP: 'Specify a volume subpath to be mounted to the container.',
+  VOLUME_NAME_EXIST: '存储卷名称已存在。',
+  SELECT_TYPE: '选择{type}',
+  SPECIFY_SUBPATH: '指定子路径',
+  SPECIFY_SUBPATH_TIP: '指定需要挂载到容器的存储卷子路径。',
   // List > Create > Advanced Settings
-  NETWORK_SEGMENT_SCAP: 'Network segment',
-  AVAILABLE_ADDRESSES: 'Available addresses',
-  POD_IP_POOL: 'Pod IP Pool',
-  SUBPATH: 'Subpath',
+  NETWORK_SEGMENT_SCAP: '网段',
+  AVAILABLE_ADDRESSES: '可用地址数量',
+  POD_IP_POOL: '容器组 IP 池',
+  SUBPATH: '子路径',
   // List > Create > Advanced Settings > Add Metadata
-  ANNOTATION_PL: 'Annotations',
-  CREATE_SUCCESSFUL: 'Created successfully.',
+  ANNOTATION_PL: '注解',
+  CREATE_SUCCESSFUL: '创建成功。',
   // List > Edit Information
   // List > Edit YAML
   // List > Re-create
   // List > Delete
-  WORKLOAD_LOW: 'workload',
+  WORKLOAD_LOW: '工作负载',
   // List > Stop
-  STOP: 'Stop',
-  STOP_TITLE_SI: 'Stop {type}',
-  STOP_TITLE_PL: 'Stop Multiple {type}'
+  STOP: '停止',
+  STOP_TITLE_SI: '停止{type}',
+  STOP_TITLE_PL: '批量停止{type}'
 };
