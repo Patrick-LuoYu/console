@@ -17,9 +17,9 @@
  */
 module.exports = {
   // Banner
-  POD_PL: '容器组',
+  POD_PL: '容器組',
   // List
   // List > View YAML
   // List > Delete
-  POD_LOW: '容器组'
+  POD_LOW: '容器組'
 };
