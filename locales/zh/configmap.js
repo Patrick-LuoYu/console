@@ -16,12 +16,12 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  ConfigMap: '配置字典',
-  configmaps: '配置字典',
-  ConfigMaps: '配置字典',
-  EDIT_CONFIGMAP: '编辑配置字典',
-  CONFIGMAP_EMPTY_DESC: '请创建一个配置字典。',
+  ConfigMap: 'Configmap',
+  configmaps: 'configmaps',
+  ConfigMaps: 'Configmaps',
+  EDIT_CONFIGMAP: 'Edit Configmap',
+  CONFIGMAP_EMPTY_DESC: 'Please create a configmap.',
   CONFIGMAPS_BASEINFO_DESC: '',
   CONFIGMAP_SETTINGS_DESC: '',
-  CREATE_CONFIG: '创建配置字典'
+  CREATE_CONFIG: 'create a configmap'
 };
