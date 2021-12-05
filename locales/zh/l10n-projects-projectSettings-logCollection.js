@@ -17,15 +17,15 @@
  */
 module.exports = {
   // Banner
-  LOG_COLLECTION: '日志收集',
-  DISK_LOG_COLLECTION_DESC: '日志收集功能允许系统收集保存在存储卷上的容器日志，并将日志发送到标准输出。',
-  COLLECT_LOGS_ON_VOLUMES_Q: '如何收集存储卷上的日志？',
-  COLLECT_LOGS_ON_VOLUMES_A: '如需收集存储卷上的日志，请为容器挂载读写模式的存储卷并设置容器将日志导出到存储卷。',
+  LOG_COLLECTION: 'Log Collection',
+  DISK_LOG_COLLECTION_DESC: 'The Log Collection function allows the system to collect container logs saved on volumes and send the logs to standard output.',
+  COLLECT_LOGS_ON_VOLUMES_Q: 'How do I collect logs on volumes?',
+  COLLECT_LOGS_ON_VOLUMES_A: 'To collect logs on volumes, you need to mount a volume in read and write mode to a container and set the container to export logs to the volume.',
   // Collect Logs on Volumes
-  COLLECT_LOGS_ON_VOLUMES: '收集存储卷上的日志',
-  DISABLE_LOG_COLLECTION: '停用日志收集',
-  DISABLE_LOG_COLLECTION_TIP: '您确定停用日志收集吗？您需要重启容器组副本才能使修改生效。',
-  LOG_COLLECTION_ENABLED_DESC: '开启或停用此功能后，您需要重启容器组副本才能使修改生效。',
-  DISABLED: '未开启',
-  ENABLED: '已开启'
+  COLLECT_LOGS_ON_VOLUMES: 'Collect Logs on Volumes',
+  DISABLE_LOG_COLLECTION: 'Disable Log Collection',
+  DISABLE_LOG_COLLECTION_TIP: 'Are you sure you want to disable log collection? You need to restart the pod replicas to make the change take effect.',
+  LOG_COLLECTION_ENABLED_DESC: 'After this function is enabled or disabled, you need to restart the pod replicas to make the change take effect.',
+  DISABLED: 'Disabled',
+  ENABLED: 'Enabled'
 };
