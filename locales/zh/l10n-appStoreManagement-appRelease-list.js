@@ -17,24 +17,24 @@
  */
 module.exports = {
   // Banner
-  APP_RELEASE: 'App Release',
-  APP_RELEASE_DESC: 'Manages apps to be released to the App Store. You can view app details and approve or reject app releases.',
+  APP_RELEASE: '应用发布',
+  APP_RELEASE_DESC: '管理待发布到应用商店中的应用。您可以查看应用详情并批准或拒绝应用发布。',
   // Unreleased
-  UNRELEASED: 'Unreleased',
-  APP_REVIEW_EMPTY_DESC: 'Please create an app template in a workspace and submit the app template for release.',
-  APP_STATUS_SUBMITTED: 'Submitted',
-  APP_STATUS_PASSED: 'Released',
-  APP_STATUS_SUSPENDED: 'Suspended',
-  APP_STATUS_REJECTED: 'Rejected',
-  APP_STATUS_ACTIVE: 'Activated',
-  APP_STATUS_PUBLISHED: 'Released',
-  APP_STATUS_RECALLED: 'Suspended',
-  APP_STATUS_RECALL: 'Recall',
-  APP_STATUS_DRAFT: 'To be submitted',
-  APP_STATUS_PENDING_REVIEW: 'To be released',
-  APP_STATUS_IN_REVIEW: 'Reviewing',
-  APP_STATUS_DEVELOPING: 'Developing',
+  UNRELEASED: '待发布',
+  APP_REVIEW_EMPTY_DESC: '请在企业空间中创建应用模板并提交发布。',
+  APP_STATUS_SUBMITTED: '已提交',
+  APP_STATUS_PASSED: '已发布',
+  APP_STATUS_SUSPENDED: '已下架',
+  APP_STATUS_REJECTED: '已拒绝',
+  APP_STATUS_ACTIVE: '已上架',
+  APP_STATUS_PUBLISHED: '已发布',
+  APP_STATUS_RECALLED: '已下架',
+  APP_STATUS_RECALL: '下架',
+  APP_STATUS_DRAFT: '待提交',
+  APP_STATUS_PENDING_REVIEW: '待发布',
+  APP_STATUS_IN_REVIEW: '审核中',
+  APP_STATUS_DEVELOPING: '开发中',
   // Released
-  RELEASED: 'Released',
-  OPERATOR: 'Operator'
+  RELEASED: '已发布',
+  OPERATOR: '操作者'
 };
