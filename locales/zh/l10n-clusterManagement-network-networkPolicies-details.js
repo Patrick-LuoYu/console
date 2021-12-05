@@ -20,9 +20,9 @@ module.exports = {
   // More > Edit YAML
   // More > Delete
   // Egress Traffic
-  EGRESS_TRAFFIC: 'Egress Traffic',
-  DESTINATION: 'Destination',
-  LABEL: 'Label',
+  EGRESS_TRAFFIC: '出站流量',
+  DESTINATION: '目的地',
+  LABEL: '标签',
   // Ingress Traffic
-  INGRESS_TRAFFIC: 'Ingress Traffic'
+  INGRESS_TRAFFIC: '入站流量'
 };
