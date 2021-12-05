@@ -17,16 +17,16 @@
  */
 module.exports = {
   // Banner
-  WORKSPACE_QUOTA_PL: 'Workspace Quotas',
-  WORKSPACE_QUOTAS_DESC: 'Workspace quotas are used to control the total resource usage of all projects and DevOps projects in a workspace.',
+  WORKSPACE_QUOTA_PL: '企业空间配额',
+  WORKSPACE_QUOTAS_DESC: '企业空间配额用于管理企业空间中所有项目和 DevOps 项目的总资源用量。',
   // Resource Quotas
-  RESOURCE_QUOTA_PL: 'Resource Quotas',
-  USED_PERCENT: 'Used: {percent}%',
-  RESOURCE_LIMIT: 'Resource limit',
+  RESOURCE_QUOTA_PL: '资源配额',
+  USED_PERCENT: '已使用：{percent}%',
+  RESOURCE_LIMIT: '资源限制',
   // Resource Quotas > Edit Quotas
-  EDIT_WORKSPACE_QUOTAS: 'Edit Workspace Quotas',
-  CPU_REQUEST: 'CPU Request',
-  CPU_LIMIT: 'CPU Limit',
-  MEMORY_REQUEST: 'Memory Request',
-  MEMORY_LIMIT: 'Memory Limit'
+  EDIT_WORKSPACE_QUOTAS: '编辑企业空间配额',
+  CPU_REQUEST: '资源预留',
+  CPU_LIMIT: '资源限制',
+  MEMORY_REQUEST: '内存预留',
+  MEMORY_LIMIT: '内存限制'
 };
