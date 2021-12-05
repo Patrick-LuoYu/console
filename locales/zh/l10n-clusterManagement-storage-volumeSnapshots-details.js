@@ -17,9 +17,9 @@
  */
 module.exports = {
   // Button
-  CREATE_VOLUME: 'Create Volume',
+  CREATE_VOLUME: '创建存储卷',
   // Details
   // Data Source
-  STORAGE_CLASS_SCAP: 'Storage class',
-  DATA_SOURCE: 'Data Source'
+  STORAGE_CLASS_SCAP: '存储类型',
+  DATA_SOURCE: '数据源'
 };
