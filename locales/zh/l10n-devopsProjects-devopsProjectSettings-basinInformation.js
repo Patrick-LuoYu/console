@@ -17,12 +17,12 @@
  */
 module.exports = {
   // Banner
-  DEVOPS_PROJECT_SETTINGS: 'DevOps Project Settings',
-  DEVOPS_DESCRIPTION: 'A DevOps project is a separate namespace where a set of pipelines is defined. Users can group their pipelines themselves (for example, project type and organization type).',
+  DEVOPS_PROJECT_SETTINGS: 'DevOps 项目设置',
+  DEVOPS_DESCRIPTION: 'DevOps 项目是一个独立的命名空间，其中定义了一组流水线。用户可以按照自己的方式对流水线进行分组（例如：项目类型、组织类型）。',
   // Basic Information
-  DEVOPS_PROJECT_ROLE_SCAP: 'DevOps project role',
-  DEVOPS_PROJECT_SCAP: 'DevOps project',
-  DEVOPS_PROJECT_MEMBER_SCAP: 'DevOps project member',
-  DEVOPS_PROJECT_MEMBER_PL_SCAP: 'DevOps project members',
-  DEVOPS_PROJECT_ROLE_PL_SCAP: 'DevOps project roles'
+  DEVOPS_PROJECT_ROLE_SCAP: 'DevOps 项目角色',
+  DEVOPS_PROJECT_SCAP: 'DevOps 项目',
+  DEVOPS_PROJECT_MEMBER_SCAP: 'DevOps 项目成员',
+  DEVOPS_PROJECT_MEMBER_PL_SCAP: 'DevOps 项目成员',
+  DEVOPS_PROJECT_ROLE_PL_SCAP: 'DevOps 项目角色'
 };
