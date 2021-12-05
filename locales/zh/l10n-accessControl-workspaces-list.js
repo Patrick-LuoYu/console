@@ -17,24 +17,24 @@
  */
 module.exports = {
   // Banner
-  WORKSPACE_PL: 'Workspaces',
-  WORKSPACE_DESC: 'A workspace is an isolated logical unit used to organize projects and DevOps projects, manage resource access, and share information within your team.',
+  WORKSPACE_PL: '企业空间',
+  WORKSPACE_DESC: '企业空间是一个组织您的项目和 DevOps 项目、管理资源访问权限以及在团队内部共享资源等的逻辑单元，可以作为团队工作的独立工作空间。',
   // List
-  CLUSTER_PL: 'Clusters',
+  CLUSTER_PL: '集群',
   // List > Create > Basic Information
-  CREATE_WORKSPACE: 'Create Workspace',
-  WORKSPACE_NAME_EMPTY_DESC: 'Please enter a workspace name.',
-  WORKSPACE_CREATE_DESC: 'Set the basic information about the workspace.',
-  ADMINISTRATOR: 'Administrator',
+  CREATE_WORKSPACE: '创建企业空间',
+  WORKSPACE_NAME_EMPTY_DESC: '请输入企业空间名称。',
+  WORKSPACE_CREATE_DESC: '设置企业空间的基本信息。',
+  ADMINISTRATOR: '管理员',
   // List > Create > Cluster Settings
-  SELECT_CLUSTERS_DESC: 'Select clusters to be used in the workspace.',
-  NO_CLUSTER_AVAILABLE_DESC: 'No cluster is available. After the workspace is created, please contact the platform or cluster administrator to authorize a cluster to the workspace.',
-  WORKSPACE_NO_CLUSTER_TIP: 'Please contact the platform or cluster administrator to authorize a cluster to the workspace.',
-  AVAILABLE_CLUSTERS: 'Available Clusters',
-  CLUSTER_SETTINGS: 'Cluster Settings',
-  SELECT_HOST_CLUSTER_WARNING: 'The current system is a multi-cluster system. Please avoid creating resources in the host cluster if possible. Excessive loads in the host cluster will decrease the stability of the multi-cluster system.',
+  SELECT_CLUSTERS_DESC: '选择企业空间需要使用的集群。',
+  NO_CLUSTER_AVAILABLE_DESC: '未发现可用的集群。请在企业空间创建完成后，联系平台管理员或集群管理员将一个集群授权给该企业空间。',
+  WORKSPACE_NO_CLUSTER_TIP: '请联系平台管理员或者集群管理员将一个集群授权给企业空间。',
+  AVAILABLE_CLUSTERS: '可用集群',
+  CLUSTER_SETTINGS: '集群设置',
+  SELECT_HOST_CLUSTER_WARNING: '当前系统为多集群系统，请尽量避免在主集群上创建资源。主集群负载过高会导致多集群系统稳定性下降。',
   // List > Edit Information
   // List > Delete
-  DELETE_WORKSPACE: 'Delete Workspace',
-  WORKSPACE_LOW: 'workspace'
+  DELETE_WORKSPACE: '删除企业空间',
+  WORKSPACE_LOW: '企业空间'
 };
