@@ -27,35 +27,35 @@ module.exports = {
   DO_NOT_REMIND_AGAIN: '不再提示',
   // Install > Basic Information
   LOCATION: '位置',
-  CLUSTER_NAME_DESC: '名称只能包含小写字母、数字和连字符（-），必须以小写字母开头并以小写字母或数字结尾，最长 53 个字符。',
-  FEDPROJECT_CANNOT_DEPLOY_APP_TIP: '无法在多集群项目中部署应用。',
+  CLUSTER_NAME_DESC: '最長 53 個字元，只能包含小寫字母、數字及分隔符號("-")，且必須以小寫字母或數字開頭及結尾',
+  FEDPROJECT_CANNOT_DEPLOY_APP_TIP: '無法在多集群項目裡部署應用.',
   LATEST_VERSION_SCAP: '最新版本',
-  WORKSPACE_EMPTY_DESC: '请选择企业空间',
-  VERSION_EMPTY_DESC: '请选择版本。',
+  WORKSPACE_EMPTY_DESC: '請選擇企業空間',
+  VERSION_EMPTY_DESC: '請選擇版本',
   // Install > App Settings
-  HELM_APP_SCHEMA_FORM_TIP: '您可以通过图形化表单或 YAML 文件对应用进行设置。图形化表单和 YAML 文件中的设置相互独立。',
-  DEPLOYED_SUCCESSFUL: '部署成功。',
+  HELM_APP_SCHEMA_FORM_TIP: '此應用支持表單模式，可選擇通過表單或 YAML 編輯器來修改預設應用配置。注意：不同模式之間數據獨立。',
+  DEPLOYED_SUCCESSFUL: 'Deployed successfully.',
   // App Information
-  APP_INFORMATION: '应用信息',
-  VERSION_NUMBER: '版本号',
-  APP_SCREENSHOTS: '应用截图',
+  APP_INFORMATION: '應用資訊',
+  VERSION_NUMBER: '版本號碼',
+  APP_SCREENSHOTS: '應用截圖',
   CATEGORY_COLON: '分类：',
   HOMEPAGE_COLON: '首页：',
   RELEASE_DATE_COLON: '发布时间：',
   APP_ID_COLON: '应用 ID：',
   APP_VERSIONS_TITLE: '版本（只显示 10 个最新的版本）',
-  MAINTAINER_COLON: '维护者：',
+  MAINTAINER_COLON: '維護者',
   // App Details > Verions
   VERSIONS: '版本',
   // APP Details > Keywords
   KEYWORDS: '关键词',
-  NONE: '无',
+  NONE: '無',
   // App Details > App Introduction
   APP_INTRODUCTION: '应用介绍',
-  APP_DETAILS: '应用详情',
+  APP_DETAILS: '應用詳情',
   NO_DOCUMENT_DESC: '未发现说明文档。',
-  VERSION_INTRO_EMPTY_DESC: '未发现该版本的介绍。',
+  VERSION_INTRO_EMPTY_DESC: '該版本沒有說明文件',
   // App Details > Chart Files
-  CHART_FILES: 'Chart 文件',
-  NO_APP_CHART_FILE_FOUND: '未发现该应用的 chart 文件。'
+  CHART_FILES: '配置文件',
+  NO_APP_CHART_FILE_FOUND: '該應用沒有配置文件'
 };
