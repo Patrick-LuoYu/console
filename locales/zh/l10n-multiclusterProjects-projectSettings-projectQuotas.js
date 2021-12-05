@@ -18,6 +18,6 @@
 module.exports = {
   // Banner
   // Resource Quotas
-  FOLD: '折叠',
-  UNFOLD: '展开'
+  FOLD: 'Fold',
+  UNFOLD: 'Unfold'
 };
