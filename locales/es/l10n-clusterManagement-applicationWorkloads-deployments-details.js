@@ -17,7 +17,7 @@
  */
 module.exports = {
   // Details
-  CREATOR: 'Creator',
+  CREATOR: 'Creador',
   NO: 'No',
   // More > Roll Back
   // More > Edit Autoscaling
@@ -29,7 +29,7 @@ module.exports = {
   // More > Re-Create
   // More > Delete
   // Resource Status > Clusters
-  MULTI_CLUSTER_RESOURCE_TIP: 'The current resource is deployed across multiple clusters. You can click a cluster to view the resource settings in the cluster.',
+  MULTI_CLUSTER_RESOURCE_TIP: 'El recurso multi-clúster actual se ejecuta en distintos clústers. Puedes saltar entre clústers para comprobar los parámetros de este recurso en cada uno de ellos.',
   // Resource Status > Replica Status
   // Resource Status > Ports
   // Resource Status > Pods
