@@ -17,33 +17,33 @@
  */
 module.exports = {
   // Banner
-  USER_DESC: '管理用户及其角色。',
-  USER_PL: '用户',
+  USER_DESC: '系統管理員用此功能模組管理帳號，如創建、更新、讀取、刪除帳號等，同時還能關聯每個帳號的角色；用戶用帳號名稱或郵件地址登入 KubeSphere 平台。',
+  USER_PL: '用戶',
   // List
-  NOT_LOGIN_YET: '尚未登录',
+  NOT_LOGIN_YET: '尚未登入',
   USER_EMPTY_DESC: '请创建一个用户。',
-  USER_ACTIVE: '活跃',
-  USER_AUTHLIMITEXCEEDED: '限制登录',
+  USER_ACTIVE: '活躍',
+  USER_AUTHLIMITEXCEEDED: '限制登入',
   USER_PENDING: '等待中',
   USER_DISABLED: '已禁用',
-  LAST_LOGIN: '最近登录',
+  LAST_LOGIN: '最近登入',
   // List > Create
-  USERNAME_DESC: '用户名只能包含小写字母、数字、连字符（-）和句点（.），必须以小写字母或数字开头及结尾，最长 32 个字符。',
-  PASSWORD_DESC: '密码必须包含数字、大写字母和小写字母，长度为 6 至 64 个字符。',
-  PASSWORD_INVALID_DESC: '密码无效。密码必须包含数字、大写字母和小写字母，长度为 6 至 64 个字符。',
-  PLATFORM_ROLE_DESC: '设置用户在 KubeSphere 平台的角色。',
-  USER_SETTING_EMAIL_DESC: '邮箱地址可用于登录 KubeSphere Web 控制台。',
-  USERNAME_EXISTS: '用户名已存在，请输入其他用户名。',
-  USERNAME_EMPTY_DESC: '请输入一个用户名。',
+  USERNAME_DESC: '最長 32 個字元，只能包含小寫字母、數字、點及隔符號("-")，且必須以小寫字母或數字開頭及結尾',
+  PASSWORD_DESC: '密碼必須包含數字和大小寫字母，長度為 6 ~ 64 位',
+  PASSWORD_INVALID_DESC: '密碼必須包含數字和大小寫字母，長度為 6 ~ 64 位',
+  PLATFORM_ROLE_DESC: '角色類型根據權限範圍分為集群和項目兩類，目前角色的授權範圍為整個集群.',
+  USER_SETTING_EMAIL_DESC: '郵箱可作為登入帳號',
+  USERNAME_EXISTS: '用戶名稱已存在',
+  USERNAME_EMPTY_DESC: '請輸入用戶名稱',
   PLATFORM_ROLE: '平台角色',
-  CREATE_USER: '添加用户',
-  EMAIL: '邮箱',
-  EMAIL_EXISTS: '邮箱地址已存在，请输入其他邮箱地址。',
-  USERNAME_INVALID: '用户名无效。{message}',
-  USERNAME: '用户名',
-  PASSWORD: '密码',
+  CREATE_USER: '添加用戶',
+  EMAIL: '郵箱',
+  EMAIL_EXISTS: '郵箱已存在',
+  USERNAME_INVALID: '用戶名稱格式不合法。{message}',
+  USERNAME: '用戶名稱',
+  PASSWORD: '密碼',
   // List > Edit
-  EDIT_USER: '编辑用户',
+  EDIT_USER: '編輯用戶',
   // List > Delete
   USER_LOW: '用户'
 };
