@@ -17,44 +17,44 @@
  */
 module.exports = {
   // Details
-  ENDPOINT: 'Endpoint',
-  SESSION_AFFINITY: 'Session Affinity',
+  ENDPOINT: '端点',
+  SESSION_AFFINITY: '会话亲和性',
   // More
-  EDIT_EXTERNAL_ACCESS: 'Edit External Access',
-  EDIT_MONITORING_EXPORTER: 'Edit Monitoring Exporter',
-  EDIT_SERVICE: 'Edit Service',
+  EDIT_EXTERNAL_ACCESS: '编辑外部访问',
+  EDIT_MONITORING_EXPORTER: '编辑监控导出器',
+  EDIT_SERVICE: '编辑服务',
   // More > Edit Service
   // More > Edit Service > Specify Workload
   // More > Edit External Access > Access Mode
-  ACCESS_NONE_TIP: 'Internet access is not supported. The service can be accessed only within the cluster.',
-  EXTERNAL_SERVICE: 'External Service',
+  ACCESS_NONE_TIP: '不提供外网访问，只能在集群内访问服务。',
+  EXTERNAL_SERVICE: '外部服务',
   // More > Edit Monitoring Exporter
-  SERVICE_MONITORING_EXPORTER: 'Service Monitoring Exporter',
-  EXPORTER_SERVICE_PORTS: 'Exporter Service Ports',
-  SCRAPE_INTERVAL_MIN: 'Scrape Interval (min)',
-  SCRAP_INTERVAL_DESC: 'Monitoring data collection interval. It defaults to 1 minute.',
-  SELECT_AUTHENTICATION_METHOD: 'Select Authentication Method',
-  PORT_CONNECTION_AUTHENTICATION: 'Port connection authentication.',
-  NO_AUTH_TIP: 'The interface can be directly connected without authentication.',
-  CREATE_A_NEW_SECRET: 'Create a new secret',
-  REFRESH_SECRETS: 'refresh secrets.',
-  SCRAP_TIMEOUT_DESC: 'Collection timeout. It defaults to 10 seconds.',
-  CERTIFICATE_AUTHORITY: 'Certificate Authority',
-  ENCRYPTION_KEY: 'Encryption Key',
-  SERVER_NAME: 'Server Name',
-  NO_AUTHENTICATION_TCAP: 'No Authentication',
-  TLS_SETTINGS_TCAP: 'TLS Settings',
-  BEARER_TOKEN_TCAP: 'Bearer Token',
-  BASIC_AUTHENTICATION_TCAP: 'Basic Authentication',
+  SERVICE_MONITORING_EXPORTER: '服务监控导出器',
+  EXPORTER_SERVICE_PORTS: '导出服务端口',
+  SCRAPE_INTERVAL_MIN: '采集间隔（分钟）',
+  SCRAP_INTERVAL_DESC: '监控数据采集间隔，默认为 1 分钟。',
+  SELECT_AUTHENTICATION_METHOD: '选择认证方式',
+  PORT_CONNECTION_AUTHENTICATION: '端口连接认证。',
+  NO_AUTH_TIP: '接口可直接连接，无需认证。',
+  CREATE_A_NEW_SECRET: '创建新保密字典',
+  REFRESH_SECRETS: '刷新保密字典。',
+  SCRAP_TIMEOUT_DESC: '超时，默认值 10 秒。',
+  CERTIFICATE_AUTHORITY: '发证机构',
+  ENCRYPTION_KEY: '密钥',
+  SERVER_NAME: '服务器名称',
+  NO_AUTHENTICATION_TCAP: '无需认证',
+  TLS_SETTINGS_TCAP: 'TLS 设置',
+  BEARER_TOKEN_TCAP: 'Bearer 令牌',
+  BASIC_AUTHENTICATION_TCAP: '基础认证',
   // More > Edit YAML
   // Details
-  EXTERNAL_IP_ADDRESS: 'External IP Address',
+  EXTERNAL_IP_ADDRESS: '外部 IP 地址',
   // Resource Status
-  MONITORING_EXPORTER: 'Monitoring Exporter',
-  MONITORING_EXPORTER_VALUE: 'Monitoring exporter: {value}',
-  PORT_PL: 'Ports',
-  SERVICE_NODE_PORT_DESC: 'If your client machine is on the same network as the cluster, you can use <Node IP address>:<Node port> to access the service.',
-  IMAGE_BUILDING_FAILED: 'Image building failed',
-  IMAGE_BUILDING_SUCCESSFUL: 'Image building successful',
-  BUILDING_IMAGE: 'Building image'
+  MONITORING_EXPORTER: '监控导出器',
+  MONITORING_EXPORTER_VALUE: '监控导出器：{value}',
+  PORT_PL: '端口',
+  SERVICE_NODE_PORT_DESC: '如果您的客户机与集群在同一网段，您可以使用<节点 IP 地址>:<节点端口>访问服务。',
+  IMAGE_BUILDING_FAILED: '镜像创建失败',
+  IMAGE_BUILDING_SUCCESSFUL: '镜像创建成功',
+  BUILDING_IMAGE: '创建镜像中'
 };
