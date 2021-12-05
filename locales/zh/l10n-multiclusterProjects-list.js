@@ -18,10 +18,10 @@
 module.exports = {
   // Banner
   // List
-  MULTI_CLUSTER_PROJECT_EMPTY_DESC: 'Please create a multi-cluster project.',
+  MULTI_CLUSTER_PROJECT_EMPTY_DESC: '请创建一个多集群项目。',
   // List > Create
   // List > Edit Information
   // List > Add Cluster
   // List > Delete
-  MULTI_CLUSTER_PROJECT_LOW: 'multi-cluster project'
+  MULTI_CLUSTER_PROJECT_LOW: '多集群项目'
 };
