@@ -17,11 +17,11 @@
  */
 module.exports = {
   // Details
-  THRESHOLD_DURATION: 'Threshold Duration',
+  THRESHOLD_DURATION: '告警持续时间',
   // Alerting Rule
-  ALERTING_RULE: 'Alerting Rule',
-  MONITORING_TARGETS_SCAP: 'Monitoring targets',
-  ALERTING_RULE_SCAP: 'Alerting rule',
+  ALERTING_RULE: '告警规则',
+  MONITORING_TARGETS_SCAP: '监控目标',
+  ALERTING_RULE_SCAP: '告警规则',
   // Alerting History
-  NO_DATA_DESC: 'No Data Found'
+  NO_DATA_DESC: '未发现数据'
 };
