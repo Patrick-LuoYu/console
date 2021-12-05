@@ -17,18 +17,18 @@
  */
 module.exports = {
   // Banner
-  VOLUME_PL: 'Volumes',
-  WHAT_IS_STORAGE_CLASS_Q: 'What is a storage class?',
-  WHAT_IS_STORAGE_CLASS_A: 'A storage class is a storage type configured by the cluster administrator. Different storage classes provide cluster users with different types of volumes.',
-  WHAT_IS_LOCAL_VOLUME_Q: 'What is a local volume?',
-  WHAT_IS_LOCAL_VOLUME_A: 'A local volume is a volume created in the local file system of the cluster.',
+  VOLUME_PL: '存储卷',
+  WHAT_IS_STORAGE_CLASS_Q: '什么是存储类型?',
+  WHAT_IS_STORAGE_CLASS_A: '存储类型（Storage Class）是由集群管理员配置的多种存储类型，不同的存储类型为集群用户提供不同类型的存储卷。',
+  WHAT_IS_LOCAL_VOLUME_Q: '什么是本地存储卷?',
+  WHAT_IS_LOCAL_VOLUME_A: '本地存储卷是创建在集群本地文件系统中的存储卷。',
   // List
   // List > Create > Basic Information
   // List > Create > Storage Settings
-  CREATION_METHOD: 'Creation Method',
+  CREATION_METHOD: '创建方式',
   // List > Create > Advanced Settings
   // List > Edit Information
   // List > Edit YAML
   // List > Delete
-  VOLUME: 'Volume'
+  VOLUME: '存储卷'
 };
