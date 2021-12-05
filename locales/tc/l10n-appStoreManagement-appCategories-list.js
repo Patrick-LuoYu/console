@@ -17,13 +17,13 @@
  */
 module.exports = {
   // Banner
-  APP_CATEGORY_PL: '应用分类',
-  APP_CATEGORIES_DESC: '对应用商店中已上架的应用进行分类管理。您可以创建、编辑、删除和调整应用分类。',
+  APP_CATEGORY_PL: '應用分類',
+  APP_CATEGORIES_DESC: '您可以在此頁面創建、編輯、刪除分類，對已上架的應用進行分類管理。',
   // All Categories
   ALL_CATEGORIES_VALUE: '全部分类（{value}）',
-  APP_CATEGORY_EMPTY_DESC: '没有属于当前分类的应用。',
+  APP_CATEGORY_EMPTY_DESC: '該分類暫無綁定的應用。',
   // All Categories > Add
-  ENTER_CATEGORY_NAME_TIP: '请输入分类名称。',
+  ENTER_CATEGORY_NAME_TIP: '請輸入分類名稱。',
   CATEGORY_NAME_DESC: '名称可包含任意字符，最长 20 个字符。',
   // All Categories > Eit
   // All Categories > Delete
@@ -31,6 +31,6 @@ module.exports = {
   // List
   // List > Change Category
   CHANGED_SUCCESSFULLY: '调整成功。',
-  CHANGE_CATEGORY: '调整分类',
-  CHANGE_CATEGORY_DESC: '应用分类将决定该应用在应用商店中的分类。'
+  CHANGE_CATEGORY: '調整分類',
+  CHANGE_CATEGORY_DESC: '應用分類將決定該應用在應用商店中的分類'
 };
