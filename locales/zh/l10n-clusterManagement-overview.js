@@ -17,31 +17,31 @@
  */
 module.exports = {
   // Banner
-  HOST_CLUSTER: 'Host cluster',
-  CLUSTER_CONDITIONS: 'Cluster Conditions',
+  HOST_CLUSTER: '主集群',
+  CLUSTER_CONDITIONS: '集群状态',
   // Baisc Information
-  PROVIDER: 'Provider',
-  KUBERNETES_VERSION: 'Kubernetes version',
-  KUBESPHERE_VERSION: 'KubeSphere version',
-  VISIBILITY_PARTIAL: 'Visible to Some Workspaces',
-  VISIBILITY_PUBLIC: 'Visible to All Workspaces',
-  CLUSTER_BASE_INFO_DESC: 'Basic information provides an overview of the cluster. You can view and edit cluster information.',
+  PROVIDER: '提供商',
+  KUBERNETES_VERSION: 'Kubernetes 版本',
+  KUBESPHERE_VERSION: 'KubeSphere 版本',
+  VISIBILITY_PARTIAL: '对部分企业空间可见',
+  VISIBILITY_PUBLIC: '对所有企业空间可见',
+  CLUSTER_BASE_INFO_DESC: '基本信息是当前集群的信息概览，您可以查看和编辑集群的基本信息。',
   // System Components
   // Resource Usage
-  MEMORY: 'Memory',
-  TOTAL: 'Total',
-  USED: 'Used',
+  MEMORY: '内存',
+  TOTAL: '总计',
+  USED: '已使用',
   // Tools
-  KUBECTL_DESC: 'Command line tool used to control the current cluster.',
-  KUBECONFIG_DESC: 'File used to configure the access information about the current cluster.',
+  KUBECTL_DESC: '命令行工具，用于控制当前集群。',
+  KUBECONFIG_DESC: '配置文件，用于配置当前集群的访问信息。',
   // Kubernetes Status
-  KUBERNETES_STATUS: 'Kubernetes Status',
-  API_REQUESTS_PER_SECOND: 'API requests per second',
-  API_REQUEST_LATENCY: 'API request latency',
-  SCHEDULING_OPERATIONS: 'Scheduling operations',
-  SCHEDULING_OPERATION: 'Scheduling operation',
-  SCHEDULING_FAILURES: 'Scheduling failures',
-  SCHEDULING_FAILURE: 'Scheduling failure',
+  KUBERNETES_STATUS: 'Kubernetes 状态',
+  API_REQUESTS_PER_SECOND: '每秒 API 请求数',
+  API_REQUEST_LATENCY: 'API 请求延迟',
+  SCHEDULING_OPERATIONS: '调度次数',
+  SCHEDULING_OPERATION: '调度次数',
+  SCHEDULING_FAILURES: '调度失败次数',
+  SCHEDULING_FAILURE: '调度失败次数',
   // Nodes
-  VIEW_MORE: 'View More'
+  VIEW_MORE: '查看更多'
 };
