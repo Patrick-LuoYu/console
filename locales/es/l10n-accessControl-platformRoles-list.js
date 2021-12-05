@@ -20,31 +20,31 @@ module.exports = {
   PLATFORM_ROLE_PL: 'Platform Roles',
   // List
   PLATFORM_ROLE_EMPTY_DESC: 'Please create a platform role.',
-  ROLE_USERS_MANAGER: 'Manage all users on the KubeSphere platform.',
-  ROLE_WORKSPACES_MANAGER: 'Manage all workspaces on the KubeSphere platform.',
-  ROLE_PLATFORM_ADMIN: 'Manage all resources on the KubeSphere platform.',
-  ROLE_PLATFORM_REGULAR: 'Cannot access any resources before joining a workspace.',
-  CREATION_TIME_TCAP: 'Creation Time',
+  ROLE_USERS_MANAGER: 'Administrador de usuarios en la plataforma que administra a todos los usuarios.',
+  ROLE_WORKSPACES_MANAGER: 'Administrador del espacio de trabajo en la plataforma que administra todos los espacios de trabajo en la plataforma.',
+  ROLE_PLATFORM_ADMIN: 'Administrador de la plataforma que puede administrar todos los recursos en la plataforma.',
+  ROLE_PLATFORM_REGULAR: 'Usuario normal en la plataforma que no tiene acceso a ningún recurso antes de unirse al espacio de trabajo o clúster.',
+  CREATION_TIME_TCAP: 'Fecha de creación',
   // List > Create
   CREATE_PLATFORM_ROLE: 'Create Platform Role',
   // List > Create > Edit Permissions > Cluster Management
   CLUSTERS_MANAGEMENT: 'Cluster Management',
   CLUSTERS_VIEW: 'Cluster Viewing',
-  CLUSTERS_VIEW_DESC: 'View all clusters and cluster resources.',
-  CLUSTERS_MANAGEMENT_DESC: 'Create clusters, delete clusters, and manage resources in all clusters.',
+  CLUSTERS_VIEW_DESC: 'Ver todos los clústeres y recursos de clúster dentro de una plataforma',
+  CLUSTERS_MANAGEMENT_DESC: 'Crear / eliminar grupos, gestionar recursos en todos los clústeres',
   // List > Create > Edit Permissions > Access Control
-  USERS_MANAGEMENT: 'User Management',
-  USERS_VIEW: 'User Viewing',
-  WORKSPACES_MANAGEMENT_DESC: 'Create, edit, delete, and view workspaces.',
-  USERS_MANAGEMENT_DESC: 'Create, edit, and delete users.',
-  ROLES_MANAGEMENT_DESC: 'Create, edit, and delete platform roles.',
-  WORKSPACES_VIEW_DESC: 'View workspaces.',
-  ROLES_VIEW_DESC: 'View platform roles.',
-  USERS_VIEW_DESC: 'View users.',
+  USERS_MANAGEMENT: 'Users Management',
+  USERS_VIEW: 'Users Viewing',
+  WORKSPACES_MANAGEMENT_DESC: 'Permite la gestión del espacio de trabajo, que incluye agregar / eliminar / editar espacios de trabajo; ver todos los espacios de trabajo en la plataforma',
+  USERS_MANAGEMENT_DESC: 'Permite la gestión de cuentas, incluida la adición / eliminación / actualización de información de la cuenta',
+  ROLES_MANAGEMENT_DESC: 'Permite la gestión de roles de cuenta, que incluye agregar / eliminar / actualizar roles de cuenta',
+  WORKSPACES_VIEW_DESC: 'Ver los espacios de trabajo actuales a los que los usuarios tienen acceso',
+  ROLES_VIEW_DESC: 'Ver los roles actuales en la plataforma',
+  USERS_VIEW_DESC: 'Ver usuarios en la plataforma actual',
   // List > Create > Edit Permissions > App Management
-  APP_TEMPLATES_VIEW_DESC: 'View the platform App Store.',
-  APP_TEMPLATES_MANAGEMENT_DESC: 'Manage the platform App Store and life cycles of cloud-native applications.',
+  APP_TEMPLATES_VIEW_DESC: 'Ver plataforma App Store',
+  APP_TEMPLATES_MANAGEMENT_DESC: 'Gestiona la tienda de aplicaciones a nivel de plataforma, y es responsable de la gestión unificada del ciclo de vida de las aplicaciones nativas de cloud, incluido su lanzamiento (release), eliminación y revisión',
   // List > Create > Edit Permissions > Platform Settings
   PLATFORM_SETTINGS_MANAGEMENT: 'Platform Settings Management',
-  PLATFORM_SETTINGS_MANAGEMENT_DESC: 'View and edit settings of the KubeSphere platform.'
+  PLATFORM_SETTINGS_MANAGEMENT_DESC: 'Gestiona la configuración de la plataforma.'
 };
