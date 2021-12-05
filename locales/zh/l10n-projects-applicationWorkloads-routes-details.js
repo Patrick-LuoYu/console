@@ -18,14 +18,14 @@
 module.exports = {
   // Details
   // Resource Status
-  DOMAIN_NAME_VALUE: 'Domain Name: {value}',
-  PATH_VALUE: 'Path: {value}',
-  RULES: 'Rules',
-  ROUTE_PATH_VALUE: 'Path: <strong>{value}</strong>',
-  ROUTE_SERVICE_VALUE: 'Service: <strong>{value}</strong>',
-  ROUTE_PORT_VALUE: 'Port: <strong>{value}</strong>',
-  ACCESS_SERVICE: 'Access Service',
-  UNABLE_TO_ACCESS: 'Unable to access service',
-  UNABLE_TO_ACCESS_TIP: '* If the domain name is automatically generated, make sure that your client machine can access nip.io.<br/>* If the domain name is manually specified, make sure that domain name resolution policies have been configured in your DNS server or the hosts file of your client machine.',
-  CERTIFICATE_VALUE: 'Certificate: {value}'
+  DOMAIN_NAME_VALUE: '域名：{value}',
+  PATH_VALUE: '路径：{value}',
+  RULES: '规则',
+  ROUTE_PATH_VALUE: '路径：<strong>{value}</strong>',
+  ROUTE_SERVICE_VALUE: '服务：<strong>{value}</strong>',
+  ROUTE_PORT_VALUE: '端口：<strong>{value}</strong>',
+  ACCESS_SERVICE: '访问服务',
+  UNABLE_TO_ACCESS: '无法访问服务',
+  UNABLE_TO_ACCESS_TIP: '* 如果域名由系统自动生成，请确保您的客户机可以访问 nip.io。<br/>* 如果域名由用户手动指定，请确保您的 DNS 服务器或客户机的本地 hosts 文件中已配置了域名解析策略。',
+  CERTIFICATE_VALUE: '证书：{value}'
 };
