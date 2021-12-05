@@ -17,35 +17,35 @@
  */
 module.exports = {
   // Banner
-  POD_IP_POOL_PL: 'Pod IP Pools',
-  POD_IP_POOL_DESC: 'Pod IP pools is used to manage the pod network address space in the cluster. You can create pod IP pools based on your needs.',
-  IPPOOL_USAGE_Q: 'How do I manage a pod network using a pod IP pool?',
-  IPPOOL_USAGE_A: 'A pod IP pool is used to manage the pod network address space, and the address spaces between different pod IP pools cannot overlap. When creating a workload, you can select a specific pod IP pool to assign IP addresses from this pod IP pool to the created pods.',
+  POD_IP_POOL_PL: '容器组 IP 池',
+  POD_IP_POOL_DESC: '容器组 IP 池用于规划集群内容器组的网络地址空间，您可以按需创建容器组 IP 池。',
+  IPPOOL_USAGE_Q: '如何利用 IP 池规划容器组网络？',
+  IPPOOL_USAGE_A: 'IP 池用于规划 Pod 网络地址空间，每个 IP 池之间地址空间不能重叠。创建工作负载时，可选择特定的 IP 池，这样创建出的容器组将从该 IP 池中分配 IP。',
   // List
-  POD_IP_POOL_EMPTY_DESC: 'Please create a pod IP pool.',
-  TOTAL_VALUE: 'Total: {value}',
-  ALL: 'All',
-  NOT_ASSIGNED: 'Not assigned',
+  POD_IP_POOL_EMPTY_DESC: '请创建一个容器组 IP 池。',
+  TOTAL_VALUE: '总计：{value}',
+  ALL: '全部',
+  NOT_ASSIGNED: '未分配',
   // List > Create
-  CREATE_POD_IP_POOL: 'Create Pod IP Pool',
-  NETWORK_SEGMENT: 'Network Segment',
-  USED_IP_ADDRESSES: 'Used IP Addresses',
-  NUMBER_OF_CREATION_TCAP: 'Number of Creation',
-  IP_POOL_CREATE_DESC: 'Pod IP Pools to be Created',
-  IP_ADDRESS_EMPTY_DESC: 'Please enter an IP address.',
-  MASK_TIP: 'Please enter a mask.',
-  ENTER_NETWORK_SEGMENT_TIP: 'Please enter a network segment.',
-  IP_POOL_NUM_TIP: 'Please enter the number of pod IP pools to be created.',
-  IP_POOL_CREATE_COUNT_DESC: 'Up to 10 pod IP pools can be created at the same time.',
-  INVALID_IP_DESC: 'Invalid IP address format.',
+  CREATE_POD_IP_POOL: '创建容器组 IP 池',
+  NETWORK_SEGMENT: '网段',
+  USED_IP_ADDRESSES: '已用 IP 地址',
+  NUMBER_OF_CREATION_TCAP: '创建数量',
+  IP_POOL_CREATE_DESC: '即将创建的容器组 IP 池',
+  IP_ADDRESS_EMPTY_DESC: '请输入 IP 地址。',
+  MASK_TIP: '请输入掩码。',
+  ENTER_NETWORK_SEGMENT_TIP: '请输入网段。',
+  IP_POOL_NUM_TIP: '请输入需要创建的容器组 IP 池数量。',
+  IP_POOL_CREATE_COUNT_DESC: '最多可同时创建 10 个容器组 IP 池。',
+  INVALID_IP_DESC: 'IP 地址格式错误。',
   // List > Edit Information
   // List > View YAML
   // Assign Workspace
-  IPPOOL_ASSIGN_WORKSPACE_DESC: 'Assign the pod IP pool to a workspace.',
-  IPPOOL_ASSIGN_WORKSPACE_ALLOCATED_WARNING: 'The pod IP pool is in use and cannot be assigned to another specific workspace.',
-  IPPOOL_ASSIGN_WORKSPACE_CHANGE_WARNING: 'The pod IP pool is in use with a specific workspace assigned. The workspace cannot be changed.',
-  ASSIGN_WORKSPACE: 'Assign Workspace',
-  SELECT_WORKSPACE_DESC: 'Select a workspace.',
+  IPPOOL_ASSIGN_WORKSPACE_DESC: '为 IP 池分配一个企业空间。',
+  IPPOOL_ASSIGN_WORKSPACE_ALLOCATED_WARNING: 'IP 池已被使用，无法分配给另一个具体的企业空间。',
+  IPPOOL_ASSIGN_WORKSPACE_CHANGE_WARNING: 'IP 池已被使用且已指定具体的企业空间，无法更改企业空间。',
+  ASSIGN_WORKSPACE: '分配企业空间',
+  SELECT_WORKSPACE_DESC: '选择一个企业空间。',
   // List > Delete
-  POD_IP_POOL_LOW: 'pod IP pool'
+  POD_IP_POOL_LOW: '容器组 IP 池'
 };
