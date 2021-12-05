@@ -17,11 +17,11 @@
  */
 module.exports = {
   // Banner
-  APP_CATEGORY_PL: 'App Categories',
-  APP_CATEGORIES_DESC: 'Manage categories of apps released to the App Store. You can create, edit, delete, and change app categories.',
+  APP_CATEGORY_PL: 'Categorias de Aplicación',
+  APP_CATEGORIES_DESC: 'Este módulo te permite crear, editar y eliminar categorías; así como clasificar las aplicaciones activas de la Tienda.',
   // All Categories
   ALL_CATEGORIES_VALUE: 'All Categories ({value})',
-  APP_CATEGORY_EMPTY_DESC: 'No apps belong to the category.',
+  APP_CATEGORY_EMPTY_DESC: 'No hay aplicación disponibles para la categoría.',
   // All Categories > Add
   ENTER_CATEGORY_NAME_TIP: 'Please enter a category name.',
   CATEGORY_NAME_DESC: 'The name can contain any characters and the maximum length is 20 characters.',
@@ -31,6 +31,6 @@ module.exports = {
   // List
   // List > Change Category
   CHANGED_SUCCESSFULLY: 'Changed successfully.',
-  CHANGE_CATEGORY: 'Change Category',
-  CHANGE_CATEGORY_DESC: 'The app category determines the classification of the app in the App Store.'
+  CHANGE_CATEGORY: 'Cambiar Categoría',
+  CHANGE_CATEGORY_DESC: 'La clasificación de la aplicación determinará la clasificación de la aplicación en la Tienda de Aplicaciones.'
 };
