@@ -17,44 +17,44 @@
  */
 module.exports = {
   // Banner
-  APPLICATION_WORKLOAD_PL: 'Application Workloads',
-  WORKLOAD_PL: 'Workloads',
+  APPLICATION_WORKLOAD_PL: 'Workload de aplicaciones',
+  WORKLOAD_PL: 'Carga de trabajo',
   // List
   DEPLOYMENTS: 'Deployments',
-  UPDATE_TIME_TCAP: 'Update Time',
-  ALL_PROJECTS: 'All projects',
+  UPDATE_TIME_TCAP: 'Tiempo de actualización',
+  ALL_PROJECTS: 'Todos los proyectos',
   // List > Create > Basic Information
   SELECT_PROJECT_DESC: 'Select a project in which the resource is to be created.',
   PROJECT_NOT_SELECT_DESC: 'Please select a project.',
-  BASIC_INFORMATION: 'Basic Information',
-  NAME: 'Name',
-  FEDPROJECT_RESOURCE_TIP: 'To create workload resources in a multi-cluster project, go to the Workloads page in the multi-cluster project.',
-  FINISHED: 'Finished',
-  NOT_SET: 'Not set',
+  BASIC_INFORMATION: 'Información básica',
+  NAME: 'Nombre',
+  FEDPROJECT_RESOURCE_TIP: 'No se pueden crear recursos de proyectos de múltiples clústeres en la administración de clústeres, vaya a la página del proyecto de múltiples clústeres para operar.',
+  FINISHED: 'Finalizado',
+  NOT_SET: 'Sin definir',
   CURRENT: 'Current',
-  PROJECT: 'Project',
+  PROJECT: 'Proyecto',
   // List > Create > Pod Settings
-  PREVIOUS: 'Previous',
-  NOTE: 'Note',
+  PREVIOUS: 'Anterior',
+  NOTE: 'Advertencia',
   // List > Create > Pod Settings > Add Container > Container Settings
-  IMAGE: 'Image',
-  IMAGE_VALUE: 'Image: {value}',
+  IMAGE: 'Imagen',
+  IMAGE_VALUE: 'Imagen: {value}',
   // List > Create > Pod Settings > Add Container > Health Check > Readiness Check > TCP Port
   PORT_NUMBER_EMPTY: 'Please enter a port number.',
-  USER: 'User',
+  USER: 'Usuario',
   // List > Create > Volume Settings
-  VOLUME_NAME_EXIST: 'The volume name already exists.',
+  VOLUME_NAME_EXIST: 'nombre de volumen existe',
   SELECT_TYPE: 'Select {type}',
-  SPECIFY_SUBPATH: 'Specify Subpath',
-  SPECIFY_SUBPATH_TIP: 'Specify a volume subpath to be mounted to the container.',
+  SPECIFY_SUBPATH: 'Haga clic para agregar subPath',
+  SPECIFY_SUBPATH_TIP: 'Solo es apropiado para montar volúmenes, pero no para hostpath',
   // List > Create > Advanced Settings
   NETWORK_SEGMENT_SCAP: 'Network segment',
-  AVAILABLE_ADDRESSES: 'Available addresses',
+  AVAILABLE_ADDRESSES: 'Available Number',
   POD_IP_POOL: 'Pod IP Pool',
-  SUBPATH: 'Subpath',
+  SUBPATH: 'sub ruta',
   // List > Create > Advanced Settings > Add Metadata
-  ANNOTATION_PL: 'Annotations',
-  CREATE_SUCCESSFUL: 'Created successfully.',
+  ANNOTATION_PL: 'Anotaciones',
+  CREATE_SUCCESSFUL: 'Creado con éxito',
   // List > Edit Information
   // List > Edit YAML
   // List > Re-create
