@@ -32,9 +32,9 @@ module.exports = {
   NO_UPDATE_LOG_DESC: '未发现更新日志。',
   // Reject
   REJECT: '拒绝',
-  REJECT_REASON_DESC: '填写拒绝应用审核的原因。',
-  REJECT_REASON_TIP: '请填写至少一条拒绝原因。',
-  REJECT_SUCCESSFUL: '拒绝成功。',
+  REJECT_REASON_DESC: '請填寫拒絕審核的原因',
+  REJECT_REASON_TIP: '請填寫拒絕原因',
+  REJECT_SUCCESSFUL: '拒絕成功',
   // Release
   RELEASE: '发布',
   RELEASE_SUCCESSFUL: '发布成功。'
