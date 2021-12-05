@@ -16,10 +16,10 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  NODE_CPU_UTILISATION: 'CPU usage',
-  NODE_LOAD1: 'Average CPU load',
-  NODE_MEMORY_UTILISATION: 'Memory usage',
-  NODE_DISK_SIZE_UTILISATION: 'Disk usage',
-  NODE_POD_UTILISATION: 'Pod usage',
-  NODE_DISK_INODE_UTILISATION: 'Inode usage'
+  NODE_CPU_UTILISATION: 'CPU 用量',
+  NODE_LOAD1: 'CPU 平均负载',
+  NODE_MEMORY_UTILISATION: '内存用量',
+  NODE_DISK_SIZE_UTILISATION: '磁盘用量',
+  NODE_POD_UTILISATION: '容器组用量',
+  NODE_DISK_INODE_UTILISATION: 'Inode 用量'
 };
