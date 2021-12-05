@@ -20,38 +20,38 @@ module.exports = {
   NODE_IP_ADDRESS: 'Node IP Address',
   CLUSTER: 'Cluster',
   // Resource Status > Containers
-  CONTAINER_PL: 'Containers',
-  PROBE_PL: 'Probes',
+  CONTAINER_PL: 'Contenedores',
+  PROBE_PL: 'Investigacion',
   // Resource Status > Containers > Container Logs
-  CONTAINER_LOGS_NOT_SUPPORTED: 'The container does not support real-time logs currently. Please try again later.',
-  CONTAINER_LOGS: 'Container Logs',
+  CONTAINER_LOGS_NOT_SUPPORTED: 'El contenedor no admite logs en tiempo real en el estado actual, intente nuevamente más tarde.',
+  CONTAINER_LOGS: 'Registros de contenedores',
   // Resource Status > Details > Container Details > Details
-  COMMAND: 'Command',
-  IMAGE_ID: 'Image ID',
-  IMAGE_PULL_POLICY: 'Image Pull Policy',
+  COMMAND: 'Comando',
+  IMAGE_ID: 'ID de imagen',
+  IMAGE_PULL_POLICY: 'Política de extracción de imagen',
   CONTAINER_DETAILS_PAGE_SCAP: 'Container details page.',
   // Resource Status > Details > Container Details > Terminal
-  LOADING: 'Loading...',
-  RESOURCE_LIMITS: 'Resource Limits',
-  RESOURCE_REQUESTS: 'Resource Requests',
+  LOADING: 'Cargando',
+  RESOURCE_LIMITS: 'Límites de recursos',
+  RESOURCE_REQUESTS: 'Solicitudes de recursos',
   TERMINAL: 'Terminal',
   // Resource Status > Details > Container Details > Resource Status
-  RESTART_PL: 'Restarts',
+  RESTART_PL: 'Reiniciar contadores',
   RESTART: 'Restart',
-  STORAGE_DEVICES: 'Storage Devices',
-  LIVENESS_PROBE: 'Liveness Probe',
-  READINESS_PROBE: 'Readiness Probe',
+  STORAGE_DEVICES: 'Dispositivo de almacenamiento',
+  LIVENESS_PROBE: 'Sonda de estado',
+  READINESS_PROBE: 'Sonda de preparación',
   STARTUP_PROBE: 'Startup Probe',
   // Resource Status > Details > Container Details > Monitoring
   // Resource Status > Details > Container Details > Environment Variables
   // Resource Status > Details > Container Details > Container Logs
-  NO_RESOURCE: 'No {resource}.',
-  LOG_DATA_LOW: 'log data',
+  NO_RESOURCE: 'No se encuentra {resource}.',
+  LOG_DATA_LOW: 'Datos de registro',
   // Resource Status > Volumes
-  TYPE_CONFIGMAP: 'Volume type: configmap',
-  TYPE_SECRET: 'Volume type: secret',
+  TYPE_CONFIGMAP: 'Volume type: ConfigMap',
+  TYPE_SECRET: 'Volume type: Secret',
   TYPE_EMPTYDIR: 'Volume type: emptyDir',
-  TYPE_HOSTPATH: 'Volume type: host path',
+  TYPE_HOSTPATH: 'Volume type: HostPath',
   // Scheduling Information
   REASON_VALUE: 'Reason: {value}',
   MESSAGE_VALUE: 'Message: {value}',
