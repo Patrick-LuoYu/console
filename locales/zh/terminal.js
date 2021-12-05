@@ -16,12 +16,12 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  connected: 'connected',
-  Disconnect: 'Disconnect',
-  disconnected: 'disconnected',
-  'Download File': 'Download File',
-  'Kubeconfig File': 'Kubeconfig File',
-  'KubeSphere Terminal': 'KubeSphere Terminal',
-  'Launch kubectl': 'Launch kubectl',
-  'Put this into': 'Put this into'
+  connected: '已连接',
+  Disconnect: '断开连接',
+  disconnected: '未连接',
+  'Download File': '下载文件',
+  'Kubeconfig File': 'Kubeconfig 文件',
+  'KubeSphere Terminal': 'KubeSphere 终端',
+  'Launch kubectl': '启动 kubectl',
+  'Put this into': '把它加入到'
 };
