@@ -17,11 +17,11 @@
  */
 module.exports = {
   // Banner
-  APP_RELEASE: '应用发布',
-  APP_RELEASE_DESC: '管理待发布到应用商店中的应用。您可以查看应用详情并批准或拒绝应用发布。',
+  APP_RELEASE: '應用上架',
+  APP_RELEASE_DESC: 'KubeSphere supports reviewing the contents of applications to be released. You can view the contents and approve or reject to publish the applications.',
   // Unreleased
   UNRELEASED: '待发布',
-  APP_REVIEW_EMPTY_DESC: '请在企业空间中创建应用模板并提交发布。',
+  APP_REVIEW_EMPTY_DESC: 'No unreleased app is found.',
   APP_STATUS_SUBMITTED: '已提交',
   APP_STATUS_PASSED: '已发布',
   APP_STATUS_SUSPENDED: '已下架',
