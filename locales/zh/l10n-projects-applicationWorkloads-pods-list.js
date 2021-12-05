@@ -17,7 +17,7 @@
  */
 module.exports = {
   // Banner
-  POD_DESC: '容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。',
+  POD_DESC: 'A pod is the basic execution unit of a Kubernetes application, representing the smallest and simplest unit in the Kubernetes object model that you create or deploy.',
   // List
-  POD_EMPTY_DESC: '请创建一个容器组。'
+  POD_EMPTY_DESC: 'Please create a pod.'
 };
