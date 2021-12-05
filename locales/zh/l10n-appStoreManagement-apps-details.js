@@ -18,30 +18,30 @@
 module.exports = {
   // Title
   // Suspend App
-  SUSPEND_APP: '下架应用',
-  APP_NOTE: '提示',
-  SUSPEND_SUCCESSFUL: '下架成功。',
+  SUSPEND_APP: 'Suspend App',
+  APP_NOTE: 'Note',
+  SUSPEND_SUCCESSFUL: 'Suspended successfully.',
   // Activate App
-  ACTIVATE_APP: '上架应用',
-  ACTIVATE_SUCCESSFUL: '上架成功。',
+  ACTIVATE_APP: 'Activate App',
+  ACTIVATE_SUCCESSFUL: 'Activated successfully.',
   // Details
-  APP_ID: '应用 ID',
-  CATEGORY: '分类',
-  TYPE: '类型',
+  APP_ID: 'App ID',
+  CATEGORY: 'Category',
+  TYPE: 'Type',
   // Verisons
-  NO_VERSION_INFO_DESC: '未发现版本信息。',
-  ACTIVATE_VERSION: '上架版本',
-  CANCEL_SUBMISSION: '取消提交',
-  SUSPEND_VERSION: '下架版本',
-  APP_SUSPEND_TIP: '应用 <strong>{name}</strong> 下架后，用户无法从商店中部署此应用，您确定要下架该应用吗？',
-  APP_RECOVER_TIP: '应用 <strong>{name}</strong> 上架后，相关的下架版本都将变成上架，您确定要上架该应用吗？',
+  NO_VERSION_INFO_DESC: 'No version information is found.',
+  ACTIVATE_VERSION: 'Activate Version',
+  CANCEL_SUBMISSION: 'Cancel Submission',
+  SUSPEND_VERSION: 'Suspend Version',
+  APP_SUSPEND_TIP: 'The app <strong>{name}</strong> cannot be deployed from the App Store after it is suspended. Are you sure you want to suspend it?',
+  APP_RECOVER_TIP: 'The app <strong>{name}</strong> and the suspended versions will be displayed again in the App Store. Are you sure you want to activate it now?',
   // Verisons > Buttons
   // Versions > Chart Files
   // Versions > App Release
   // Versions > App Instances
   // App Information
   // App Release
-  REJECTION_REASON: '拒绝原因',
-  RELEASE_RECORD: '发布记录',
-  RELEASE_RECORD_EMPTY_DESC: '未发现发布记录。'
+  REJECTION_REASON: 'Rejection Reason',
+  RELEASE_RECORD: 'Release Record',
+  RELEASE_RECORD_EMPTY_DESC: 'No release record is found.'
 };
