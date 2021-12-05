@@ -17,35 +17,35 @@
  */
 module.exports = {
   // Banner
-  APP_REPOSITORY_PL: 'App Repositories',
-  APP_REPO: 'App Repositories',
-  HOW_TO_USE_APP_REPO_Q: 'How do I use an app repository?',
-  HOW_TO_USE_APP_REPO_A: 'You need to go to your project in the workspace. When you deploy a new app, select <b>From App Template</b> and then choose an app repository in the drop-down list to deploy an app in the repository.',
-  APP_REPO_DESC: 'An app repository is a repository used to store application templates. You can add an app repository to deploy and manage its applications.',
+  APP_REPOSITORY_PL: '应用仓库',
+  APP_REPO: '应用仓库',
+  HOW_TO_USE_APP_REPO_Q: '如何使用应用仓库？',
+  HOW_TO_USE_APP_REPO_A: '您需要转到在该企业空间下的项目。在部署新应用时，选择<b>来自应用模板</b>并在下拉列表中选择您的应用仓库，即可部署应用仓库中的应用。',
+  APP_REPO_DESC: '应用仓库是用于存放应用模板的仓库，您可以添加应用仓库以部署和管理其中的应用。',
   // List
-  APP_REPOSITORY_EMPTY_DESC: 'Please add an app repository.',
+  APP_REPOSITORY_EMPTY_DESC: '请添加一个应用仓库。',
   // List > Add
-  ADD_APP_REPO: 'Add App Repository',
-  VALIDATE: 'Validate',
-  SYNC_INTERVAL: 'Synchronization Interval',
-  SYNC_INTERVAL_DESC: 'Set a synchronization interval. The value range is 3 minutes to 24 hours. The default value 0 indicates no synchronization.',
-  SYNC_PERIOD_EMPTY_DESC: 'Please set a synchronization interval.',
-  SYNC_INTERVAL_INVALID: 'Invalid value. Please enter 0 or a positive integer. ',
-  APP_REPO_URL_DESC: 'The URL needs to be validated before you add or edit an app repository.',
-  SYNC_INTERVAL_TIP: 'The value range is 3 minutes to 24 hours. Please enter a valid value.',
-  SECONDS: 'Seconds',
-  MINUTES: 'Minutes',
-  HOURS: 'Hours',
+  ADD_APP_REPO: '添加应用仓库',
+  VALIDATE: '验证',
+  SYNC_INTERVAL: '同步周期',
+  SYNC_INTERVAL_DESC: '设置一个同步周期，取值范围为 3 分钟到 24 小时。默认值 0 表示不同步。',
+  SYNC_PERIOD_EMPTY_DESC: '请设置同步周期。',
+  SYNC_INTERVAL_INVALID: '数值无效，请输入 0 或正整数。',
+  APP_REPO_URL_DESC: 'URL 需要通过验证才能添加或编辑应用仓库。',
+  SYNC_INTERVAL_TIP: '取值范围为 3 分钟到 24 小时，请输入有效数值。',
+  SECONDS: '秒',
+  MINUTES: '分钟',
+  HOURS: '小时',
   // List > Add > URL > s3://
-  ACCESS_KEY_ID: 'Access Key ID',
-  SECRET_ACCESS_KEY: 'Secret Access Key',
+  ACCESS_KEY_ID: '访问密钥 ID',
+  SECRET_ACCESS_KEY: '秘密访问密钥',
   // List > Edit
-  EDIT_APP_REPO: 'Edit App Repository',
-  INVALID_URL_DESC: 'Invalid URL.',
-  VALID_URL_DESC: 'Valid URL.',
+  EDIT_APP_REPO: '编辑应用仓库',
+  INVALID_URL_DESC: 'URL 无效。',
+  VALID_URL_DESC: 'URL 验证通过。',
   // List > Delete
-  APP_REPOSITORY: 'App Repository',
-  APP_REPOSITORY_LOW: 'app repository',
+  APP_REPOSITORY: '应用仓库',
+  APP_REPOSITORY_LOW: '应用仓库',
   // Checkbox
-  UPDATE: 'Update'
+  UPDATE: '更新'
 };
