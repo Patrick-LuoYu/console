@@ -17,34 +17,34 @@
  */
 module.exports = {
   // Banner
-  PLATFORM_ROLE_PL: 'Platform Roles',
+  PLATFORM_ROLE_PL: '平台角色',
   // List
-  PLATFORM_ROLE_EMPTY_DESC: 'Please create a platform role.',
-  ROLE_USERS_MANAGER: 'Manage all users on the KubeSphere platform.',
-  ROLE_WORKSPACES_MANAGER: 'Manage all workspaces on the KubeSphere platform.',
-  ROLE_PLATFORM_ADMIN: 'Manage all resources on the KubeSphere platform.',
-  ROLE_PLATFORM_REGULAR: 'Cannot access any resources before joining a workspace.',
-  CREATION_TIME_TCAP: 'Creation Time',
+  PLATFORM_ROLE_EMPTY_DESC: '请创建一个平台角色。',
+  ROLE_USERS_MANAGER: '管理 KubeSphere 平台上的所有用户。',
+  ROLE_WORKSPACES_MANAGER: '管理 KubeSphere 平台上的所有企业空间。',
+  ROLE_PLATFORM_ADMIN: '管理 KubeSphere 平台上的所有资源。',
+  ROLE_PLATFORM_REGULAR: '被邀请加入企业空间之前无法访问任何资源。',
+  CREATION_TIME_TCAP: '创建时间',
   // List > Create
-  CREATE_PLATFORM_ROLE: 'Create Platform Role',
+  CREATE_PLATFORM_ROLE: '创建平台角色',
   // List > Create > Edit Permissions > Cluster Management
-  CLUSTERS_MANAGEMENT: 'Cluster Management',
-  CLUSTERS_VIEW: 'Cluster Viewing',
-  CLUSTERS_VIEW_DESC: 'View all clusters and cluster resources.',
-  CLUSTERS_MANAGEMENT_DESC: 'Create clusters, delete clusters, and manage resources in all clusters.',
+  CLUSTERS_MANAGEMENT: '集群管理',
+  CLUSTERS_VIEW: '集群查看',
+  CLUSTERS_VIEW_DESC: '查看 KubeSphere 平台的所有集群及集群中的所有资源。',
+  CLUSTERS_MANAGEMENT_DESC: '创建集群、删除集群和管理集群中的所有资源。',
   // List > Create > Edit Permissions > Access Control
-  USERS_MANAGEMENT: 'User Management',
-  USERS_VIEW: 'User Viewing',
-  WORKSPACES_MANAGEMENT_DESC: 'Create, edit, delete, and view workspaces.',
-  USERS_MANAGEMENT_DESC: 'Create, edit, and delete users.',
-  ROLES_MANAGEMENT_DESC: 'Create, edit, and delete platform roles.',
-  WORKSPACES_VIEW_DESC: 'View workspaces.',
-  ROLES_VIEW_DESC: 'View platform roles.',
-  USERS_VIEW_DESC: 'View users.',
+  USERS_MANAGEMENT: '用户管理',
+  USERS_VIEW: '用户查看',
+  WORKSPACES_MANAGEMENT_DESC: '创建、编辑和删除企业空间。',
+  USERS_MANAGEMENT_DESC: '创建、编辑和删除用户。',
+  ROLES_MANAGEMENT_DESC: '创建、编辑和删除角色。',
+  WORKSPACES_VIEW_DESC: '查看用户被授权的企业空间。',
+  ROLES_VIEW_DESC: '查看 KubeSphere 平台的所有角色。',
+  USERS_VIEW_DESC: '查看 KubeSphere 平台的所有用户。',
   // List > Create > Edit Permissions > App Management
-  APP_TEMPLATES_VIEW_DESC: 'View the platform App Store.',
-  APP_TEMPLATES_MANAGEMENT_DESC: 'Manage the platform App Store and life cycles of cloud-native applications.',
+  APP_TEMPLATES_VIEW_DESC: '查看 KubeSphere 平台的应用商店。',
+  APP_TEMPLATES_MANAGEMENT_DESC: '管理 KubeSphere 平台的应用商店。',
   // List > Create > Edit Permissions > Platform Settings
-  PLATFORM_SETTINGS_MANAGEMENT: 'Platform Settings Management',
-  PLATFORM_SETTINGS_MANAGEMENT_DESC: 'View and edit settings of the KubeSphere platform.'
+  PLATFORM_SETTINGS_MANAGEMENT: '平台设置管理',
+  PLATFORM_SETTINGS_MANAGEMENT_DESC: '查看和编辑 KubeSphere平台的设置。'
 };
