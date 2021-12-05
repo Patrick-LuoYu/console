@@ -17,32 +17,32 @@
  */
 module.exports = {
   // Banner
-  LOG_RECEIVER_PL: 'Log Receivers',
-  LOG_COLLECTION_DESC: 'The system collects standard output (stdout) and standard error (stderr) logs from each container and sends them to one or more target services.',
+  LOG_RECEIVER_PL: '日志接收器',
+  LOG_COLLECTION_DESC: '系统将收集每个容器的标准输出和标准错误输出日志，并将其发送到一个或多个目标服务。',
   // Banner > Add Log Receiver
-  ADD_LOG_RECEIVER: 'Add Log Receiver',
-  LOG_COLLECTION_TIPS: 'You can add one log receiver for each type.',
-  ES_DESC: 'Elasticsearch is a distributed, RESTful search and analytics engine.',
-  KAFKA_DESC: 'Kafka is a popular open-source, stream-processing platform.',
-  FLUENTD_DESC: 'Fluentd is an open-source data collector for unified logging layer.',
+  ADD_LOG_RECEIVER: '添加日志接收器',
+  LOG_COLLECTION_TIPS: '每种类型的日志收集器只能添加一个。',
+  ES_DESC: 'Elasticsearch 是分布式、RESTful 风格的搜索和分析引擎。',
+  KAFKA_DESC: 'Kafka 是流行的开源流处理平台。',
+  FLUENTD_DESC: 'Fluentd 是提供统一日志处理层的开源数据收集器。',
   // Banner > Add Log Receiver > Elasticsearch
-  LOG_COLLECTION_ES_URL_TIPS: 'The built-in Elasticsearch service is used by default. You can also enter the IP address of Elasticsearch independently deployed inside or outside the cluster.',
-  LOG_COLLECTION_ES_INDEX_TIPS: 'Use the index prefix to speed up queries. The index prefix is automatically generated in <Index prefix>-<Year-month-date> format.',
-  PARAMETER_REQUIRED: 'This parameter is mandatory.',
+  LOG_COLLECTION_ES_URL_TIPS: '默认使用系统部署的 Elasticsearch 服务，您也可以输入在集群内部或外部单独部署的 Elasticsearch 服务的地址。',
+  LOG_COLLECTION_ES_INDEX_TIPS: '使用索引前缀进行快速搜索。系统以<索引前缀>-<年-月-日>格式自动生成索引前缀。',
+  PARAMETER_REQUIRED: '此参数为必填项。',
   // Banner > Add Log Receiver > Kafka
-  TOPIC: 'Topic',
-  ADD_SERVICE_ADDRESS: 'Add',
-  SERVICE_ADDRESS: 'Service Address',
-  ENTER_SERVICE_ADDRESS: 'Please enter a service address.',
-  INVALID_SERVICE_ADDRESS: 'Please enter a correct service address.',
+  TOPIC: '主题',
+  ADD_SERVICE_ADDRESS: '添加',
+  SERVICE_ADDRESS: '服务地址',
+  ENTER_SERVICE_ADDRESS: '请输入服务地址。',
+  INVALID_SERVICE_ADDRESS: '请输入正确的服务地址。',
   // Banner > Add Log Receiver > Fluentd
-  LOG_COLLECTION_FLUENTD_URL_TIPS: 'Enter the address of the Fluentd service that receives logs.',
+  LOG_COLLECTION_FLUENTD_URL_TIPS: '输入接收日志的 Fluentd 服务的地址。',
   // Container Logs
-  LOG_COLLECTING: 'Collecting',
-  LOG_DISABLED: 'Disabled',
-  EMPTY_LOG_COLLECTIONS: 'No log receiver is found. You can add log receivers and send logs to external log receivers.',
+  LOG_COLLECTING: '收集中',
+  LOG_DISABLED: '关闭',
+  EMPTY_LOG_COLLECTIONS: '未发现日志接收器。您可以添加日志接收器将日志发送到外部日志接收器中。',
   // Resource Events
-  RESOURCE_EVENTS: 'Resource Events',
+  RESOURCE_EVENTS: '资源事件',
   // Audit Logs
-  AUDIT_LOGS: 'Audit Logs'
+  AUDIT_LOGS: '审计日志'
 };
