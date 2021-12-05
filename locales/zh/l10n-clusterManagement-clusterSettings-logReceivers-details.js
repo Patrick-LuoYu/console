@@ -17,11 +17,11 @@
  */
 module.exports = {
   // Edit
-  INDEX_PREFIX: 'Index Prefix',
+  INDEX_PREFIX: '索引前缀',
   // More > Change Status
-  CHANGE_STATUS: 'Change Status',
-  LOG_COLLECTION_ENABLE_TIPS: 'The new status requires about 1 minute to take effect.',
-  SELECT_STATUS_TIP: 'Select a status',
+  CHANGE_STATUS: '更改状态',
+  LOG_COLLECTION_ENABLE_TIPS: '新的状态需要 1 分钟左右生效。',
+  SELECT_STATUS_TIP: '选择一个状态',
   // Resource Status
   ADRESS: 'Address'
 };
