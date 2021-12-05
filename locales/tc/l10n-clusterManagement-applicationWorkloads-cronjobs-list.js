@@ -18,7 +18,7 @@
 module.exports = {
   // Banner
   // List
-  CRONJOB_EMPTY_DESC: '请创建一个定时任务。',
+  CRONJOB_EMPTY_DESC: 'Please create a CronJob.',
   // List > Create > Basic Information
   EVERY_DAY: '0 0 * * * （每天）',
   EVERY_HOUR: '0 * * * * （每小时）',
@@ -31,6 +31,6 @@ module.exports = {
   // List > Edit Information
   // List > Edit YAML
   // List > Start/Pause
-  PAUSE: '暂停',
-  START: '启动'
+  PAUSE: '暫停',
+  START: '啟動'
 };
