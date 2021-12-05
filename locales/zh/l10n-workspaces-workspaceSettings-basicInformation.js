@@ -17,32 +17,32 @@
  */
 module.exports = {
   // Navigation Pane
-  WORKSPACE_SETTINGS: 'Workspace Settings',
+  WORKSPACE_SETTINGS: '企业空间设置',
   // Banner
-  WORKSPACE_BASIC_INFO_DESC: 'Basic information provides the overview of the workspace. You can view the basic information of the workspace.',
-  WORKSPACE_BASE_INFO_Q1: 'How do I apply for more clusters for the workspace?',
-  WORKSPACE_BASE_INFO_A1: 'Contact the platform or cluster administrator to apply for more clusters.',
+  WORKSPACE_BASIC_INFO_DESC: '基本信息提供企业空间的信息概览，您可以查看企业空间的基本信息。',
+  WORKSPACE_BASE_INFO_Q1: '如何为企业空间申请更多的集群？',
+  WORKSPACE_BASE_INFO_A1: '请联系平台管理员或集群管理员来申请更多的集群。',
   // Workspace Information
-  WORKSPACE_INFO: 'Workspace Information',
-  WORKSPACE_MEMBER_TCAP: 'Workspace member',
-  WORKSPACE_MEMBER_TCAP_PL: 'Workspace members',
-  WS_MEMBER_SCAP: 'Workspace member',
-  WS_MEMBER_SCAP_PL: 'Workspace members',
-  DEVOPS_PROJECT_TCAP: 'DevOps project',
-  DEVOPS_PROJECT_TCAP_PL: 'DevOps projects',
-  DEVOPS_PROJECT_LOW: 'DevOps project',
-  DEVOPS_PROJECT_LOW_PL: 'DevOps projects',
-  PROJECTS: 'Projects',
+  WORKSPACE_INFO: '企业空间信息',
+  WORKSPACE_MEMBER_TCAP: '企业空间成员',
+  WORKSPACE_MEMBER_TCAP_PL: '企业空间成员',
+  WS_MEMBER_SCAP: '企业空间成员',
+  WS_MEMBER_SCAP_PL: '企业空间成员',
+  DEVOPS_PROJECT_TCAP: 'DevOps 项目',
+  DEVOPS_PROJECT_TCAP_PL: 'DevOps 项目',
+  DEVOPS_PROJECT_LOW: 'DevOps 项目',
+  DEVOPS_PROJECT_LOW_PL: 'DevOps 项目',
+  PROJECTS: '项目',
   // Workspace Information > Edit Information
   // Network Isolation
-  ON: 'On',
-  OFF: 'Off',
-  WS_NETWORK_ISOLATION: 'Workspace network isolation',
-  NETWORK_POLICY_UNINSATLLED_DESC: 'The network policy component is not installed in this cluster.',
+  ON: '开启',
+  OFF: '关闭',
+  WS_NETWORK_ISOLATION: '企业空间网络隔离',
+  NETWORK_POLICY_UNINSATLLED_DESC: '该集群未安装网络策略组件。',
   // Delete Workspace
   // Delete Workspace > Delete
-  SURE_TO_DELETE_WORKSPACE: 'Are you sure you want to delete the workspace?',
-  DELETE_WORKSPACE_PROJECTS_DESC: 'Delete projects in the workspace',
-  DELETE_WORKSPACE_DESC: 'The workspace cannot be restored after it is deleted and all resources in the workspace will be removed.',
-  DELETE_WORKSPACE_TIP: 'Are you sure you want to delete the workspace <strong>{resource}</strong>? The workspace cannot be restored after it is deleted and all resources in the workspace will be removed.'
+  SURE_TO_DELETE_WORKSPACE: '您确定删除企业空间吗？',
+  DELETE_WORKSPACE_PROJECTS_DESC: '删除企业空间中的项目',
+  DELETE_WORKSPACE_DESC: '企业空间删除后将无法恢复, 企业空间下的资源也同时会被销毁。',
+  DELETE_WORKSPACE_TIP: '确定删除企业空间 <strong>{resource}</strong> ? 删除后将无法恢复, 企业空间下的资源也同时会被销毁。'
 };
