@@ -17,15 +17,15 @@
  */
 module.exports = {
   // More > Edit Settings
-  CURRENT_APP_SETTINGS_READONLY: 'Current App Settings (read-only)',
-  TARGET_APP_SETTINGS: 'Target App Settings',
-  TARGET_APP_VERSION: 'Target App Version',
-  CURRENT_APP_VERSION: 'Current App Version',
-  EDIT_APP_SETTINGS: 'Edit App Settings',
+  CURRENT_APP_SETTINGS_READONLY: '当前应用设置（只读）',
+  TARGET_APP_SETTINGS: '目标应用设置',
+  TARGET_APP_VERSION: '目标应用版本',
+  CURRENT_APP_VERSION: '当前应用版本',
+  EDIT_APP_SETTINGS: '编辑应用设置',
   // Details
   // Resource Status
-  UPDATED_AGO: 'Updated {value}',
+  UPDATED_AGO: '更新于 {value}',
   // App Template > App Description
-  APP_TEMPLATE: 'App Template',
-  NO_APP_DESC_FOUND: 'No app description found.'
+  APP_TEMPLATE: '应用模板',
+  NO_APP_DESC_FOUND: '未发现应用描述信息。'
 };
