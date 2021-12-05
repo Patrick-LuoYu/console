@@ -17,17 +17,17 @@
  */
 module.exports = {
   // Banner
-  VOLUME_SNAPSHOT_DESC: 'A volume snapshot is the copy of a volume at a specific point in time. It can be used to provision a new volume with data pre-populated by the snapshot or restore a volume to its previous state that is captured by the snapshot.',
-  VOLUME_SNAPSHOT_PL: 'Volume Snapshots',
+  VOLUME_SNAPSHOT_DESC: '存储卷快照是存储卷在特定时间点的副本，可使用快照中的数据预配新存储卷，或者将存储卷恢复至快照捕捉到的先前状态。',
+  VOLUME_SNAPSHOT_PL: '存储卷快照',
   // List
-  VOLUME_SNAPSHOT_STATUS_CREATING: 'Creating',
-  VOLUME_SNAPSHOT_STATUS_FAILED: 'Creation failed',
-  VOLUME_SNAPSHOT_STATUS_READY: 'Created successfully',
-  VOLUME_SNAPSHOT_STATUS_DELETING: 'Deleting',
-  CREATE_STATUS_SUCCESSFUL: 'Created successfully',
-  CREATE_STATUS_UPDATING: 'Creating',
-  CREATE_STATUS_FAILED: 'Creation failed',
-  CREATE_STATUS_DELETING: 'Deleting',
+  VOLUME_SNAPSHOT_STATUS_CREATING: '创建中',
+  VOLUME_SNAPSHOT_STATUS_FAILED: '创建失败',
+  VOLUME_SNAPSHOT_STATUS_READY: '创建成功',
+  VOLUME_SNAPSHOT_STATUS_DELETING: '删除中',
+  CREATE_STATUS_SUCCESSFUL: '创建成功',
+  CREATE_STATUS_UPDATING: '创建中',
+  CREATE_STATUS_FAILED: '创建失败',
+  CREATE_STATUS_DELETING: '删除中',
   // List > Delete
-  VOLUME_SNAPSHOT_LOW: 'volume snapshot'
+  VOLUME_SNAPSHOT_LOW: '存储卷快照'
 };
