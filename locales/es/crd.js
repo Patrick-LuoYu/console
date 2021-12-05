@@ -15,25 +15,13 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 module.exports = {
-  CUSTOM_RESOURCE: 'Custom Resource',
-  CUSTOM_RESOURCE_LOW: 'custom resource',
-  CUSTOM_RESOURCE_PL: 'Custom Resources',
-  CRD: 'CRD',
-  CRD_PL: 'CRDs',
   CRD_LOW: 'CRD',
-  CRD_EMPTY_DESC: 'Please create a CRD.',
-  CUSTOM_RESOURCE_DEFINITION_LOW: 'custom resource definition',
+  CUSTOM_RESOURCE_LOW: 'custom resource',
+  CRD: 'CRD',
   'Custom Resource Definition': 'Custom Resource Definition',
   'Custom Resource Definitions': 'Custom Resource Definitions',
-  CRD_DESC:
-    'A Custom Resource Definition (CRD) extends Kubernetes by allowing users to create any kind of custom resources. Users can use these CRD objects as they do for built-in resources.',
-  CUSTOM_RESOURCE_DEFINITION_CREATE_DESC:
-    'A Custom Resource Definition (CRD) extends Kubernetes by allowing users to create any kind of custom resources. Users can use these CRD objects as they do for built-in resources.',
-
+  CUSTOM_RESOURCE_DEFINITION_CREATE_DESC: 'A Custom Resource Definition (CRD) extends Kubernetes by allowing users to create any kind of custom resources. Users can use these CRD objects as they do for built-in resources.',
   // CRD List Page
-  KIND_TCAP: 'Kind',
-  SCOPE_TCAP: 'Scope',
-  CRDS: 'CRDs',
-}
+  CRDS: 'CRDs'
+};
