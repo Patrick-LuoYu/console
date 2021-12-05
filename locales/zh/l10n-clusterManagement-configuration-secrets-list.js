@@ -17,41 +17,41 @@
  */
 module.exports = {
   // Navigation pane
-  CONFIGURATION: 'Configuration',
+  CONFIGURATION: '配置',
   // Banner
-  SECRET_PL: 'Secrets',
-  SECRET_DESC: 'A secret is an object that contains a small amount of sensitive data such as a password, a token, or a key.',
+  SECRET_PL: '保密字典',
+  SECRET_DESC: '保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。',
   // List
-  SECRET_FIELD_COUNT: 'Fields',
-  SECRET_EMPTY_DESC: 'Please create a secret.',
+  SECRET_FIELD_COUNT: '字段数量',
+  SECRET_EMPTY_DESC: '请创建一个保密字典。',
   // List > Create > Basic Information
-  SECRET: 'Secret',
+  SECRET: '保密字典',
   // List > Create > Data Settings
-  DATA_SETTINGS: 'Data Settings',
-  IMAGE_REGISTRY_INFORMATION: 'Image registry information',
-  TLS_INFORMATION: 'TLS information',
-  USERNAME_PASSWORD: 'Username and password',
-  ADD_DATA_TCAP: 'Add Data',
-  ADD_DATA_DESC: 'Add a key-value pair.',
-  REGISTRY_ADDRESS_TIP: 'Set a registry address, for example, docker.io.',
-  IMAGE_REGISTRY_REQUIRED_DESC: 'Please set the registry address, username, and password.',
-  CREDENTIAL_NAME_EMPTY_DESC: 'Please enter a credential name.',
-  ENTER_PRIVATE_KEY_DESC: 'Please enter a private key.',
-  ENTER_DATA_DESC: 'Please add data.',
-  PRIVATE_KEY_TCAP: 'Private Key',
-  REGISTRY_ADDRESS_TCAP: 'Registry Address',
-  REGISTRY_SECRET_VER_ERR: 'Registry Verification Failed.',
-  REGISTRY_SECRET_VER_SUC: 'Registry Verification Succeeded.',
-  SECRET_NO_CHINESE_CODE_DESC: 'The key of the secret must consist of alphanumeric characters, hyphens (-), underscores (_), or periods (.).',
-  SECRET_TYPE_DESC: 'Select a secret type.',
-  IMAGE_REGISTRY_VALIDATE_TIP: 'Please validate the username and password before creating the image registry secret.',
-  DATA_KEY: 'Key',
-  DATA_VALUE: 'Value',
-  DEFAULT: 'Default',
-  USERNAME_AND_PASSWORD: 'Username and password',
+  DATA_SETTINGS: '数据设置',
+  IMAGE_REGISTRY_INFORMATION: '镜像仓库信息',
+  TLS_INFORMATION: 'TLS 信息',
+  USERNAME_PASSWORD: '用户名和密码',
+  ADD_DATA_TCAP: '添加数据',
+  ADD_DATA_DESC: '添加键值对数据。',
+  REGISTRY_ADDRESS_TIP: '设置镜像仓库地址，例如 docker.io。',
+  IMAGE_REGISTRY_REQUIRED_DESC: '请设置仓库地址\b、用户名和密码信息。',
+  CREDENTIAL_NAME_EMPTY_DESC: '请输入凭证名称。',
+  ENTER_PRIVATE_KEY_DESC: '请输入私钥。',
+  ENTER_DATA_DESC: '请添加数据。',
+  PRIVATE_KEY_TCAP: '私钥',
+  REGISTRY_ADDRESS_TCAP: '仓库地址',
+  REGISTRY_SECRET_VER_ERR: '镜像仓库验证失败。',
+  REGISTRY_SECRET_VER_SUC: '镜像仓库验证通过。',
+  SECRET_NO_CHINESE_CODE_DESC: '保密字典的键必须由字母数字字符、连字符（-）、下划线（_）或句点（.）组成。',
+  SECRET_TYPE_DESC: '选择一个保密字典类型。',
+  IMAGE_REGISTRY_VALIDATE_TIP: '创建镜像仓库保密字典前，请先验证用户名和密码。',
+  DATA_KEY: '键',
+  DATA_VALUE: '值',
+  DEFAULT: '默认',
+  USERNAME_AND_PASSWORD: '用户名和密码',
   // List > Edit Information
   // List > Edit YAML
   // List > Edit Settings
-  DATA: 'Data',
-  EDIT_DATA_TCAP: 'Edit Data'
+  DATA: '数据',
+  EDIT_DATA_TCAP: '编辑数据'
 };
