@@ -17,7 +17,7 @@
  */
 module.exports = {
   // Details
-  CREATOR: '创建者',
+  CREATOR: '創建者',
   NO: '否',
   // More > Roll Back
   // More > Edit Autoscaling
@@ -29,13 +29,13 @@ module.exports = {
   // More > Re-Create
   // More > Delete
   // Resource Status > Clusters
-  MULTI_CLUSTER_RESOURCE_TIP: '当前资源跨多个集群部署。您可以点击一个集群以查看资源在该集群中的设置。',
+  MULTI_CLUSTER_RESOURCE_TIP: '目前資源為多集群資源，資源將分佈在不同集群中共同來構成多集群資源，您可以切換到不同集群查看資源在該集群中的設置。',
   // Resource Status > Replica Status
   // Resource Status > Ports
   // Resource Status > Pods
   // Revision Records
   SERIAL_NUMBER: '序列号',
-  CREATED_TIME: '创建于 {diff}',
+  CREATED_TIME: '創建於 {diff}',
   // Metadata
   // Monitoring
   // Environment Variables
