@@ -17,30 +17,30 @@
  */
 module.exports = {
   // More > Add Service
-  ADD_SERVICE: 'Add Service',
-  ADD_ROUTE: 'Add Route',
+  ADD_SERVICE: '添加服务',
+  ADD_ROUTE: '添加应用路由',
   // More > Add Route
   // Details
   // Resource Status
   // Traffic Monitoring
-  TRAFFIC_MONITORING: 'Traffic Monitoring',
-  TRAFFIC_MONITORING_UNAVAILABLE_DESC: 'The app has not received requests for a long time. Please try again later.',
-  TRAFFIC_ENTRY: 'Traffic Entry',
-  NO_DATA: 'No Data',
-  REFRESH: 'Refresh',
+  TRAFFIC_MONITORING: '流量监控',
+  TRAFFIC_MONITORING_UNAVAILABLE_DESC: '应用长时间未收到请求，请稍后重试。',
+  TRAFFIC_ENTRY: '流量入口',
+  NO_DATA: '暂无数据',
+  REFRESH: '刷新',
   // Grayscale Release
-  CREATE_GRAYSCALE_RELEASE_JOB: 'Create Grayscale Release Job',
-  GRAYSCALE_RELEASE_DESC: 'Grayscale release represents an important method of application iteration in the production environment. You can choose different release methods for the smooth transition as you upgrade your applications to a new version.',
-  NO_GRAYSCALE_RELEASE_JOB_FOUND: 'No Grayscale Release Job Found',
-  NO_GRAYSCALE_RELEASE_TASK_FOUND_DESC: 'Please create a grayscale release job.',
-  TOTAL_GRAY_RELEASE_JOB: '{num} grayscale release job in total',
-  TOTAL_GRAY_RELEASE_JOBS: '{num} grayscale release jobs in total',
+  CREATE_GRAYSCALE_RELEASE_JOB: '创建灰度发布任务',
+  GRAYSCALE_RELEASE_DESC: '灰度发布是在生产环境进行应用迭代的一种重要方式。您可以选择不同的发布方法，在应用升级至新版本的过程中实现平滑过渡。',
+  NO_GRAYSCALE_RELEASE_JOB_FOUND: '未发现灰度发布任务',
+  NO_GRAYSCALE_RELEASE_TASK_FOUND_DESC: '请创建一个灰度发布任务。',
+  TOTAL_GRAY_RELEASE_JOB: '共计 {num} 个灰度任务',
+  TOTAL_GRAY_RELEASE_JOBS: '共计 {num} 个灰度任务',
   // Tracing
-  TRACING: 'Tracing',
-  TRACING_NO_DATA_DESC: 'Please change the search conditions and try again.',
+  TRACING: '链路追踪',
+  TRACING_NO_DATA_DESC: '请修改搜索条件后重试。',
   NUM_SPAN_SI: '{num} span',
   NUM_SPAN_PL: '{num} spans',
-  NUM_ERROR_SI: '{num} error',
-  NUM_ERROR_PL: '{num} errors',
-  LAST_NUM_RECORDS: 'Last {num} records'
+  NUM_ERROR_SI: '{num} 错误',
+  NUM_ERROR_PL: '{num} 错误',
+  LAST_NUM_RECORDS: '最近 {num} 条记录'
 };
