@@ -17,14 +17,14 @@
  */
 module.exports = {
   // Head
-  APP_STORE: '应用商店',
+  APP_STORE: '應用商店',
   // Discover
   DISCOVER: '发现',
-  NEW_APPS: '新应用',
+  NEW_APPS: '最新上架',
   // App Categories
   // List
-  MAINTAINER_VALUE: '维护者：{value}',
+  MAINTAINER_VALUE: '維護者：{value}',
   LATEST_VALUE: '最新：{value}',
   TOTAL_CATE_COUNT: '应用总数：{total}',
-  SEARCH_BY_NAME: '按名称搜索'
+  SEARCH_BY_NAME: '請輸入名稱進行尋找'
 };
