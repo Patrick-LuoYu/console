@@ -21,6 +21,6 @@ module.exports = {
   // List > Create > Basic Information
   // List > Create > Service Settings
   // List > Create > Service Settings > Cluster Differences
-  NAME_VALUE: 'Name: {value}',
-  CONTAINER_PORT_VALUE: 'Container Port: {value}'
+  NAME_VALUE: '名称：{value}',
+  CONTAINER_PORT_VALUE: '容器端口：{value}'
 };
