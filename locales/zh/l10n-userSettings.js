@@ -17,19 +17,19 @@
  */
 module.exports = {
   // Basic Information
-  EMAIL_DESC: 'The email address can be used to log in to the KubeSphere web console.',
-  LANGUAGE: 'Language',
-  USER_SETTINGS: 'User Settings',
-  CLOSE: 'Close',
-  CONTENT_NOT_SAVED_TIPS: 'content has been modified but not saved',
-  SAVE_EDIT_HINTS: 'please confirm that the modified content is correct, you can save the settings or cancel the settings.',
+  EMAIL_DESC: '邮箱地址可用于登录 KubeSphere Web 控制台。',
+  LANGUAGE: '语言',
+  USER_SETTINGS: '用户设置',
+  CLOSE: '关闭',
+  CONTENT_NOT_SAVED_TIPS: '内容已经修改但并未保存',
+  SAVE_EDIT_HINTS: '请确认修改的内容是正确的，您可以保存设置或者取消设置。',
   // Password Settings
-  PASSWORD_SETTINGS: 'Password Settings',
-  PASSWORD_EMPTY_DESC: 'Please set a password.',
-  CHANGE_PASSWORD_TIP: 'Since you are logging in for the first time, please reset your password.',
-  CURRENT_PASSWORD: 'Current Password',
-  ENTER_CURRENT_PASSWORD_TIP: 'Please enter the current password.',
-  CONFIRM_PASSWORD: 'Confirm Password',
-  PASSWORD_NOT_SAME_DESC: 'New Password and Confirm Password must be the same.',
-  ENTER_CURRENT_PASSWORD_DESC: 'To change the password, you must first enter the current password.'
+  PASSWORD_SETTINGS: '密码设置',
+  PASSWORD_EMPTY_DESC: '请输入一个密码。',
+  CHANGE_PASSWORD_TIP: '由于您是第一次登录，出于安全考虑请重置您的密码',
+  CURRENT_PASSWORD: '当前密码',
+  ENTER_CURRENT_PASSWORD_TIP: '请输入当前密码。',
+  CONFIRM_PASSWORD: '确认密码',
+  PASSWORD_NOT_SAME_DESC: '两次输入的密码必须一致。',
+  ENTER_CURRENT_PASSWORD_DESC: '您必须输入当前密码才能修改密码。'
 };
