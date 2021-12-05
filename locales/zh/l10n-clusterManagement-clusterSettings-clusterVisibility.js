@@ -17,24 +17,24 @@
  */
 module.exports = {
   // Banner
-  CLUSTER_VISIBILITY: 'Cluster Visibility',
-  EDIT_VISIBILITY_DESC: 'Edit the cluster visibility in workspaces.',
-  UNAUTHORIZED: 'Unauthorized',
-  CLUSTER_VISIBILITY_DESC: 'Cluster visibility controls the cluster authorization to workspaces. After a cluster is authorized to workspaces, you can view and manage the cluster resources in the workspaces.',
-  CLUSTER_VISIBILITY_Q1: 'How do I authorize a cluster to specific workspaces?',
-  CLUSTER_VISIBILITY_A1: 'You can assign a cluster to specific workspaces by clicking Edit Visibility.',
-  CLUSTER_VISIBILITY_Q2: 'What are public clusters?',
-  CLUSTER_VISIBILITY_A2: 'Public clusters can be accessed by all platform users. Users can create and schedule resources on public clusters.',
+  CLUSTER_VISIBILITY: '集群可见性',
+  EDIT_VISIBILITY_DESC: '编辑集群在企业空间中的可见性。',
+  UNAUTHORIZED: '未授权',
+  CLUSTER_VISIBILITY_DESC: '集群可见性控制集群对企业空间的授权。将集群授权给企业空间后，即可在企业空间中查看并管理集群资源。',
+  CLUSTER_VISIBILITY_Q1: '如何将集群授权给指定的企业空间使用？',
+  CLUSTER_VISIBILITY_A1: '您可以点击编辑可见性将集群授权给指定的企业空间使用。',
+  CLUSTER_VISIBILITY_Q2: '什么是公开集群?',
+  CLUSTER_VISIBILITY_A2: '公开状态的集群意味着平台内的用户都可以使用该集群，并在集群中创建和调度资源。',
   // List
-  WORKSPACE: 'Workspace',
-  CLUSTER_VISIBILITY_SCAP: 'Cluster visibility',
+  WORKSPACE: '企业空间',
+  CLUSTER_VISIBILITY_SCAP: '集群可见性',
   // List > Edit Visibility
-  EDIT_VISIBILITY: 'Edit Visibility',
-  AUTHORIZED: 'Authorized',
-  SET_PUBLIC_CLUSTER: 'Set as Public Cluster',
-  HOST_CLUSTER_VISIBILITY_WARNING: 'The stability of the multi-cluster system will decrease if the host cluster is overloaded. Exercise caution when assigning the host cluster to workspaces.',
-  CLUSTER_VISIBILITY_REMOVE_WARNING: 'After the authorization for a workspace to use the cluster is removed, all resources of the workspace on the cluster will be deleted.',
-  REMOVE_WORKSPACE_CONFIRM_TITLE: 'Remove Authorization',
-  REMOVE_WORKSPACE_CONFIRM_SI: 'Enter the workspace name <strong>{resource}</strong> to confirm that you understand the risks of this operation.',
-  REMOVE_WORKSPACE_CONFIRM_PL: 'Enter the workspace names <strong>{resource}</strong> to confirm that you understand the risks of this operation.'
+  EDIT_VISIBILITY: '编辑可见性',
+  AUTHORIZED: '已授权',
+  SET_PUBLIC_CLUSTER: '设置为公开集群',
+  HOST_CLUSTER_VISIBILITY_WARNING: '请谨慎将主集群授权给企业空间，主集群负载过高会导致多集群系统稳定性下降。',
+  CLUSTER_VISIBILITY_REMOVE_WARNING: '移除集群对企业空间的授权后，该企业空间在当前集群下的所有资源将被删除。',
+  REMOVE_WORKSPACE_CONFIRM_TITLE: '移除授权',
+  REMOVE_WORKSPACE_CONFIRM_SI: '请输入企业空间名称 <strong>{resource}</strong> 确保您已了解操作所带来的风险。',
+  REMOVE_WORKSPACE_CONFIRM_PL: '请输入企业空间名称 <strong>{resource}</strong> 确保您已了解操作所带来的风险。'
 };
