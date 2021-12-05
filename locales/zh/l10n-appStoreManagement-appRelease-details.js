@@ -17,25 +17,25 @@
  */
 module.exports = {
   // Banner
-  APP_DETAILS_DESC: 'View details of the app to be released.',
+  APP_DETAILS_DESC: '查看待发布的应用的详情。',
   // Description
   // App Information
-  INTRODUCTION: 'Introduction',
-  SERVICE_PROVIDER_WEBSITE: 'Service provider website',
-  APP_DESCRIPTION: 'App Description',
+  INTRODUCTION: '介绍',
+  SERVICE_PROVIDER_WEBSITE: '服务商网站',
+  APP_DESCRIPTION: '应用描述',
   // Documentation
-  DOCUMENTATION: 'Documentation',
-  NO_DOCUMENT_FOUND: 'No Documentation Found',
+  DOCUMENTATION: '说明文档',
+  NO_DOCUMENT_FOUND: '未发现说明文档',
   // Chart Files
   // Update Log
-  UPDATE_LOG: 'Update Log',
-  NO_UPDATE_LOG_DESC: 'No update log is found.',
+  UPDATE_LOG: '更新日志',
+  NO_UPDATE_LOG_DESC: '未发现更新日志。',
   // Reject
-  REJECT: 'Reject',
-  REJECT_REASON_DESC: 'Enter reasons for rejection of the app review.',
-  REJECT_REASON_TIP: 'Please enter at least one reason for rejection.',
-  REJECT_SUCCESSFUL: 'Rejected successfully.',
+  REJECT: '拒绝',
+  REJECT_REASON_DESC: '填写拒绝应用审核的原因。',
+  REJECT_REASON_TIP: '请填写至少一条拒绝原因。',
+  REJECT_SUCCESSFUL: '拒绝成功。',
   // Release
-  RELEASE: 'Release',
-  RELEASE_SUCCESSFUL: 'Released successfully.'
+  RELEASE: '发布',
+  RELEASE_SUCCESSFUL: '发布成功。'
 };
