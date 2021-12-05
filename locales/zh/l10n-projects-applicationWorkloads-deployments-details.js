@@ -17,61 +17,61 @@
  */
 module.exports = {
   // More > Roll Back
-  ROLL_BACK: 'Roll Back',
-  CURRENT_REVISION_RECORD: 'Current Revision Record',
-  TARGET_REVISION_EMPTY_DESC: 'Please select a target revision record.',
-  TARGET_REVISION_RECORD: 'Target Revision Record',
+  ROLL_BACK: '回退',
+  CURRENT_REVISION_RECORD: '当前修改记录',
+  TARGET_REVISION_EMPTY_DESC: '请选择目标修改记录。',
+  TARGET_REVISION_RECORD: '目标修改记录',
   // More > Edit Autoscaling
-  CONFIGURE_AUTOSCALING_DESC: 'Set the system to automatically adjust the number of pod replicas based on target CPU usage and target memory usage.',
-  EDIT_AUTOSCALING: 'Edit Autoscaling',
-  TARGET_CPU_USAGE_UNIT: 'Target CPU Usage (%)',
-  AUTOSCALING: 'Autoscaling',
-  RESOURCE_NAME: 'Resource Name',
-  TARGET_CPU_USAGE_DESC: 'The system automatically decreases/increases the number of pod replicas when the actual CPU usage is higher/lower than the target.',
-  TARGET_MEMORY_USAGE_DESC: 'The system automatically decreases/increases the number of pod replicas when the actual memory usage is higher/lower than the target.',
-  MINIMUM_REPLICAS_DESC: 'Set the minimum number of pod replicas allowed. The default value is 1.',
-  MAXIMUM_REPLICAS_DESC: 'Set the maximum number of pod replicas allowed. The default value is 1.',
-  TARGET_MEMORY_USAGE_UNIT: 'Target Memory Usage (MiB)',
-  MINIMUM_REPLICAS: 'Minimum Replicas',
-  MAXIMUM_REPLICAS: 'Maximum Replicas',
+  CONFIGURE_AUTOSCALING_DESC: '设置系统根据目标 CPU 和内存用量自动调整容器组副本数量。',
+  EDIT_AUTOSCALING: '编辑自动伸缩',
+  TARGET_CPU_USAGE_UNIT: '目标 CPU 用量（%）',
+  AUTOSCALING: '自动伸缩',
+  RESOURCE_NAME: '资源名称',
+  TARGET_CPU_USAGE_DESC: '当实际 CPU 用量大于/小于目标值时，系统自动减少/增加容器组副本数量。',
+  TARGET_MEMORY_USAGE_DESC: '当实际内存用量大于/小于目标值时，系统自动减少/增加容器组副本数量。',
+  MINIMUM_REPLICAS_DESC: '设置允许的最小容器组副本数量，默认值为 1。',
+  MAXIMUM_REPLICAS_DESC: '设置允许的最大容器组副本数量，默认值为 1。',
+  TARGET_MEMORY_USAGE_UNIT: '目标内存用量（MiB）',
+  MINIMUM_REPLICAS: '最小副本数',
+  MAXIMUM_REPLICAS: '最大副本数',
   // More > Edit Settings > Update Strategy
-  EDIT_SETTINGS: 'Edit Settings',
+  EDIT_SETTINGS: '编辑设置',
   // More > Edit Settings > Containers
   // More > Edit Settings > Volumes
   // More > Edit Settings > Volumes > Mount Volume
   // More > Edit Settings > Volumes > Mount Configmap or Secret
   // More > Edit Settings > Pod Scheduling Rules
-  RULE_NOT_COMPLETE: 'Please set a complete rule.',
+  RULE_NOT_COMPLETE: '请设置完整规则。',
   // Details
   // Revision Records
-  REVISION_RECORDS: 'Revision Records',
-  CONFIG_FILE: 'Configuration File',
-  COMPARE_WITH: 'Compared with the previous record {version}',
+  REVISION_RECORDS: '修改记录',
+  CONFIG_FILE: '配置文件',
+  COMPARE_WITH: '与上一个记录 {version} 对比',
   // Resource Status
-  REPLICAS_DESIRED: 'Desired',
-  REPLICAS_CURRENT: 'Current',
-  ADJUST_REPLICAS: 'Adjust Replicas',
-  REPLICAS_SCALE_NOTIFY_CONTENT: 'Are you sure you want to change the number of pod replicas to {num}?',
-  REPLICAS_SCALE_NOTIFY_CONFIRM: 'OK ({seconds}s)',
-  REPLICAS_SCALE_NOTIFY_CANCEL: 'Cancel',
+  REPLICAS_DESIRED: '期望副本数',
+  REPLICAS_CURRENT: '当前副本数',
+  ADJUST_REPLICAS: '调整副本数量',
+  REPLICAS_SCALE_NOTIFY_CONTENT: '您确定将容器组副本数量调整为 <strong>{num}</strong> 吗？',
+  REPLICAS_SCALE_NOTIFY_CONFIRM: '确定（{seconds}s）',
+  REPLICAS_SCALE_NOTIFY_CANCEL: '取消',
   // Resource Status > Autoscaling
-  TARGET_MEMORY_USAGE: 'Target Memory Usage',
-  TARGET_CPU_USAGE: 'Target CPU Usage',
-  TARGET_CURRENT: '{target} (Current: {current})',
-  NOT_ENABLE: '{resource} Not Enabled',
+  TARGET_MEMORY_USAGE: '目标内存用量',
+  TARGET_CPU_USAGE: '目标 CPU 用量',
+  TARGET_CURRENT: '{target}（当前：{current}）',
+  NOT_ENABLE: '{resource}暂未开启',
   // Metadata
   // Monitoring
   // Monitoring > View All Replicas (visible only when replicas > 5)
-  VIEW_ALL_REPLICAS: 'View All Replicas',
-  SHOW_SELECTED_ONLY: 'Show Selected Only',
-  MONITORING_SELECT_LIMIT_MSG: 'A maximum of 10 resources can be selected.',
-  MONITORING_ALERT_DESC: 'Information about a maximum of five pod replicas are displayed by default. You can click <b>View All Replicas</b> to view information about all pod replicas.',
-  CURRENT_VALUE: 'Current: {value}',
+  VIEW_ALL_REPLICAS: '查看所有副本',
+  SHOW_SELECTED_ONLY: '仅显示已选',
+  MONITORING_SELECT_LIMIT_MSG: '最多可以选择 10 个资源。',
+  MONITORING_ALERT_DESC: '默认最多显示五个容器组副本的信息。您可以点击<b>查看所有副本</b>以查看所有容器组副本的信息。',
+  CURRENT_VALUE: '当前：{value}',
   // Environment Variables
-  ENVIRONMENT_VARIABLE_PL: 'Environment Variables',
+  ENVIRONMENT_VARIABLE_PL: '环境变量',
   // Events
-  EVENT_AGE: 'Occurred',
-  EVENT_AGE_DATA: '{lastTime}<br/>({count} times over {duration})',
-  EVENT_AGE_DATA_TWICE: '{lastTime}<br/>(twice over {duration})',
-  SOURCE: 'Source'
+  EVENT_AGE: '发生时间',
+  EVENT_AGE_DATA: '{lastTime}<br/>（近 {duration}发生 {count} 次)',
+  EVENT_AGE_DATA_TWICE: '{lastTime}<br/>（近 {duration}发生 2 次）',
+  SOURCE: '来源'
 };
