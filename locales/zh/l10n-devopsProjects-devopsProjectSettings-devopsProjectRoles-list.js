@@ -17,35 +17,35 @@
  */
 module.exports = {
   // Banner
-  DEVOPS_PROJECT_ROLE_PL: 'DevOps Project Roles',
-  DEVOPS_PROJECT_ROLES_DESC: 'The project roles define the permissions that users have under the current DevOps project.',
+  DEVOPS_PROJECT_ROLE_PL: 'DevOps 项目角色',
+  DEVOPS_PROJECT_ROLES_DESC: '成员角色定义了在当前 DevOps 项目下用户所拥有的权限。',
   // List
-  DEVOPS_PROJECT_ROLE_EMPTY_DESC: 'Please create a DevOps project role.',
-  ROLE_DEVOPS_VIEWER: 'View all resources in the DevOps project.',
-  ROLE_DEVOPS_OPERATOR: 'Create credentials in the DevOps project.',
-  ROLE_DEVOPS_ADMIN: 'Control all resources in the DevOps project.',
+  DEVOPS_PROJECT_ROLE_EMPTY_DESC: '请创建一个 DevOps 项目角色。',
+  ROLE_DEVOPS_VIEWER: '查看 DevOps 项目中的所有资源。',
+  ROLE_DEVOPS_OPERATOR: '管理 DevOps 凭证和流水线以及查看 DevOps 项目中成员和角色。',
+  ROLE_DEVOPS_ADMIN: '管理 DevOps 项目中的所有资源。',
   // List > Edit Information
   // List > Edit Permissions
   // List > Create
-  EDIT_PERMISSIONS: 'Edit Permissions',
-  CREATE_ROLE: 'Create Role',
+  EDIT_PERMISSIONS: '编辑权限',
+  CREATE_ROLE: '创建角色',
   // List > Create > Edit Permissions
-  MODULES: 'Modules',
+  MODULES: '功能模块',
   // List > Create > Edit Permissions > Pipeline Management
-  DEPENDS_ON: 'Depends on: ',
-  PIPELINES_MANAGEMENT: 'Pipeline Management',
-  PIPELINES_VIEW: 'Pipeline Viewing',
-  PIPELINES_MANAGEMENT_DESC: 'Create, edit, and delete DevOps project pipelines.',
-  PIPELINES_VIEW_DESC: 'View DevOps project pipelines and download artifacts.',
+  DEPENDS_ON: '依赖于：',
+  PIPELINES_MANAGEMENT: '流水线管理',
+  PIPELINES_VIEW: '流水线查看',
+  PIPELINES_MANAGEMENT_DESC: '创建、编辑和删除 DevOps 项目流水线。',
+  PIPELINES_VIEW_DESC: '查看 DevOps 项目流水线和下载制品。',
   // List > Create > Edit Permissions > Credential Management
-  CREDENTIALS_MANAGEMENT: 'Credential Management',
-  CREDENTIALS_MANAGEMENT_DESC: 'Create, edit, and delete DevOps credentials.',
-  CREDENTIALS_VIEW_DESC: 'View and use DevOps credentials.',
-  CREDENTIALS_VIEW: 'Credential Viewing',
+  CREDENTIALS_MANAGEMENT: '凭证管理',
+  CREDENTIALS_MANAGEMENT_DESC: '创建、编辑和删除 DevOps 凭证。',
+  CREDENTIALS_VIEW_DESC: '查看和使用 DevOps 凭证。',
+  CREDENTIALS_VIEW: '凭证查看',
   // List > Create > Edit Permissions > Access Control
-  ROLES_MANAGEMENT: 'Role Management',
-  ROLES_VIEW: 'Role Viewing',
+  ROLES_MANAGEMENT: '角色管理',
+  ROLES_VIEW: '角色查看',
   // List > Create > Edit Permissions > DevOps Settings
-  DEVOPS_SETTINGS: 'DevOps Settings',
-  DEVOPS_SETTINGS_DESC: 'Manage DevOps project settings.'
+  DEVOPS_SETTINGS: 'DevOps 项目设置',
+  DEVOPS_SETTINGS_DESC: '管理 DevOps 项目的设置。'
 };
