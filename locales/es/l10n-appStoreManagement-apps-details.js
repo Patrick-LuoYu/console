@@ -18,30 +18,30 @@
 module.exports = {
   // Title
   // Suspend App
-  SUSPEND_APP: 'Suspend App',
+  SUSPEND_APP: 'Suspender aplicación',
   APP_NOTE: 'Note',
   SUSPEND_SUCCESSFUL: 'Suspended successfully.',
   // Activate App
-  ACTIVATE_APP: 'Activate App',
+  ACTIVATE_APP: 'Activar aplicación',
   ACTIVATE_SUCCESSFUL: 'Activated successfully.',
   // Details
-  APP_ID: 'App ID',
-  CATEGORY: 'Category',
-  TYPE: 'Type',
+  APP_ID: 'ID de la aplicación',
+  CATEGORY: 'Categoría',
+  TYPE: 'Tipo',
   // Verisons
   NO_VERSION_INFO_DESC: 'No version information is found.',
-  ACTIVATE_VERSION: 'Activate Version',
-  CANCEL_SUBMISSION: 'Cancel Submission',
-  SUSPEND_VERSION: 'Suspend Version',
-  APP_SUSPEND_TIP: 'The app <strong>{name}</strong> cannot be deployed from the App Store after it is suspended. Are you sure you want to suspend it?',
-  APP_RECOVER_TIP: 'The app <strong>{name}</strong> and the suspended versions will be displayed again in the App Store. Are you sure you want to activate it now?',
+  ACTIVATE_VERSION: 'Activar versión',
+  CANCEL_SUBMISSION: 'Cancelar revisión',
+  SUSPEND_VERSION: 'Suspender versión',
+  APP_SUSPEND_TIP: 'La aplicación <strong>{name}</strong> no se puede comprar en la tienda cuando está suspendida. ¿Estás seguro de suspenderlo ahora?',
+  APP_RECOVER_TIP: 'La aplicación <strong>{name}</strong> y las versiones suspendidas se mostrarán nuevamente en la tienda. ¿Estás seguro de activarlo ahora?',
   // Verisons > Buttons
   // Versions > Chart Files
   // Versions > App Release
   // Versions > App Instances
   // App Information
   // App Release
-  REJECTION_REASON: 'Rejection Reason',
+  REJECTION_REASON: 'Motivo de Rechazo',
   RELEASE_RECORD: 'Release Record',
   RELEASE_RECORD_EMPTY_DESC: 'No release record is found.'
 };
