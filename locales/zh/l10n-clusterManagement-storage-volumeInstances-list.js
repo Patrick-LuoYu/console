@@ -17,15 +17,15 @@
  */
 module.exports = {
   // Banner
-  VOLUME_INSTANCE_PL: 'Volume Instances',
+  VOLUME_INSTANCE_PL: '存储卷实例',
   // List
-  VOLUME_BACKEND_TCAP: 'Volume Instance',
-  PV_STATUS_AVAILABLE: 'Available',
-  PV_STATUS_BOUND: 'Bound',
-  PV_STATUS_RELEASED: 'Terminating',
-  PV_STATUS_FAILED: 'Failed',
-  RECYCLING_STRATEGY: 'Recycling Strategy',
-  VOLUME_INSTANCE_EMPTY_DESC: 'Please bind a volume to a workload.',
+  VOLUME_BACKEND_TCAP: '存储卷实例',
+  PV_STATUS_AVAILABLE: '可用',
+  PV_STATUS_BOUND: '已绑定',
+  PV_STATUS_RELEASED: '删除中',
+  PV_STATUS_FAILED: '失败',
+  RECYCLING_STRATEGY: '回收策略',
+  VOLUME_INSTANCE_EMPTY_DESC: '请将一个存储卷绑定到一个工作负载。',
   // List > Delete
-  VOLUME_INSTANCE_LOW: 'volume instance'
+  VOLUME_INSTANCE_LOW: '存储卷实例'
 };
