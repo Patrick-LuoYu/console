@@ -16,12 +16,12 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  KUBE_PLEASE_SELECT: 'Please select',
-  KUBE_AM: 'AM',
-  KUBE_PM: 'PM',
-  KUBE_WEEK_ABBREVIATION: 'Wk',
-  KUBE_RANGE_SEPARATOR: ' to ',
-  KUBE_SCROLL_TO_INCREMENT: 'Scroll to increase',
-  KUBE_CLICK_TO_TOGGLE: 'Click to toggle',
+  KUBE_PLEASE_SELECT: '请选择',
+  KUBE_AM: '上午',
+  KUBE_PM: '下午',
+  KUBE_WEEK_ABBREVIATION: '周',
+  KUBE_RANGE_SEPARATOR: ' 至 ',
+  KUBE_SCROLL_TO_INCREMENT: '点击切换 12/24 小时时制',
+  KUBE_CLICK_TO_TOGGLE: '滚动切换',
   KUBE_YEAR: ''
 };
