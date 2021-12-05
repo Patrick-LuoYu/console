@@ -17,33 +17,33 @@
  */
 module.exports = {
   // Banner
-  USER_DESC: 'Manage users and their roles.',
-  USER_PL: 'Users',
+  USER_DESC: '管理用户及其角色。',
+  USER_PL: '用户',
   // List
-  NOT_LOGIN_YET: 'Not logged in yet',
-  USER_EMPTY_DESC: 'Please create a user.',
-  USER_ACTIVE: 'Active',
-  USER_AUTHLIMITEXCEEDED: 'Login restricted',
-  USER_PENDING: 'Pending',
-  USER_DISABLED: 'Disabled',
-  LAST_LOGIN: 'Last Login',
+  NOT_LOGIN_YET: '尚未登录',
+  USER_EMPTY_DESC: '请创建一个用户。',
+  USER_ACTIVE: '活跃',
+  USER_AUTHLIMITEXCEEDED: '限制登录',
+  USER_PENDING: '等待中',
+  USER_DISABLED: '已禁用',
+  LAST_LOGIN: '最近登录',
   // List > Create
-  USERNAME_DESC: 'The username can contain only lowercase letters, numbers, hyphens (-), and dots (.), and must start and end with a lowercase letter or number. The maximum length is 32 characters.',
-  PASSWORD_DESC: 'The password must contain at least one number, one lowercase letter, and one uppercase letter. The length must be 6 to 64 characters.',
-  PASSWORD_INVALID_DESC: 'Invalid password. The password must contain at least one number, one lowercase letter, and one uppercase letter. The length must be 6 to 64 characters.',
-  PLATFORM_ROLE_DESC: 'Set the role of the user on the KubeSphere platform.',
-  USER_SETTING_EMAIL_DESC: 'The email address can be used to log in to the KubeSphere web console.',
-  USERNAME_EXISTS: 'The username already exists. Please enter another username.',
-  USERNAME_EMPTY_DESC: 'Please enter a username.',
-  PLATFORM_ROLE: 'Platform Role',
-  CREATE_USER: 'Create User',
-  EMAIL: 'Email',
-  EMAIL_EXISTS: 'The email address already exists. Please enter another email address.',
-  USERNAME_INVALID: 'Invalid username. {message}',
-  USERNAME: 'Username',
-  PASSWORD: 'Password',
+  USERNAME_DESC: '用户名只能包含小写字母、数字、连字符（-）和句点（.），必须以小写字母或数字开头及结尾，最长 32 个字符。',
+  PASSWORD_DESC: '密码必须包含数字、大写字母和小写字母，长度为 6 至 64 个字符。',
+  PASSWORD_INVALID_DESC: '密码无效。密码必须包含数字、大写字母和小写字母，长度为 6 至 64 个字符。',
+  PLATFORM_ROLE_DESC: '设置用户在 KubeSphere 平台的角色。',
+  USER_SETTING_EMAIL_DESC: '邮箱地址可用于登录 KubeSphere Web 控制台。',
+  USERNAME_EXISTS: '用户名已存在，请输入其他用户名。',
+  USERNAME_EMPTY_DESC: '请输入一个用户名。',
+  PLATFORM_ROLE: '平台角色',
+  CREATE_USER: '添加用户',
+  EMAIL: '邮箱',
+  EMAIL_EXISTS: '邮箱地址已存在，请输入其他邮箱地址。',
+  USERNAME_INVALID: '用户名无效。{message}',
+  USERNAME: '用户名',
+  PASSWORD: '密码',
   // List > Edit
-  EDIT_USER: 'Edit User',
+  EDIT_USER: '编辑用户',
   // List > Delete
-  USER_LOW: 'user'
+  USER_LOW: '用户'
 };
