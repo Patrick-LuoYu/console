@@ -18,36 +18,36 @@
 module.exports = {
   // Banner
   // List
-  DAEMONSETS: 'Daemonsets',
-  DAEMONSET_EMPTY_DESC: 'Please create a daemonset.',
+  DAEMONSETS: 'DaemonSets',
+  DAEMONSET_EMPTY_DESC: 'Un DaemonSet asegura que todos (o algunos) nodos ejecuten una copia de un Pod. Por lo general, un DaemonSet se usa para ejecutar una colección de registros, monitorear daemon u otras aplicaciones de administración del sistema.',
   // List > Create > Basic Information
   // List > Create > Pod Settings
   // List > Create > Pod Settings > Add Container > Update Strategy > Rolling Update Settings
   MIN_READY_SECONDS: 'Minimum Running Time for Pod Readiness (s)',
   MAX_UNAVAILABLE_PODS: 'Maximum Unavailable Pods',
-  ROLLING_UPDATE_SETTINGS: 'Rolling Update Settings',
-  MAX_UNAVAILABLE_PODS_DESC: 'Maximum number or percentage of unavailable pod replicas allowed during the update process.',
-  MIN_READY_SECONDS_DESC: 'Minimum stable running time required for a pod replica to be considered ready.',
-  MIN_READY_SECONDS_EMPTY: 'Please set the minimum stable running time required for a pod replica to be considered ready.',
-  MAX_UNAVAILABLE_EMPTY: 'Please set the maximum number or percentage of unavailable pod replicas allowed during the update process.',
+  ROLLING_UPDATE_SETTINGS: 'El número de pods cuando se actualiza',
+  MAX_UNAVAILABLE_PODS_DESC: 'Maximum number or percentage of unavailable Pods during the update.',
+  MIN_READY_SECONDS_DESC: 'Especifica el número mínimo de segundos para los pods de un inicio de daemonset',
+  MIN_READY_SECONDS_EMPTY: 'Please set the minimum stable running time required for a Pod replica to be considered ready.',
+  MAX_UNAVAILABLE_EMPTY: 'Please set the maximum number of unavailable Pod replicas allowed during the update process.',
   // List > Create > Pod Settings > Add Container > Health Check > Liveness Check > HTTP Request
-  FAILURE_THRESHOLD: 'Failure Threshold',
-  HTTP_REQUEST: 'HTTP Request',
-  INITIAL_DELAY_S: 'Initial Delay (s)',
+  FAILURE_THRESHOLD: 'Umbral de éxito',
+  HTTP_REQUEST: 'Comprobación de solicitudes HTTP',
+  INITIAL_DELAY_S: 'Retraso (s) inicial',
   INITIAL_DELAY_TIMEOUT_VALUE: '{delay}s initial delay, {timeout}s timeout period',
-  PROBE_TIME: '{delay}s delay, {timeout}s timeout',
-  TIMEOUT_PERIOD_S: 'Timeout (s)',
-  CHECK_INTERVAL_S: 'Check Interval (s)',
-  SUCCESS_THRESHOLD: 'Success Threshold',
-  INITIAL_DELAY_DESC: 'Delay time before the probe is initiated after container startup. The value must be an integer and the minimum value is 0.',
-  TIMEOUT_PERIOD_DESC: 'Timeout period after which the probe times out and is considered failed. The value must be an integer and the minimum value is 1.',
-  CHECK_INTERVAL_DESC: 'Interval between check attempts. The value must be an integer and the minimum value is 1.',
-  SUCCESS_THRESHOLD_DESC: 'Minimum number of consecutive successes for the probe to be considered successful after having failed. The minimum value is 1 and the value must be 1 for liveness and startup probes.',
-  FAILURE_THRESHOLD_DESC: 'Minimum number of consecutive failures for the probe to be considered failed after having succeeded. The minimum value is 1.',
+  PROBE_TIME: '{delay} s delay, {timeout} s timeout',
+  TIMEOUT_PERIOD_S: 'Tiempo de espera (s)',
+  CHECK_INTERVAL_S: 'Periodo de Segundos',
+  SUCCESS_THRESHOLD: 'Umbral de fallo',
+  INITIAL_DELAY_DESC: 'Número de segundos después de que el contenedor se haya iniciado antes de que se inicien las sondas de vida.',
+  TIMEOUT_PERIOD_DESC: 'Número de segundos después de los cuales la sonda agota el tiempo de espera. El valor predeterminado es 1 segundo y el valor mínimo es 1.',
+  CHECK_INTERVAL_DESC: 'Frecuencia de la sonda (en segundos), que por defecto es de 10 segundos. El valor mínimo es 1.',
+  SUCCESS_THRESHOLD_DESC: 'Mínimos éxitos consecutivos para que la sonda se considere exitosa después de haber fallado. El valor predeterminado es 1 y debe ser 1 para la vida y el inicio. El valor mínimo es 1.',
+  FAILURE_THRESHOLD_DESC: 'Fallos mínimos consecutivos para que la sonda se considere fallida después de haber tenido éxito. El valor predeterminado es 3 y el valor mínimo es 1.',
   // List > Create > Pod Settings > Add Container > Health Check > Liveness Check > Command
-  PROBE_COMMAND_EMPTY: 'Please enter at least one command.',
+  PROBE_COMMAND_EMPTY: 'Por favor introduce el comando',
   // List > Create > Pod Settings > Add Container > Health Check > Liveness Check > TCP Port
-  TCP_PORT: 'TCP Port',
+  TCP_PORT: 'Comprobación de puerto TCP',
   // List > Create > Volume Settings
-  MOUNT_PATH_IN_USE: 'The mount path is already in use. Please enter another mount path.'
+  MOUNT_PATH_IN_USE: 'El punto de montaje ya está en uso'
 };
