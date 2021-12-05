@@ -17,26 +17,26 @@
  */
 module.exports = {
   // Head
-  DASHBOARD_TITLE: 'Hello {username}',
-  LAST_LOGIN_TIME: 'Last login: ',
-  USER_DASHBOARD_EMPTY_TITLE: 'You do not belong to any workspace.',
-  USER_DASHBOARD_EMPTY_DESC: 'Please contact a workspace administrator to invite you to join a workspace.',
+  DASHBOARD_TITLE: '您好 {username}',
+  LAST_LOGIN_TIME: '最后登录时间：',
+  USER_DASHBOARD_EMPTY_TITLE: '您不属于任何企业空间',
+  USER_DASHBOARD_EMPTY_DESC: '请联系企业空间管理员邀请您加入企业空间中。',
   // Platform Information
-  LAST_UPDATE_TIME: 'Last update time',
-  PLATFORM_VERSION: 'Platform version',
+  LAST_UPDATE_TIME: '最后更新时间',
+  PLATFORM_VERSION: '平台版本',
   // Platform Resources
-  PLATFORM_RESOURCES: 'Platform Resources',
-  APP_TEMPLATE_SCAP_PL: 'App templates',
+  PLATFORM_RESOURCES: '平台资源',
+  APP_TEMPLATE_SCAP_PL: '应用模板',
   // Recent Access
-  RECENT_ACCESS: 'Recent Access',
-  MULTI_CLUSTER_DEPLOYMENT: 'Multi-cluster Project',
-  WORKBENCH_PROJECT: 'Project',
-  WORKBENCH_WORKSPACE: 'Workspace',
-  WORKBENCH_DEVOPS: 'DevOps project',
-  WORKBENCH_MULTI_CLUSTER_PROJECT: 'Multi-cluster project',
-  WORKBENCH_CLUSTER: 'Cluster',
-  NOT_FOUND_DESC: 'The resource was not found. The system will return to <a href="{link}">Workbench</a> in {time}s.',
-  MULTI_CLUSTER_PROJECT_TIP: 'The project is deployed across multiple clusters.',
-  NO_HISTORY_TITLE: 'No Recently Accessed Resource Found',
-  NO_HISTORY_DESC: 'You can access platform resources.'
+  RECENT_ACCESS: '最近访问',
+  MULTI_CLUSTER_DEPLOYMENT: '多集群项目',
+  WORKBENCH_PROJECT: '项目',
+  WORKBENCH_WORKSPACE: '企业空间',
+  WORKBENCH_DEVOPS: 'DevOps 项目',
+  WORKBENCH_MULTI_CLUSTER_PROJECT: '多集群项目',
+  WORKBENCH_CLUSTER: '集群',
+  NOT_FOUND_DESC: '🙇 对不起未发现相关资源，系统将在 {time}s 后返回 <a href="{link}">工作台</a>',
+  MULTI_CLUSTER_PROJECT_TIP: '此项目跨多个集群。',
+  NO_HISTORY_TITLE: '未发现最近访问的资源',
+  NO_HISTORY_DESC: '您可以对平台资源进行访问。'
 };
