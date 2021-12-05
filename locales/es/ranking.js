@@ -15,10 +15,4 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
-
-module.exports = {
-  TOP_5_FOR_RSC_USAGE: 'Top 5 for Resource Usage',
-
-  // Cluster Status
-  EXPORT: 'Export',
-}
+module.exports = {};
