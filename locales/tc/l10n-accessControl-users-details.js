@@ -23,7 +23,7 @@ module.exports = {
   // More > Delete
   // Details
   // Login History
-  TIME: '时间',
+  TIME: '時間',
   SOURCE_IP_ADDRESS: '源 IP 地址',
   LOGIN_HISTORY: '登录历史',
   NO_LOGIN_HISTORY: '未发现登录历史。',
