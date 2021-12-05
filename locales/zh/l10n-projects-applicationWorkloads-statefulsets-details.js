@@ -18,7 +18,7 @@
 module.exports = {
   // More > Roll Back
   // More > Edit Service
-  SELECTOR: '选择器',
+  SELECTOR: 'Selector',
   // More > Edit Settings > Update Strategy
   // More > Edit Settings > Containers
   // More > Edit Settings > Volumes > Add Volume Template
@@ -26,6 +26,6 @@ module.exports = {
   // More > Edit Settings > Volumes > Mount Configmap or Secret
   // More > Edit Settings > Pod Scheduling Rules
   // More > Re-Create
-  RECREATE: '重新创建',
-  RECREATE_SUCCESS_DESC: '重新创建成功。'
+  RECREATE: 'Re-create',
+  RECREATE_SUCCESS_DESC: 'Re-created successfully.'
 };
